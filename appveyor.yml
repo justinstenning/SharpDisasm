@@ -4,7 +4,7 @@
 #---------------------------------#
 
 # version format
-version: 1.1.{build}
+version: 1.0.{build}
 
 # branches to build
 branches:
@@ -73,9 +73,10 @@ platform:
 configuration:
   - Net35Release
   - Net40Release
+  - Net45Release
 
 build:
-  project: SharedDisasm.sln       # path to Visual Studio solution or project
+  project: SharpDisasm.sln       # path to Visual Studio solution or project
 
   # MSBuild verbosity level
   verbosity: minimal
@@ -100,7 +101,7 @@ artifacts:
 
   # pushing entire folder as a zip archive
   - path: bin
-    name: SharedDisasm
+    name: SharpDisasm
     type: zip
 
   # pushing all *.nupkg files in directory
