@@ -1269,7 +1269,7 @@ namespace SharpDisasm.Tests
             UdItabGenerator.PushIndent = PushIndent;
             UdItabGenerator.Write = Write;
 
-            UdOpcodeTables.LogEnabled = true; // outputs summary to log file if true
+            UdOpcodeTables.LogEnabled = false; // outputs summary to log file if true
             UdOpcodeTables tables = new UdOpcodeTables(xml);
             
             UdItabGenerator gen = new UdItabGenerator(tables);
