@@ -262,7 +262,7 @@ namespace SharpDisasm.Udis86
         /// </summary>
         /// <param name="u"></param>
         /// <returns></returns>
-        unsafe static IntPtr
+        static IntPtr
         ud_insn_ptr(ref ud u)
         {
             return (u.inp_buf == null) ? u._inputSessionPinner : new IntPtr(u.inp_buf + u.inp_buf_index - u.inp_ctr);
