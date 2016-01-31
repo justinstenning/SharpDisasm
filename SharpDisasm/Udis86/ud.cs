@@ -46,7 +46,7 @@ namespace SharpDisasm.Udis86
     public delegate string UdSymbolResolverDelegate(ref ud ud, long addr, ref long offset);
     public delegate int UdInputCallback(ref ud ud);
 
-    public sealed unsafe class ud : IDisposable
+    public sealed class ud : IDisposable
     {
   /*
    * input buffering
@@ -57,7 +57,7 @@ namespace SharpDisasm.Udis86
         /// <summary>
         /// Returns a pointer to the source buffer (either inp_buf or inp_sess)
         /// </summary>
-        public IntPtr inp_bufPtr
+		public unsafe IntPtr inp_bufPtr
         {
             get
             {
@@ -71,7 +71,7 @@ namespace SharpDisasm.Udis86
                 }
             }
         }
-        internal byte * inp_buf = null;
+        unsafe internal byte * inp_buf = null;
         public System.IO.FileStream inp_file = null;
         public int    inp_buf_size;
         public int    inp_buf_index;
