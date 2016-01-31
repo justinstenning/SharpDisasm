@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// SharpDisasm (File: SharpDisasm\autopinner.cs)
+// SharpDisasm (File: SharpDisasm\vendor.cs)
 // Copyright (c) 2014-2015 Justin Stenning
 // http://spazzarama.com
 // https://github.com/spazzarama/SharpDisasm
@@ -40,46 +40,44 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace SharpDisasm
+namespace SharpDisasm.Helpers
 {
-    /// <summary>
-    /// Utility class to safely manage pinned objects
-    /// </summary>
-    sealed class AutoPinner : IDisposable
-    {
-        bool _disposed = false;
-        GCHandle _pinnedObj;
-        public AutoPinner(Object obj)
-        {
-            _pinnedObj = GCHandle.Alloc(obj, GCHandleType.Pinned);
-        }
-        
-        public static implicit operator IntPtr(AutoPinner ap)
-        {
-            if (ap._disposed)
-                throw new ObjectDisposedException("AutoPinner");
-            return ap._pinnedObj.AddrOfPinnedObject();
-        }
+	/// <summary>
+	/// 
+	/// </summary>
+	public class AssemblyCodeMemory : IAssemblyCode
+	{
 
-        public IntPtr AddrOfPinnedObject()
-        {
-            if (_disposed)
-                throw new ObjectDisposedException("AutoPinner");
-            return _pinnedObj.AddrOfPinnedObject();
-        }
+		private IntPtr pointer;
+		private int length;
 
-        ~AutoPinner()
-        {
-            Dispose();
-        }
+		/// <summary>
+		/// Initializes a new instance of the <see cref="AssemblyCodeArray" /> class.
+		/// </summary>
+		/// <param name="pointer">The pointer.</param>
+		/// <param name="length">The length.</param>
+		public AssemblyCodeMemory(IntPtr pointer, int length)
+		{
+			this.pointer = pointer;
+			this.length = length;
+		}
 
-        public void Dispose()
-        {
-            if (_pinnedObj.IsAllocated)
-            {
-                _pinnedObj.Free();
-            }
-            _disposed = true;
-        }
-    }
+		/// <summary>
+		/// Gets or sets the <see cref="System.Byte"/> at the specified index.
+		/// </summary>
+		/// <value>
+		/// The <see cref="System.Byte"/>.
+		/// </value>
+		/// <param name="index">The index.</param>
+		/// <returns></returns>
+		byte IAssemblyCode.this[int index] { get { return Marshal.ReadByte(pointer, index); }  }
+
+		/// <summary>
+		/// Gets the length.
+		/// </summary>
+		/// <value>
+		/// The length.
+		/// </value>
+		int IAssemblyCode.Length { get { return length; } }
+	}
 }

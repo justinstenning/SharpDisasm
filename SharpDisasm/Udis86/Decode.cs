@@ -102,25 +102,25 @@ namespace SharpDisasm.Udis86
         {
             if (u.inp_end == 0)
             {
-                if (u.inp_buf != null)
-                {
+				//if (u.inp_buf != null)
+				//{
                     if (u.inp_buf_index < u.inp_buf_size)
                     {
                         u.inp_ctr++;
                         return (u.inp_curr = u.inp_buf[u.inp_buf_index++]);
                     }
-                }
-                else
-                {
-                    int c = u.inp_peek;
-                    if ((c = u.inp_hook(ref u)) != UD_EOI)
-                    {
-                        u.inp_peek = UD_EOI;
-                        u.inp_curr = (byte)c;
-                        u.inp_sess[u.inp_ctr++] = u.inp_curr;
-                        return u.inp_curr;
-                    }
-                }
+				//}
+				//else
+				//{
+				//	int c = u.inp_peek;
+				//	if ((c = u.inp_hook(ref u)) != UD_EOI)
+				//	{
+				//		u.inp_peek = UD_EOI;
+				//		u.inp_curr = (byte)c;
+				//		u.inp_sess[u.inp_ctr++] = u.inp_curr;
+				//		return u.inp_curr;
+				//	}
+				//}
             }
             u.inp_end = 1;
             u.error = 1;
