@@ -267,7 +267,6 @@ namespace SharpDisasm.Udis86
 		static unsafe IAssemblyCode
         ud_insn_ptr(ref ud u)
         {
-            //return (u.inp_buf == null) ? u._inputSessionPinner : new IntPtr(u.inp_buf + u.inp_buf_index - u.inp_ctr);
 			return new AssemblyCodeOffset(u.inp_buf, u.inp_buf_index - u.inp_ctr);
         }
 
