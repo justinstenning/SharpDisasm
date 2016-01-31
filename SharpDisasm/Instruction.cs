@@ -40,6 +40,8 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
+using SharpDisasm.Helpers;
+
 namespace SharpDisasm
 {
     /// <summary>
@@ -196,8 +198,7 @@ namespace SharpDisasm
             // Copy the instruction bytes
             if (keepBinary)
             {
-                this.Bytes = new byte[this.Length];
-                Marshal.Copy((IntPtr)(u.inp_bufPtr.ToInt64() + u.inp_buf_index - this.Length), this.Bytes, 0, this.Length);
+				this.Bytes = AssemblyCode.CopyToBytes(u.inp_buf, u.inp_buf_index - this.Length, this.Length);
             }
 
             if (u.error > 0)

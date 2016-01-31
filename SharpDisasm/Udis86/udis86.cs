@@ -39,6 +39,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using SharpDisasm.Helpers;
+
 namespace SharpDisasm.Udis86
 {
     /// <summary>
@@ -47,7 +49,7 @@ namespace SharpDisasm.Udis86
     /// <para>This static class is thread safe ONLY WHEN using separate <see cref="ud"/> instances.</para>
     /// </summary>
     /// <remarks>This class is deliberately written to match as closely as possible to the original C-library.</remarks>
-    public unsafe static class udis86
+    public static class udis86
     {
         static Decode decode = new Decode();
 
@@ -228,14 +230,14 @@ namespace SharpDisasm.Udis86
             StringBuilder src_hex = new StringBuilder();
             if (u.error == 0)
             {
-                uint i;
-                IntPtr src_ptr = ud_insn_ptr(ref u);
+                int i;
+                IAssemblyCode src_ptr = ud_insn_ptr(ref u);
                 unsafe 
                 {
-                    byte* src = (byte*)src_ptr.ToPointer();
+                    //byte* src = (byte*)src_ptr.ToPointer();
                     for (i = 0; i < ud_insn_len(ref u); i++)
                     {
-                        src_hex.AppendFormat("{0:2X", src[i]);
+						src_hex.AppendFormat("{0:2X", src_ptr[i]);
                     }
                 }
                 //byte[] src_ptr = ud_insn_ptr(ref u);
@@ -262,10 +264,11 @@ namespace SharpDisasm.Udis86
         /// </summary>
         /// <param name="u"></param>
         /// <returns></returns>
-        static IntPtr
+		static unsafe IAssemblyCode
         ud_insn_ptr(ref ud u)
         {
-            return (u.inp_buf == null) ? u._inputSessionPinner : new IntPtr(u.inp_buf + u.inp_buf_index - u.inp_ctr);
+            //return (u.inp_buf == null) ? u._inputSessionPinner : new IntPtr(u.inp_buf + u.inp_buf_index - u.inp_ctr);
+			return new AssemblyCodeOffset(u.inp_buf, u.inp_buf_index - u.inp_ctr);
         }
 
 
@@ -353,26 +356,6 @@ namespace SharpDisasm.Udis86
                    opr.@base <= ud_type.UD_R_R15;
         }
 
-
-        /* =============================================================================
-         * ud_set_user_opaque_data
-         * ud_get_user_opaque_data
-         *    Get/set user opaqute data pointer
-         * =============================================================================
-         */
-        static void
-        ud_set_user_opaque_data(ref ud u, IntPtr opaque)
-        {
-            u.user_opaque_data = opaque;
-        }
-
-        static IntPtr
-        ud_get_user_opaque_data(ref ud u)
-        {
-            return u.user_opaque_data;
-        }
-
-
         /* =============================================================================
          * ud_set_asm_buffer
          *    Allow the user to set an assembler output buffer. If `buf` is NULL,
@@ -457,7 +440,7 @@ namespace SharpDisasm.Udis86
          * ud_inp_init
          *    Initializes the input system.
          */
-        static void
+		static unsafe void
         ud_inp_init(ref ud u)
         {
             u.inp_hook = null;
@@ -489,19 +472,18 @@ namespace SharpDisasm.Udis86
          *    Set buffer as input.
          * =============================================================================
          */
-        /// <summary>
-        /// Set the buffer as input
-        /// </summary>
-        /// <param name="u"></param>
-        /// <param name="buf">Pointer to memory to be read from</param>
-        /// <param name="len">The maximum amount of memory to be read</param>
-        public static unsafe void ud_set_input_buffer(ref ud u, IntPtr buf, int len)
-        {
-            ud_inp_init(ref u);
-            u.inp_buf = (byte*)buf.ToPointer();
-            u.inp_buf_size = len;
-            u.inp_buf_index = 0;
-        }
+		/// <summary>
+		/// Set the buffer as input
+		/// </summary>
+		/// <param name="u">The u.</param>
+		/// <param name="code">The code.</param>
+		public static unsafe void ud_set_input_buffer(ref ud u, IAssemblyCode code)
+		{
+			ud_inp_init(ref u);
+			u.inp_buf = code;
+			u.inp_buf_size = code.Length;
+			u.inp_buf_index = 0;
+		}
 
         //#ifndef __UD_STANDALONE__
         /* =============================================================================
@@ -535,7 +517,7 @@ namespace SharpDisasm.Udis86
          *    Skip n input bytes.
          * ============================================================================
          */
-        static void ud_input_skip(ref ud u, int n)
+		static unsafe void ud_input_skip(ref ud u, int n)
         {
             if (u.inp_end > 0)
             {

@@ -39,197 +39,175 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using SharpDisasm.Helpers;
+
 namespace SharpDisasm
 {
-    /// <summary>
-    /// Provides a simple wrapper around the C# ported udis86 library.
-    /// </summary>
-    public sealed class Disassembler : IDisposable
-    {
-        #region Public field members
-        /// <summary>
-        /// The address offset for the <see cref="Code"/>.
-        /// </summary>
-        public readonly ulong Address;
+	/// <summary>
+	/// Provides a simple wrapper around the C# ported udis86 library.
+	/// </summary>
+	public sealed class Disassembler : IDisposable
+	{
+		#region Public field members
+		/// <summary>
+		/// The address
+		/// </summary>
+		public readonly ulong Address;
 
-        /// <summary>
-        /// The x86 CPU architecture to use: 16-bit, 32-bit or 64-bit.
-        /// </summary>
-        public readonly ArchitectureMode Architecture;
+		/// <summary>
+		/// The x86 CPU architecture to use: 16-bit, 32-bit or 64-bit.
+		/// </summary>
+		public readonly ArchitectureMode Architecture;
 
-        /// <summary>
-        /// Copies the source binary to the decoded instructions. When true this option increases the memory required for each decoded instruction.
-        /// </summary>
-        public readonly bool CopyBinaryToInstruction = false;
-        
-        /// <summary>
-        /// Which vendor instructions to support for disassembly. Options are AMD, Intel or Any.
-        /// </summary>
-        public readonly Vendor Vendor;
-        #endregion
+		/// <summary>
+		/// Copies the source binary to the decoded instructions. When true this option increases the memory required for each decoded instruction.
+		/// </summary>
+		public readonly bool CopyBinaryToInstruction = false;
 
-        #region Private field members
-        /// <summary>
-        /// The udis86 ud structure used during disassembly.
-        /// </summary>
-        private Udis86.ud _u = new Udis86.ud();
+		/// <summary>
+		/// Which vendor instructions to support for disassembly. Options are AMD, Intel or Any.
+		/// </summary>
+		public readonly Vendor Vendor;
+		#endregion
 
-        /// <summary>
-        /// The binary code to be disassembled provided as a byte array.
-        /// </summary>
-        private readonly byte[] Code;
+		#region Private field members
+		/// <summary>
+		/// The udis86 ud structure used during disassembly.
+		/// </summary>
+		private Udis86.ud _u = new Udis86.ud();
 
-        /// <summary>
-        /// Used to pin the <see cref="Code"/> byte array (if provided).
-        /// </summary>
-        private AutoPinner _pinnedCodeArray;
+		private IAssemblyCode code;
 
-        /// <summary>
-        /// A pointer to the code to be disassembled (e.g. a pointer to a function in memory)
-        /// </summary>
-        private readonly IntPtr CodePtr;
+		#endregion
 
-        /// <summary>
-        /// The maximum length of the code in memory to be disassembled <see cref="CodePtr"/>
-        /// </summary>
-        private readonly int CodeLength;
+		/// <summary>
+		/// The translator that will be used when calling <see cref="Instruction.ToString"/>.
+		/// </summary>
+		public static SharpDisasm.Translators.Translator Translator = new SharpDisasm.Translators.IntelTranslator();
 
-        #endregion
+		/// <summary>
+		/// The number of bytes successfully decoded into instructions. This excludes invalid instructions.
+		/// </summary>
+		public int BytesDecoded { get; private set; }
 
-        /// <summary>
-        /// The translator that will be used when calling <see cref="Instruction.ToString"/>.
-        /// </summary>
-        public static SharpDisasm.Translators.Translator Translator = new SharpDisasm.Translators.IntelTranslator();
+		/// <summary>
+		/// Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
+		/// </summary>
+		/// <param name="code">The code to be disassembled</param>
+		/// <param name="architecture">The target x86 instruction set architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
+		/// <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
+		/// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
+		/// <param name="vendor">What vendor instructions to support during disassembly, default is Any. Other options are AMD or Intel.</param>
+		public Disassembler(byte[] code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
+		{
+			this.code = new AssemblyCodeArray(code);
 
-        /// <summary>
-        /// The number of bytes successfully decoded into instructions. This excludes invalid instructions.
-        /// </summary>
-        public int BytesDecoded { get; private set; }
+			this.Architecture = architecture;
+			this.Address = address;
+			this.CopyBinaryToInstruction = copyBinaryToInstruction;
+			this.Vendor = vendor;
 
-        /// <summary>
-        /// Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
-        /// </summary>
-        /// <param name="code">The code to be disassembled</param>
-        /// <param name="architecture">The target x86 instruction set architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
-        /// <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
-        /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
-        /// <param name="vendor">What vendor instructions to support during disassembly, default is Any. Other options are AMD or Intel.</param>
-        public Disassembler(byte[] code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
-        {
-            this.Code = code;
-            if (code != null)
-            {
-                _pinnedCodeArray = new AutoPinner(Code);
-                this.CodePtr = _pinnedCodeArray;
-                this.CodeLength = Code.Length;
-            }
-            this.Architecture = architecture;
-            this.Address = address;
-            this.CopyBinaryToInstruction = copyBinaryToInstruction;
-            this.Vendor = vendor;
+			InitUdis86();
+		}
 
-            InitUdis86();
-        }
+		/// <summary>
+		/// Prepares a new disassembler instance for the code located at the memory address provided. The instructions can then be disassembled with a call to <see cref="Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
+		/// </summary>
+		/// <param name="codePtr">A pointer to memory to be disassembled.</param>
+		/// <param name="codeLength">The maximum length to be disassembled.</param>
+		/// <param name="architecture">The architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
+		/// <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
+		/// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
+		/// <param name="vendor">What vendors to support for disassembly, default is Any. Other options are AMD or Intel.</param>
+		public Disassembler(IntPtr codePtr, int codeLength, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
+			: this(null, architecture, address, copyBinaryToInstruction, vendor)
+		{
+			if (codePtr == IntPtr.Zero)
+				throw new ArgumentOutOfRangeException("codePtr");
+			if (codeLength <= 0)
+				throw new ArgumentOutOfRangeException("codeLength", "Code length must be larger than 0.");
 
-        /// <summary>
-        /// Prepares a new disassembler instance for the code located at the memory address provided. The instructions can then be disassembled with a call to <see cref="Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
-        /// </summary>
-        /// <param name="codePtr">A pointer to memory to be disassembled.</param>
-        /// <param name="codeLength">The maximum length to be disassembled.</param>
-        /// <param name="architecture">The architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
-        /// <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
-        /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
-        /// <param name="vendor">What vendors to support for disassembly, default is Any. Other options are AMD or Intel.</param>
-        public Disassembler(IntPtr codePtr, int codeLength, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
-            : this(null, architecture, address, copyBinaryToInstruction, vendor)
-        {
-            if (codePtr == IntPtr.Zero)
-                throw new ArgumentOutOfRangeException("codePtr");
-            if (codeLength <= 0)
-                throw new ArgumentOutOfRangeException("codeLength", "Code length must be larger than 0.");
-            
-            this.CodePtr = codePtr;
-            this.CodeLength = codeLength;
-        }
+			this.code = new AssemblyCodeMemory(codePtr, codeLength);
+		}
 
-        /// <summary>
-        /// (Re)Initialise the udis86 disassembler
-        /// </summary>
-        private void InitUdis86()
-        {
-            // reset _u and initialise
-            Udis86.udis86.ud_init(ref _u);
-            // set input buffer
-            Udis86.udis86.ud_set_input_buffer(ref _u, this.CodePtr, this.CodeLength);
-            // set architecture
-            Udis86.udis86.ud_set_mode(ref _u, (byte)this.Architecture);
-            // set program counter
-            Udis86.udis86.ud_set_pc(ref _u, Address);
-            // set the vendor
-            Udis86.udis86.ud_set_vendor(ref _u, (int)Vendor);
-        }
+		/// <summary>
+		/// (Re)Initialise the udis86 disassembler
+		/// </summary>
+		private void InitUdis86()
+		{
+			// reset _u and initialise
+			Udis86.udis86.ud_init(ref _u);
+			// set input buffer
+			Udis86.udis86.ud_set_input_buffer(ref _u, this.code);
+			// set architecture
+			Udis86.udis86.ud_set_mode(ref _u, (byte)this.Architecture);
+			// set program counter
+			Udis86.udis86.ud_set_pc(ref _u, Address);
+			// set the vendor
+			Udis86.udis86.ud_set_vendor(ref _u, (int)Vendor);
+		}
 
-        /// <summary>
-        /// Disassemble instructions and yield the result. Breaking out of the enumerator will prevent further instructions being disassembled.
-        /// </summary>
-        /// <returns>An IEnumerable collection of disassembled instructions</returns>
-        public IEnumerable<Instruction> Disassemble()
-        {
-            Reset();
-            Instruction instruction = null;
-            while ((instruction = NextInstruction()) != null)
-            {
-                yield return instruction;
-            }
-        }
+		/// <summary>
+		/// Disassemble instructions and yield the result. Breaking out of the enumerator will prevent further instructions being disassembled.
+		/// </summary>
+		/// <returns>An IEnumerable collection of disassembled instructions</returns>
+		public IEnumerable<Instruction> Disassemble()
+		{
+			Reset();
+			Instruction instruction = null;
+			while ((instruction = NextInstruction()) != null)
+			{
+				yield return instruction;
+			}
+		}
 
-        /// <summary>
-        /// Reset to beginning of the buffer
-        /// </summary>
-        public void Reset()
-        {
-            InitUdis86();
-            BytesDecoded = 0;
-            _u.inp_buf_index = 0;
-        }
+		/// <summary>
+		/// Reset to beginning of the buffer
+		/// </summary>
+		public void Reset()
+		{
+			InitUdis86();
+			BytesDecoded = 0;
+			_u.inp_buf_index = 0;
+		}
 
-        /// <summary>
-        /// Decodes a single instruction and increments buffer position.
-        /// </summary>
-        /// <returns></returns>
-        public Instruction NextInstruction()
-        {
-            int length = 0;
-            if ((length = Udis86.udis86.ud_disassemble(ref _u)) > 0)
-            {
-                var instruction = new Instruction(ref _u, CopyBinaryToInstruction);
-                if (!instruction.Error)
-                {
-                    BytesDecoded += length;
-                }
-                return instruction;
-            }
-            return null;
-        }
+		/// <summary>
+		/// Decodes a single instruction and increments buffer position.
+		/// </summary>
+		/// <returns></returns>
+		public Instruction NextInstruction()
+		{
+			int length = 0;
+			if ((length = Udis86.udis86.ud_disassemble(ref _u)) > 0)
+			{
+				var instruction = new Instruction(ref _u, CopyBinaryToInstruction);
+				if (!instruction.Error)
+				{
+					BytesDecoded += length;
+				}
+				return instruction;
+			}
+			return null;
+		}
 
-        /// <summary>
-        /// Finalizer
-        /// </summary>
-        ~Disassembler()
-        {
-            Dispose();
-        }
+		/// <summary>
+		/// Finalizer
+		/// </summary>
+		~Disassembler()
+		{
+			Dispose();
+		}
 
-        /// <summary>
-        /// Dispose
-        /// </summary>
-        public void Dispose()
-        {
-            if (_pinnedCodeArray != null)
-            {
-                _pinnedCodeArray.Dispose();
-                _pinnedCodeArray = null;
-            }
-        }
-    }
+		/// <summary>
+		/// Dispose
+		/// </summary>
+		public void Dispose()
+		{
+			//if (_pinnedCodeArray != null)
+			//{
+			//	_pinnedCodeArray.Dispose();
+			//	_pinnedCodeArray = null;
+			//}
+		}
+	}
 }

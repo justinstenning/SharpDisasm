@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// SharpDisasm (File: SharpDisasm\ud.cs)
+// SharpDisasm (File: SharpDisasm\vendor.cs)
 // Copyright (c) 2014-2015 Justin Stenning
 // http://spazzarama.com
 // https://github.com/spazzarama/SharpDisasm
@@ -39,91 +39,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using SharpDisasm.Helpers;
-
-#pragma warning disable 1591
-namespace SharpDisasm.Udis86
+namespace SharpDisasm.Helpers
 {
-	public delegate void UdTranslatorDelegate(ref ud ud);
-	public delegate string UdSymbolResolverDelegate(ref ud ud, long addr, ref long offset);
-	public delegate int UdInputCallback(ref ud ud);
-
-	public sealed class ud
+	/// <summary>
+	/// 
+	/// </summary>
+	public static class AssemblyCode
 	{
-		/*
-		 * input buffering
-		 */
-		//public int (*inp_hook) (struct ud*);
-		public UdInputCallback inp_hook;
-
-		public IAssemblyCode inp_buf;
-		public System.IO.FileStream inp_file = null;
-		public int inp_buf_size;
-		public int inp_buf_index;
-		public byte inp_curr;
-		public int inp_ctr;
-		public int inp_end;
-		public int inp_peek;
-
-		//void      (*translator)(struct ud*);
-		public UdTranslatorDelegate translator;
-
-		public ulong insn_offset;
-		//public char[] insn_hexcode = new char[64];
-
-		/*
-		* Assembly output buffer
-		*/
-		public char[] asm_buf;
-		public int asm_buf_size;
-		public int asm_buf_fill;
-		public char[] asm_buf_int = new char[128];
-
-		/*
-		* Symbol resolver for use in the translation phase.
-		*/
-		//const char* (*sym_resolver)(struct ud*, uint64_t addr, int64_t *offset);
-		public UdSymbolResolverDelegate sym_resolver;
-
-		public byte dis_mode;
-		public UInt64 pc;
-		public byte vendor;
-		public ud_mnemonic_code mnemonic;
-		public ud_operand[] operand = new ud_operand[4];
-		public byte error;
-		public string errorMessage;
-		public byte _rex;
-		public byte pfx_rex;
-		public byte pfx_seg;
-		public byte pfx_opr;
-		public byte pfx_adr;
-		public byte pfx_lock;
-		public byte pfx_str;
-		public byte pfx_rep;
-		public byte pfx_repe;
-		public byte pfx_repne;
-		public byte opr_mode;
-		public byte adr_mode;
-		public byte br_far;
-		public byte br_near;
-		public byte have_modrm;
-		public byte modrm;
-		public byte modrm_offset;
-		public byte vex_op;
-		public byte vex_b1;
-		public byte vex_b2;
-		public byte primary_opcode;
-		public ud_itab_entry itab_entry;
-		public ud_lookup_table_list_entry le;
-
 		/// <summary>
-		/// Initializes a new instance of the <see cref="ud"/> class.
+		/// Copies to bytes.
 		/// </summary>
-		public ud()
+		/// <param name="source">The source.</param>
+		/// <param name="offset">The offset.</param>
+		/// <param name="length">The length.</param>
+		/// <returns></returns>
+		public static byte[] CopyToBytes(IAssemblyCode source, int offset, int length)
 		{
-			inp_buf = new AssemblyCodeArray(new byte[64]);
+			var bytes = new byte[length];
+
+			for (int i = 0; i < length; i++)
+			{
+				bytes[i] = source[offset + i];
+			}
+
+			return bytes;
 		}
 
+		/// <summary>
+		/// Copies the specified source.
+		/// </summary>
+		/// <param name="source">The source.</param>
+		/// <param name="offset">The offset.</param>
+		/// <param name="length">The length.</param>
+		/// <returns></returns>
+		public static IAssemblyCode Copy(IAssemblyCode source, int offset, int length)
+		{
+			return new AssemblyCodeArray(CopyToBytes(source, offset, length));
+		}
 	}
 }
-#pragma warning restore 1591

@@ -24,6 +24,141 @@
             64-bit
             </summary>
         </member>
+        <member name="T:SharpDisasm.Helpers.AssemblyCodeOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SharpDisasm.Helpers.IAssemblyCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SharpDisasm.Helpers.IAssemblyCode.Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:System.Byte"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:System.Byte"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="P:SharpDisasm.Helpers.IAssemblyCode.Length">
+            <summary>
+            Gets the length.
+            </summary>
+            <value>
+            The length.
+            </value>
+        </member>
+        <member name="M:SharpDisasm.Helpers.AssemblyCodeOffset.#ctor(SharpDisasm.Helpers.IAssemblyCode,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SharpDisasm.Helpers.AssemblyCodeArray"/> class.
+            </summary>
+            <param name="code">The code.</param>
+            <param name="offset">The offset.</param>
+        </member>
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeOffset.SharpDisasm#Helpers#IAssemblyCode#Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:System.Byte"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:System.Byte"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeOffset.SharpDisasm#Helpers#IAssemblyCode#Length">
+            <summary>
+            Gets the length.
+            </summary>
+            <value>
+            The length.
+            </value>
+        </member>
+        <member name="T:SharpDisasm.Helpers.AssemblyCodeMemory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SharpDisasm.Helpers.AssemblyCodeMemory.#ctor(System.IntPtr,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SharpDisasm.Helpers.AssemblyCodeArray"/> class.
+            </summary>
+            <param name="pointer">The pointer.</param>
+            <param name="length">The length.</param>
+        </member>
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeMemory.SharpDisasm#Helpers#IAssemblyCode#Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:System.Byte"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:System.Byte"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeMemory.SharpDisasm#Helpers#IAssemblyCode#Length">
+            <summary>
+            Gets the length.
+            </summary>
+            <value>
+            The length.
+            </value>
+        </member>
+        <member name="T:SharpDisasm.Helpers.AssemblyCodeArray">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SharpDisasm.Helpers.AssemblyCodeArray.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:SharpDisasm.Helpers.AssemblyCodeArray"/> class.
+            </summary>
+            <param name="buffer">The buffer.</param>
+        </member>
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeArray.SharpDisasm#Helpers#IAssemblyCode#Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:System.Byte"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:System.Byte"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeArray.SharpDisasm#Helpers#IAssemblyCode#Length">
+            <summary>
+            Gets the length.
+            </summary>
+            <value>
+            The length.
+            </value>
+        </member>
+        <member name="T:SharpDisasm.Helpers.AssemblyCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SharpDisasm.Helpers.AssemblyCode.CopyToBytes(SharpDisasm.Helpers.IAssemblyCode,System.Int32,System.Int32)">
+            <summary>
+            Copies to bytes.
+            </summary>
+            <param name="source">The source.</param>
+            <param name="offset">The offset.</param>
+            <param name="length">The length.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SharpDisasm.Helpers.AssemblyCode.Copy(SharpDisasm.Helpers.IAssemblyCode,System.Int32,System.Int32)">
+            <summary>
+            Copies the specified source.
+            </summary>
+            <param name="source">The source.</param>
+            <param name="offset">The offset.</param>
+            <param name="length">The length.</param>
+            <returns></returns>
+        </member>
         <member name="T:SharpDisasm.Translators.ATTTranslator">
             <summary>
             Translates to AT&amp;T syntax
@@ -193,7 +328,7 @@
         </member>
         <member name="F:SharpDisasm.Disassembler.Address">
             <summary>
-            The address offset for the <see cref="F:SharpDisasm.Disassembler.Code"/>.
+            The address
             </summary>
         </member>
         <member name="F:SharpDisasm.Disassembler.Architecture">
@@ -214,26 +349,6 @@
         <member name="F:SharpDisasm.Disassembler._u">
             <summary>
             The udis86 ud structure used during disassembly.
-            </summary>
-        </member>
-        <member name="F:SharpDisasm.Disassembler.Code">
-            <summary>
-            The binary code to be disassembled provided as a byte array.
-            </summary>
-        </member>
-        <member name="F:SharpDisasm.Disassembler._pinnedCodeArray">
-            <summary>
-            Used to pin the <see cref="F:SharpDisasm.Disassembler.Code"/> byte array (if provided).
-            </summary>
-        </member>
-        <member name="F:SharpDisasm.Disassembler.CodePtr">
-            <summary>
-            A pointer to the code to be disassembled (e.g. a pointer to a function in memory)
-            </summary>
-        </member>
-        <member name="F:SharpDisasm.Disassembler.CodeLength">
-            <summary>
-            The maximum length of the code in memory to be disassembled <see cref="F:SharpDisasm.Disassembler.CodePtr"/>
             </summary>
         </member>
         <member name="F:SharpDisasm.Disassembler.Translator">
@@ -553,11 +668,6 @@
             The displacement value as <see cref="T:System.UInt64"/>
             </summary>
         </member>
-        <member name="T:SharpDisasm.AutoPinner">
-            <summary>
-            Utility class to safely manage pinned objects
-            </summary>
-        </member>
         <member name="T:SharpDisasm.Udis86.InstructionTables.OpDefs">
             <summary>
             itab entry operand definitions (for readability)
@@ -568,24 +678,9 @@
             Register classes
             </summary>
         </member>
-        <member name="F:SharpDisasm.Udis86.ud._inputSessionPinner">
+        <member name="M:SharpDisasm.Udis86.ud.#ctor">
             <summary>
-            Keeps a reference to the input session array
-            </summary>
-        </member>
-        <member name="M:SharpDisasm.Udis86.ud.CleanupPinners">
-            <summary>
-            Frees the pinned buffer
-            </summary>
-        </member>
-        <member name="M:SharpDisasm.Udis86.ud.Dispose">
-            <summary>
-            Cleanup unmanaged resources
-            </summary>
-        </member>
-        <member name="P:SharpDisasm.Udis86.ud.inp_bufPtr">
-            <summary>
-            Returns a pointer to the source buffer (either inp_buf or inp_sess)
+            Initializes a new instance of the <see cref="T:SharpDisasm.Udis86.ud"/> class.
             </summary>
         </member>
         <member name="T:SharpDisasm.Udis86.udis86">
@@ -691,13 +786,12 @@
             <param name="c"></param>
             <returns></returns>
         </member>
-        <member name="M:SharpDisasm.Udis86.udis86.ud_set_input_buffer(SharpDisasm.Udis86.ud@,System.IntPtr,System.Int32)">
+        <member name="M:SharpDisasm.Udis86.udis86.ud_set_input_buffer(SharpDisasm.Udis86.ud@,SharpDisasm.Helpers.IAssemblyCode)">
             <summary>
             Set the buffer as input
             </summary>
-            <param name="u"></param>
-            <param name="buf">Pointer to memory to be read from</param>
-            <param name="len">The maximum amount of memory to be read</param>
+            <param name="u">The u.</param>
+            <param name="code">The code.</param>
         </member>
         <member name="M:SharpDisasm.Udis86.udis86.ud_set_input_file(SharpDisasm.Udis86.ud@,System.IO.FileStream)">
             <summary>
