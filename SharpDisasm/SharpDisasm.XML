@@ -356,6 +356,16 @@
             The translator that will be used when calling <see cref="M:SharpDisasm.Instruction.ToString"/>.
             </summary>
         </member>
+        <member name="M:SharpDisasm.Disassembler.#ctor(SharpDisasm.Helpers.IAssemblyCode,SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SharpDisasm.Disassembler"/> class.
+            </summary>
+            <param name="code">The code.</param>
+            <param name="architecture">The architecture.</param>
+            <param name="address">The address.</param>
+            <param name="copyBinaryToInstruction">if set to <c>true</c> [copy binary to instruction].</param>
+            <param name="vendor">The vendor.</param>
+        </member>
         <member name="M:SharpDisasm.Disassembler.#ctor(System.Byte[],SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
             <summary>
             Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="M:SharpDisasm.Disassembler.Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
