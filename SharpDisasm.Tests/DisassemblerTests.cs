@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 
 #pragma warning disable 1591
@@ -142,6 +143,57 @@ namespace SharpDisasm.Tests
             // Ensure correct number of bytes in total
             Assert.AreEqual(b.Length * iterations, totalBytes);
         }
+
+		[TestMethod]
+		public void DisassembleLargeMemory()
+		{
+			var b = new byte[] {
+                0x67, 0x66, 0x8b, 0x40, 0xf0                                    // mov ax, [eax-0x10]
+                , 0x67, 0x66, 0x03, 0x5e, 0x10                                  // add bx, [esi+0x10]
+                , 0x48, 0x03, 0x04, 0x25, 0xff, 0xff, 0x00, 0x00                // add rax, [0xffff]
+                , 0x67, 0x66, 0x03, 0x44, 0xbe, 0xf0                            // add ax, [esi+edi*4-0x10]
+                , 0x4c, 0x03, 0x84, 0x98, 0x00, 0x00, 0x00, 0x80                // add r8, [rax+rbx*4-0x80000000]
+                , 0x48, 0xa1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x00    // mov rax, [0x800000000000]
+            };
+
+			int iterations = 100000;
+
+			IntPtr mem = Marshal.AllocHGlobal(b.Length * iterations);
+
+			int len = 0;
+			for (var i = 0; i < iterations; i++)
+			{
+				foreach (var v in b)
+				{
+					Marshal.WriteByte(mem, len++, v);
+				}
+			}
+
+			var disasm = new Disassembler(mem, len, ArchitectureMode.x86_64, 0, false);
+
+			Stopwatch sw = new Stopwatch();
+			int instructionCount = 0;
+			int totalBytes = 0;
+			sw.Start();
+			foreach (var ins in disasm.Disassemble())
+			{
+				instructionCount++;
+				totalBytes += ins.Length;
+				//var s = ins.ToString();
+			}
+
+			sw.Stop();
+			Debug.WriteLine(sw.Elapsed);
+
+			// Should be completed in less than 1 seconds even in debug (usually completes 600k instructions within 200-600ms)
+			//Assert.IsTrue(sw.Elapsed < new TimeSpan(0, 0, 1));
+
+			// Ensure correct number of instructions were disassembled
+			Assert.AreEqual(6 * iterations, instructionCount);
+
+			// Ensure correct number of bytes in total
+			Assert.AreEqual(b.Length * iterations, totalBytes);
+		}
 
         [TestMethod]
         public void DisassembleBufferOffset()
