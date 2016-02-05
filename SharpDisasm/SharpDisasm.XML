@@ -29,12 +29,12 @@
             
             </summary>
         </member>
-        <member name="T:SharpDisasm.Helpers.IAssemblyCode">
-            <summary>
+        <member name="T:SharpDisasm.IAssemblyCode">
+             <summary>
             
-            </summary>
+             </summary>
         </member>
-        <member name="P:SharpDisasm.Helpers.IAssemblyCode.Item(System.Int32)">
+        <member name="P:SharpDisasm.IAssemblyCode.Item(System.Int32)">
             <summary>
             Gets or sets the <see cref="T:System.Byte"/> at the specified index.
             </summary>
@@ -44,7 +44,7 @@
             <param name="index">The index.</param>
             <returns></returns>
         </member>
-        <member name="P:SharpDisasm.Helpers.IAssemblyCode.Length">
+        <member name="P:SharpDisasm.IAssemblyCode.Length">
             <summary>
             Gets the length.
             </summary>
@@ -52,14 +52,14 @@
             The length.
             </value>
         </member>
-        <member name="M:SharpDisasm.Helpers.AssemblyCodeOffset.#ctor(SharpDisasm.Helpers.IAssemblyCode,System.Int32)">
+        <member name="M:SharpDisasm.Helpers.AssemblyCodeOffset.#ctor(SharpDisasm.IAssemblyCode,System.Int32)">
             <summary>
             Initializes a new instance of the <see cref="T:SharpDisasm.Helpers.AssemblyCodeArray"/> class.
             </summary>
             <param name="code">The code.</param>
             <param name="offset">The offset.</param>
         </member>
-        <member name="P:SharpDisasm.Helpers.AssemblyCodeOffset.SharpDisasm#Helpers#IAssemblyCode#Item(System.Int32)">
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeOffset.SharpDisasm#IAssemblyCode#Item(System.Int32)">
             <summary>
             Gets or sets the <see cref="T:System.Byte"/> at the specified index.
             </summary>
@@ -69,7 +69,7 @@
             <param name="index">The index.</param>
             <returns></returns>
         </member>
-        <member name="P:SharpDisasm.Helpers.AssemblyCodeOffset.SharpDisasm#Helpers#IAssemblyCode#Length">
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeOffset.SharpDisasm#IAssemblyCode#Length">
             <summary>
             Gets the length.
             </summary>
@@ -89,7 +89,7 @@
             <param name="pointer">The pointer.</param>
             <param name="length">The length.</param>
         </member>
-        <member name="P:SharpDisasm.Helpers.AssemblyCodeMemory.SharpDisasm#Helpers#IAssemblyCode#Item(System.Int32)">
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeMemory.SharpDisasm#IAssemblyCode#Item(System.Int32)">
             <summary>
             Gets or sets the <see cref="T:System.Byte"/> at the specified index.
             </summary>
@@ -99,7 +99,7 @@
             <param name="index">The index.</param>
             <returns></returns>
         </member>
-        <member name="P:SharpDisasm.Helpers.AssemblyCodeMemory.SharpDisasm#Helpers#IAssemblyCode#Length">
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeMemory.SharpDisasm#IAssemblyCode#Length">
             <summary>
             Gets the length.
             </summary>
@@ -108,9 +108,9 @@
             </value>
         </member>
         <member name="T:SharpDisasm.Helpers.AssemblyCodeArray">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="M:SharpDisasm.Helpers.AssemblyCodeArray.#ctor(System.Byte[])">
             <summary>
@@ -118,7 +118,7 @@
             </summary>
             <param name="buffer">The buffer.</param>
         </member>
-        <member name="P:SharpDisasm.Helpers.AssemblyCodeArray.SharpDisasm#Helpers#IAssemblyCode#Item(System.Int32)">
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeArray.SharpDisasm#IAssemblyCode#Item(System.Int32)">
             <summary>
             Gets or sets the <see cref="T:System.Byte"/> at the specified index.
             </summary>
@@ -128,7 +128,7 @@
             <param name="index">The index.</param>
             <returns></returns>
         </member>
-        <member name="P:SharpDisasm.Helpers.AssemblyCodeArray.SharpDisasm#Helpers#IAssemblyCode#Length">
+        <member name="P:SharpDisasm.Helpers.AssemblyCodeArray.SharpDisasm#IAssemblyCode#Length">
             <summary>
             Gets the length.
             </summary>
@@ -141,7 +141,7 @@
             
             </summary>
         </member>
-        <member name="M:SharpDisasm.Helpers.AssemblyCode.CopyToBytes(SharpDisasm.Helpers.IAssemblyCode,System.Int32,System.Int32)">
+        <member name="M:SharpDisasm.Helpers.AssemblyCode.CopyToBytes(SharpDisasm.IAssemblyCode,System.Int32,System.Int32)">
             <summary>
             Copies to bytes.
             </summary>
@@ -150,7 +150,7 @@
             <param name="length">The length.</param>
             <returns></returns>
         </member>
-        <member name="M:SharpDisasm.Helpers.AssemblyCode.Copy(SharpDisasm.Helpers.IAssemblyCode,System.Int32,System.Int32)">
+        <member name="M:SharpDisasm.Helpers.AssemblyCode.Copy(SharpDisasm.IAssemblyCode,System.Int32,System.Int32)">
             <summary>
             Copies the specified source.
             </summary>
@@ -356,7 +356,7 @@
             The translator that will be used when calling <see cref="M:SharpDisasm.Instruction.ToString"/>.
             </summary>
         </member>
-        <member name="M:SharpDisasm.Disassembler.#ctor(SharpDisasm.Helpers.IAssemblyCode,SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
+        <member name="M:SharpDisasm.Disassembler.#ctor(SharpDisasm.IAssemblyCode,SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
             <summary>
             Initializes a new instance of the <see cref="T:SharpDisasm.Disassembler"/> class.
             </summary>
@@ -796,7 +796,7 @@
             <param name="c"></param>
             <returns></returns>
         </member>
-        <member name="M:SharpDisasm.Udis86.udis86.ud_set_input_buffer(SharpDisasm.Udis86.ud@,SharpDisasm.Helpers.IAssemblyCode)">
+        <member name="M:SharpDisasm.Udis86.udis86.ud_set_input_buffer(SharpDisasm.Udis86.ud@,SharpDisasm.IAssemblyCode)">
             <summary>
             Set the buffer as input
             </summary>

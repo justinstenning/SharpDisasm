@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// SharpDisasm (File: SharpDisasm\vendor.cs)
+// SharpDisasm (File: SharpDisasm\Helpers\AssemblyCode.cs)
 // Copyright (c) 2014-2015 Justin Stenning
 // http://spazzarama.com
 // https://github.com/spazzarama/SharpDisasm
@@ -44,7 +44,7 @@ namespace SharpDisasm.Helpers
 	/// <summary>
 	/// 
 	/// </summary>
-	public static class AssemblyCode
+	internal static class AssemblyCode
 	{
 		/// <summary>
 		/// Copies to bytes.

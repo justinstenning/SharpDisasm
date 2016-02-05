@@ -60,7 +60,7 @@
     <Compile Include="Udis86\ud_operand_code.cs" />
     <Compile Include="Udis86\ud_operand_size.cs" />
     <Compile Include="Udis86\ud_type.cs" />
-    <Compile Include="Helpers\IAssemblyCode.cs" />
+    <Compile Include="IAssemblyCode.cs" />
     <Compile Include="Vendor.cs" />
   </ItemGroup>
   <ItemGroup>

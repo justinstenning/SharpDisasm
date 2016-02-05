@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// SharpDisasm (File: SharpDisasm\vendor.cs)
+// SharpDisasm (File: SharpDisasm\Helpers\AssemblyCodeOffset.cs)
 // Copyright (c) 2014-2015 Justin Stenning
 // http://spazzarama.com
 // https://github.com/spazzarama/SharpDisasm
@@ -41,41 +41,41 @@ using System.Text;
 
 namespace SharpDisasm.Helpers
 {
-	/// <summary>
-	/// 
-	/// </summary>
-	public class AssemblyCodeOffset : IAssemblyCode
-	{
-		private IAssemblyCode code;
-		private int offset;
+    /// <summary>
+    /// 
+    /// </summary>
+    internal class AssemblyCodeOffset : IAssemblyCode
+    {
+        private IAssemblyCode code;
+        private int offset;
 
-		/// <summary>
-		/// Initializes a new instance of the <see cref="AssemblyCodeArray" /> class.
-		/// </summary>
-		/// <param name="code">The code.</param>
-		/// <param name="offset">The offset.</param>
-		public AssemblyCodeOffset(IAssemblyCode code, int offset)
-		{
-			this.code = code;
-			this.offset = offset;
-		}
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AssemblyCodeArray" /> class.
+        /// </summary>
+        /// <param name="code">The code.</param>
+        /// <param name="offset">The offset.</param>
+        public AssemblyCodeOffset(IAssemblyCode code, int offset)
+        {
+            this.code = code;
+            this.offset = offset;
+        }
 
-		/// <summary>
-		/// Gets or sets the <see cref="System.Byte"/> at the specified index.
-		/// </summary>
-		/// <value>
-		/// The <see cref="System.Byte"/>.
-		/// </value>
-		/// <param name="index">The index.</param>
-		/// <returns></returns>
-		byte IAssemblyCode.this[int index] { get { return code[index + offset]; } }
+        /// <summary>
+        /// Gets or sets the <see cref="System.Byte"/> at the specified index.
+        /// </summary>
+        /// <value>
+        /// The <see cref="System.Byte"/>.
+        /// </value>
+        /// <param name="index">The index.</param>
+        /// <returns></returns>
+        byte IAssemblyCode.this[int index] { get { return code[index + offset]; } }
 
-		/// <summary>
-		/// Gets the length.
-		/// </summary>
-		/// <value>
-		/// The length.
-		/// </value>
-		int IAssemblyCode.Length { get { return code.Length - offset; } }
-	}
+        /// <summary>
+        /// Gets the length.
+        /// </summary>
+        /// <value>
+        /// The length.
+        /// </value>
+        int IAssemblyCode.Length { get { return code.Length - offset; } }
+    }
 }

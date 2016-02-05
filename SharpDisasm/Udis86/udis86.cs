@@ -201,7 +201,7 @@ namespace SharpDisasm.Udis86
 
             int count = Array.IndexOf<char>(u.asm_buf, '\0', 0);
             if (count < 0) count = u.asm_buf.Length;
-            
+
             char[] c = new char[count];
             Array.Copy(u.asm_buf, c, count);
 
@@ -232,12 +232,12 @@ namespace SharpDisasm.Udis86
             {
                 int i;
                 IAssemblyCode src_ptr = ud_insn_ptr(ref u);
-                unsafe 
+                unsafe
                 {
                     //byte* src = (byte*)src_ptr.ToPointer();
                     for (i = 0; i < ud_insn_len(ref u); i++)
                     {
-						src_hex.AppendFormat("{0:2X", src_ptr[i]);
+                        src_hex.AppendFormat("{0:2X", src_ptr[i]);
                     }
                 }
                 //byte[] src_ptr = ud_insn_ptr(ref u);
@@ -264,10 +264,10 @@ namespace SharpDisasm.Udis86
         /// </summary>
         /// <param name="u"></param>
         /// <returns></returns>
-		static unsafe IAssemblyCode
+        static unsafe IAssemblyCode
         ud_insn_ptr(ref ud u)
         {
-			return new AssemblyCodeOffset(u.inp_buf, u.inp_buf_index - u.inp_ctr);
+            return new AssemblyCodeOffset(u.inp_buf, u.inp_buf_index - u.inp_ctr);
         }
 
 
@@ -439,7 +439,7 @@ namespace SharpDisasm.Udis86
          * ud_inp_init
          *    Initializes the input system.
          */
-		static unsafe void
+        static unsafe void
         ud_inp_init(ref ud u)
         {
             u.inp_hook = null;
@@ -471,18 +471,18 @@ namespace SharpDisasm.Udis86
          *    Set buffer as input.
          * =============================================================================
          */
-		/// <summary>
-		/// Set the buffer as input
-		/// </summary>
-		/// <param name="u">The u.</param>
-		/// <param name="code">The code.</param>
-		public static unsafe void ud_set_input_buffer(ref ud u, IAssemblyCode code)
-		{
-			ud_inp_init(ref u);
-			u.inp_buf = code;
-			u.inp_buf_size = code.Length;
-			u.inp_buf_index = 0;
-		}
+        /// <summary>
+        /// Set the buffer as input
+        /// </summary>
+        /// <param name="u">The u.</param>
+        /// <param name="code">The code.</param>
+        public static unsafe void ud_set_input_buffer(ref ud u, IAssemblyCode code)
+        {
+            ud_inp_init(ref u);
+            u.inp_buf = code;
+            u.inp_buf_size = code.Length;
+            u.inp_buf_index = 0;
+        }
 
         //#ifndef __UD_STANDALONE__
         /* =============================================================================
@@ -490,10 +490,10 @@ namespace SharpDisasm.Udis86
          *    Set FILE as input.
          * =============================================================================
          */
-        static int 
+        static int
         inp_file_hook(ref ud u)
         {
-          return u.inp_file.ReadByte();// fgetc(u.inp_file);
+            return u.inp_file.ReadByte();// fgetc(u.inp_file);
         }
 
         /// <summary>
@@ -501,12 +501,12 @@ namespace SharpDisasm.Udis86
         /// </summary>
         /// <param name="u"></param>
         /// <param name="file">File stream that will be read from. The stream must support reading.</param>
-        public static void 
+        public static void
         ud_set_input_file(ref ud u, System.IO.FileStream file)
         {
-          ud_inp_init(ref u);
-          u.inp_hook = inp_file_hook;
-          u.inp_file = file;
+            ud_inp_init(ref u);
+            u.inp_hook = inp_file_hook;
+            u.inp_file = file;
         }
         //#endif /* __UD_STANDALONE__ */
 
@@ -516,7 +516,7 @@ namespace SharpDisasm.Udis86
          *    Skip n input bytes.
          * ============================================================================
          */
-		static unsafe void ud_input_skip(ref ud u, int n)
+        static unsafe void ud_input_skip(ref ud u, int n)
         {
             if (u.inp_end > 0)
             {

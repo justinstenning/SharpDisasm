@@ -47,12 +47,12 @@ namespace SharpDisasm.Tests
             Assert.AreEqual(6, results.Length, "There should be 6 instructions");
 
             Assert.AreEqual(4, (from insn in results
-                     where insn.Length > 5
-                     select insn).Count(), "There should be 4 instructions that are larger than 5 bytes");
+                                where insn.Length > 5
+                                select insn).Count(), "There should be 4 instructions that are larger than 5 bytes");
 
             Assert.AreEqual("mov rax, [0x800000000000]", (from insn in results
-                                where insn.Length == 10
-                                select insn).First().ToString());
+                                                          where insn.Length == 10
+                                                          select insn).First().ToString());
 
 
             foreach (SharpDisasm.Instruction instruction in results)
@@ -76,7 +76,7 @@ namespace SharpDisasm.Tests
                 0x0F, 0x01, 0xDD,            // clgi (AMD)
                 0x66, 0x0F, 0x38, 0x80, 0x00 // invept eax,[eax] (intel)
             };
-            
+
             // Any vendor
             var disam = new Disassembler(bytes, ArchitectureMode.x86_64, 0x0, false, Vendor.Any);
             foreach (var ins in disam.Disassemble())
@@ -84,7 +84,7 @@ namespace SharpDisasm.Tests
                 Assert.IsFalse(ins.Error);
                 Assert.AreNotEqual(Udis86.ud_mnemonic_code.UD_Iinvalid, ins.Mnemonic);
             }
-            
+
             // AMD only
             disam = new Disassembler(bytes, ArchitectureMode.x86_64, 0x0, false, Vendor.AMD);
             var results = disam.Disassemble().ToArray();
@@ -110,7 +110,7 @@ namespace SharpDisasm.Tests
                 , 0x48, 0xa1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x00    // mov rax, [0x800000000000]
             };
 
-            int iterations = 100000;
+            int iterations = 1000000;
             List<byte> bytes = new List<byte>(b.Length * iterations);
 
             for (var i = 0; i < iterations; i++)
@@ -144,10 +144,10 @@ namespace SharpDisasm.Tests
             Assert.AreEqual(b.Length * iterations, totalBytes);
         }
 
-		[TestMethod]
-		public void DisassembleLargeMemory()
-		{
-			var b = new byte[] {
+        [TestMethod]
+        public void DisassembleLargeMemory()
+        {
+            var b = new byte[] {
                 0x67, 0x66, 0x8b, 0x40, 0xf0                                    // mov ax, [eax-0x10]
                 , 0x67, 0x66, 0x03, 0x5e, 0x10                                  // add bx, [esi+0x10]
                 , 0x48, 0x03, 0x04, 0x25, 0xff, 0xff, 0x00, 0x00                // add rax, [0xffff]
@@ -156,44 +156,44 @@ namespace SharpDisasm.Tests
                 , 0x48, 0xa1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x00    // mov rax, [0x800000000000]
             };
 
-			int iterations = 100000;
+            int iterations = 1000000;
 
-			IntPtr mem = Marshal.AllocHGlobal(b.Length * iterations);
+            IntPtr mem = Marshal.AllocHGlobal(b.Length * iterations);
 
-			int len = 0;
-			for (var i = 0; i < iterations; i++)
-			{
-				foreach (var v in b)
-				{
-					Marshal.WriteByte(mem, len++, v);
-				}
-			}
+            int len = 0;
+            for (var i = 0; i < iterations; i++)
+            {
+                foreach (var v in b)
+                {
+                    Marshal.WriteByte(mem, len++, v);
+                }
+            }
 
-			var disasm = new Disassembler(mem, len, ArchitectureMode.x86_64, 0, false);
+            var disasm = new Disassembler(mem, len, ArchitectureMode.x86_64, 0, false);
 
-			Stopwatch sw = new Stopwatch();
-			int instructionCount = 0;
-			int totalBytes = 0;
-			sw.Start();
-			foreach (var ins in disasm.Disassemble())
-			{
-				instructionCount++;
-				totalBytes += ins.Length;
-				//var s = ins.ToString();
-			}
+            Stopwatch sw = new Stopwatch();
+            int instructionCount = 0;
+            int totalBytes = 0;
+            sw.Start();
+            foreach (var ins in disasm.Disassemble())
+            {
+                instructionCount++;
+                totalBytes += ins.Length;
+                //var s = ins.ToString();
+            }
 
-			sw.Stop();
-			Debug.WriteLine(sw.Elapsed);
+            sw.Stop();
+            Debug.WriteLine(sw.Elapsed);
 
-			// Should be completed in less than 1 seconds even in debug (usually completes 600k instructions within 200-600ms)
-			//Assert.IsTrue(sw.Elapsed < new TimeSpan(0, 0, 1));
+            // Should be completed in less than 1 seconds even in debug (usually completes 600k instructions within 200-600ms)
+            //Assert.IsTrue(sw.Elapsed < new TimeSpan(0, 0, 1));
 
-			// Ensure correct number of instructions were disassembled
-			Assert.AreEqual(6 * iterations, instructionCount);
+            // Ensure correct number of instructions were disassembled
+            Assert.AreEqual(6 * iterations, instructionCount);
 
-			// Ensure correct number of bytes in total
-			Assert.AreEqual(b.Length * iterations, totalBytes);
-		}
+            // Ensure correct number of bytes in total
+            Assert.AreEqual(b.Length * iterations, totalBytes);
+        }
 
         [TestMethod]
         public void DisassembleBufferOffset()
@@ -221,7 +221,7 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void DisassembleScaleIndexBaseTests()
         {
-            var disasm = new SharpDisasm.Disassembler(new byte[] { 
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
                 0x8B, 0x04, 0xAA,                         // mov eax, [edx+ebp*4]
                 0x8B, 0x44, 0x15, 0x00,                   // mov eax, [ebp+edx]
                 0x8B, 0x04, 0x2A,                         // mov eax, [edx+ebp]
@@ -258,7 +258,7 @@ namespace SharpDisasm.Tests
             Assert.AreEqual(Udis86.ud_type.UD_R_EDX, results[5].Operands.Last().Base);
             Assert.AreEqual(Udis86.ud_type.UD_R_EBP, results[5].Operands.Last().Index);
             Assert.AreEqual((long)-0x7b, results[5].Operands.Last().Value);
-            
+
             foreach (var ins in disasm.Disassemble())
             {
                 Debug.WriteLine(ins.ToString());
@@ -268,7 +268,7 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void DisassembleInvalidInstruction()
         {
-            var disasm = new SharpDisasm.Disassembler(new byte[] { 
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
                     0xA1, 0x37
                 },
                ArchitectureMode.x86_32, 0, false);
@@ -283,7 +283,7 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void DisassembleTests()
         {
-            var disasm = new SharpDisasm.Disassembler(new byte[] { 
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
                     0xA1, 0xC9, 0xFD, 0xFF, 0xFF, // mov    eax,[0xfffffdc9] (or ds:0xfffffdc9)
                     0xA1, 0x37, 0x02, 0x00, 0x00, // mov    eax,[0x237] (or ds:0x237)
                     0xB8, 0x37, 0x02, 0x00, 0x00, // mov    eax,0x237
@@ -297,7 +297,7 @@ namespace SharpDisasm.Tests
                 Debug.WriteLine(ins.ToString());
             }
 
-            disasm = new SharpDisasm.Disassembler(new byte[] { 
+            disasm = new SharpDisasm.Disassembler(new byte[] {
                  0x67, 0x66, 0x03, 0x07,  // add ax, [bx]
                  0x66, 0xB8, 0xF7, 0xFF, // mov ax, 0xfff7 (or -0x9)
             }, ArchitectureMode.x86_64, 0, false);
@@ -311,7 +311,7 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void Disassemble64BitRIPRelative()
         {
-            var disasm = new SharpDisasm.Disassembler(new byte[] { 
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
                  0x48, 0x8B, 0x05, 0xF7, 0xFF, 0xFF, 0xFF, // mov rax, [rip-0x9]
             }, ArchitectureMode.x86_64, 0, true);
 
@@ -330,7 +330,7 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void DisassemblerPrintIntelSyntax()
         {
-            var disasm = new SharpDisasm.Disassembler(new byte[] { 
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
                  0x48, 0x8B, 0x05, 0xF7, 0xFF, 0xFF, 0xFF,                    // mov rax, [rip-0x9]
                 0x67, 0x66, 0x8b, 0x40, 0xf0                                  // mov ax, [eax-0x10]
                 , 0x67, 0x66, 0x03, 0x5e, 0x10                                // add bx, [esi+0x10]
@@ -347,7 +347,7 @@ namespace SharpDisasm.Tests
             }
             Debug.WriteLine("-------------------");
 
-            disasm = new SharpDisasm.Disassembler(new byte[] { 
+            disasm = new SharpDisasm.Disassembler(new byte[] {
                     0xA1, 0xC9, 0xFD, 0xFF, 0xFF,       // mov    eax,[0xfffffdc9] (or ds:0xfffffdc9)
                     0xA1, 0x37, 0x02, 0x00, 0x00,       // mov    eax,[0x237] (or ds:0x237)
                     0xB8, 0x37, 0x02, 0x00, 0x00,       // mov    eax,0x237
@@ -370,7 +370,7 @@ namespace SharpDisasm.Tests
             }
             Debug.WriteLine("-------------------");
 
-            disasm = new SharpDisasm.Disassembler(new byte[] { 
+            disasm = new SharpDisasm.Disassembler(new byte[] {
                     0xC8, 0x04, 0x00, 0x00,             // enter  0x4, 0
                     0xA1, 0xC9, 0xFD, 0xFF, 0xFF,       // mov    eax,[0xfffffdc9] (or ds:0xfffffdc9)
                     0xA1, 0x37, 0x02, 0x00, 0x00,       // mov    eax,[0x237] (or ds:0x237)
@@ -405,7 +405,7 @@ namespace SharpDisasm.Tests
             };
             try
             {
-                var disasm = new SharpDisasm.Disassembler(new byte[] { 
+                var disasm = new SharpDisasm.Disassembler(new byte[] {
                     0x48, 0x8B, 0x05, 0xF7, 0xFF, 0xFF, 0xFF,                    // movq -0x9(%rip), %rax
                     0x67, 0x66, 0x8b, 0x40, 0xf0,                                // movw -0x10(%eax), %ax
                     0x67, 0x66, 0x03, 0x5e, 0x10,                                // addw 0x10(%esi), %bx
@@ -423,7 +423,7 @@ namespace SharpDisasm.Tests
                 }
                 Debug.WriteLine("-------------------");
 
-                disasm = new SharpDisasm.Disassembler(new byte[] { 
+                disasm = new SharpDisasm.Disassembler(new byte[] {
                     0xA1, 0xC9, 0xFD, 0xFF, 0xFF,                   // movl 0xfffffdc9, %eax
                     0xA1, 0x37, 0x02, 0x00, 0x00,                   // movl 0x237, %eax
                     0xB8, 0x37, 0x02, 0x00, 0x00,                   // mov $0x237, %eax
@@ -453,7 +453,7 @@ namespace SharpDisasm.Tests
                 }
                 Debug.WriteLine("-------------------");
 
-                disasm = new SharpDisasm.Disassembler(new byte[] { 
+                disasm = new SharpDisasm.Disassembler(new byte[] {
                     0xA1, 0xC9, 0xFD, 0xFF, 0xFF,               // movl 0xfffffdc9, %eax
                     0xA1, 0x37, 0x02, 0x00, 0x00,               // movl 0x237, %eax
                     0xB8, 0x37, 0x02, 0x00, 0x00,               // mov $0x237, %eax

@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// SharpDisasm (File: SharpDisasm\Helpers\AssemblyCodeArray.cs)
+// SharpDisasm (File: SharpDisasm\IAssemblyCode.cs)
 // Copyright (c) 2014-2015 Justin Stenning
 // http://spazzarama.com
 // https://github.com/spazzarama/SharpDisasm
@@ -39,23 +39,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SharpDisasm.Helpers
+namespace SharpDisasm
 {
     /// <summary>
     ///
     /// </summary>
-    internal class AssemblyCodeArray : IAssemblyCode
+    public interface IAssemblyCode
     {
-        private byte[] buffer;
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="AssemblyCodeArray"/> class.
-        /// </summary>
-        /// <param name="buffer">The buffer.</param>
-        public AssemblyCodeArray(byte[] buffer)
-        {
-            this.buffer = buffer;
-        }
 
         /// <summary>
         /// Gets or sets the <see cref="System.Byte"/> at the specified index.
@@ -65,7 +55,7 @@ namespace SharpDisasm.Helpers
         /// </value>
         /// <param name="index">The index.</param>
         /// <returns></returns>
-        byte IAssemblyCode.this[int index] { get { return buffer[index]; } }
+        byte this[int index] { get; }
 
         /// <summary>
         /// Gets the length.
@@ -73,6 +63,6 @@ namespace SharpDisasm.Helpers
         /// <value>
         /// The length.
         /// </value>
-        int IAssemblyCode.Length { get { return buffer.Length; } }
+        int Length { get; }
     }
 }
