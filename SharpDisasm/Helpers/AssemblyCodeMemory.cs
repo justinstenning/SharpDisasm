@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// SharpDisasm (File: SharpDisasm\autopinner.cs)
+// SharpDisasm (File: SharpDisasm\Helpers\AssemblyCodeMemory.cs)
 // Copyright (c) 2014-2015 Justin Stenning
 // http://spazzarama.com
 // https://github.com/spazzarama/SharpDisasm
@@ -40,46 +40,53 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace SharpDisasm
+namespace SharpDisasm.Helpers
 {
     /// <summary>
-    /// Utility class to safely manage pinned objects
+    /// 
     /// </summary>
-    sealed class AutoPinner : IDisposable
+    internal class AssemblyCodeMemory : IAssemblyCode
     {
-        bool _disposed = false;
-        GCHandle _pinnedObj;
-        public AutoPinner(Object obj)
+
+        private IntPtr pointer;
+        private int length;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AssemblyCodeArray" /> class.
+        /// </summary>
+        /// <param name="pointer">The pointer.</param>
+        /// <param name="length">The length.</param>
+        public AssemblyCodeMemory(IntPtr pointer, int length)
         {
-            _pinnedObj = GCHandle.Alloc(obj, GCHandleType.Pinned);
-        }
-        
-        public static implicit operator IntPtr(AutoPinner ap)
-        {
-            if (ap._disposed)
-                throw new ObjectDisposedException("AutoPinner");
-            return ap._pinnedObj.AddrOfPinnedObject();
+            this.pointer = pointer;
+            this.length = length;
         }
 
-        public IntPtr AddrOfPinnedObject()
+        /// <summary>
+        /// Gets or sets the <see cref="System.Byte"/> at the specified index.
+        /// </summary>
+        /// <value>
+        /// The <see cref="System.Byte"/>.
+        /// </value>
+        /// <param name="index">The index.</param>
+        /// <returns></returns>
+        byte IAssemblyCode.this[int index]
         {
-            if (_disposed)
-                throw new ObjectDisposedException("AutoPinner");
-            return _pinnedObj.AddrOfPinnedObject();
-        }
-
-        ~AutoPinner()
-        {
-            Dispose();
-        }
-
-        public void Dispose()
-        {
-            if (_pinnedObj.IsAllocated)
+            get
             {
-                _pinnedObj.Free();
+                if (index > length)
+                    throw new IndexOutOfRangeException();
+
+                return Marshal.ReadByte(pointer, index);
             }
-            _disposed = true;
         }
+
+        /// <summary>
+        /// Gets the length.
+        /// </summary>
+        /// <value>
+        /// The length.
+        /// </value>
+        int IAssemblyCode.Length { get { return length; } }
     }
 }

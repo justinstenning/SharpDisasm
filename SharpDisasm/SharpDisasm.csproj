@@ -28,6 +28,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArchitectureMode.cs" />
+    <Compile Include="Helpers\AssemblyCodeOffset.cs" />
+    <Compile Include="Helpers\AssemblyCodeMemory.cs" />
+    <Compile Include="Helpers\AssemblyCodeArray.cs" />
+    <Compile Include="Helpers\AssemblyCode.cs" />
     <Compile Include="Translators\ATTTranslator.cs" />
     <Compile Include="Translators\IntelTranslator.cs" />
     <Compile Include="Translators\SymbolResolverDelegate.cs" />
@@ -35,7 +39,6 @@
     <Compile Include="Disassembler.cs" />
     <Compile Include="Instruction.cs" />
     <Compile Include="Operand.cs" />
-    <Compile Include="AutoPinner.cs" />
     <Compile Include="Udis86\Decode.cs" />
     <Compile Include="Udis86\OpTable.cs">
       <AutoGen>True</AutoGen>
@@ -57,6 +60,7 @@
     <Compile Include="Udis86\ud_operand_code.cs" />
     <Compile Include="Udis86\ud_operand_size.cs" />
     <Compile Include="Udis86\ud_type.cs" />
+    <Compile Include="IAssemblyCode.cs" />
     <Compile Include="Vendor.cs" />
   </ItemGroup>
   <ItemGroup>

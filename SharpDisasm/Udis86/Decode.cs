@@ -102,25 +102,25 @@ namespace SharpDisasm.Udis86
         {
             if (u.inp_end == 0)
             {
-                if (u.inp_buf != null)
+                //if (u.inp_buf != null)
+                //{
+                if (u.inp_buf_index < u.inp_buf_size)
                 {
-                    if (u.inp_buf_index < u.inp_buf_size)
-                    {
-                        u.inp_ctr++;
-                        return (u.inp_curr = u.inp_buf[u.inp_buf_index++]);
-                    }
+                    u.inp_ctr++;
+                    return (u.inp_curr = u.inp_buf[u.inp_buf_index++]);
                 }
-                else
-                {
-                    int c = u.inp_peek;
-                    if ((c = u.inp_hook(ref u)) != UD_EOI)
-                    {
-                        u.inp_peek = UD_EOI;
-                        u.inp_curr = (byte)c;
-                        u.inp_sess[u.inp_ctr++] = u.inp_curr;
-                        return u.inp_curr;
-                    }
-                }
+                //}
+                //else
+                //{
+                //	int c = u.inp_peek;
+                //	if ((c = u.inp_hook(ref u)) != UD_EOI)
+                //	{
+                //		u.inp_peek = UD_EOI;
+                //		u.inp_curr = (byte)c;
+                //		u.inp_sess[u.inp_ctr++] = u.inp_curr;
+                //		return u.inp_curr;
+                //	}
+                //}
             }
             u.inp_end = 1;
             u.error = 1;
@@ -301,8 +301,8 @@ namespace SharpDisasm.Udis86
 
         byte vex_l(ref ud u)
         {
-          Debug.Assert(u.vex_op != 0);
-          return (byte)(((u.vex_op == 0xc4 ? u.vex_b2 : u.vex_b1) >> 2) & 1);
+            Debug.Assert(u.vex_op != 0);
+            return (byte)(((u.vex_op == 0xc4 ? u.vex_b2 : u.vex_b1) >> 2) & 1);
         }
         byte vex_w(ref ud u)
         {
@@ -757,10 +757,10 @@ namespace SharpDisasm.Udis86
         void
         decode_vex_vvvv(ref ud u, ref ud_operand opr, ud_operand_size size)
         {
-          byte vvvv;
-          Debug.Assert(u.vex_op != 0);
-          vvvv = (byte)(((u.vex_op == 0xc4 ? u.vex_b2 : u.vex_b1) >> 3) & 0xf);
-          decode_reg(ref u, ref opr, reg_class.REGCLASS_XMM, (byte)(0xf & ~vvvv), size);
+            byte vvvv;
+            Debug.Assert(u.vex_op != 0);
+            vvvv = (byte)(((u.vex_op == 0xc4 ? u.vex_b2 : u.vex_b1) >> 3) & 0xf);
+            decode_reg(ref u, ref opr, reg_class.REGCLASS_XMM, (byte)(0xf & ~vvvv), size);
         }
 
         /* 
@@ -770,12 +770,12 @@ namespace SharpDisasm.Udis86
         int
         decode_vex_immreg(ref ud u, ref ud_operand opr, ud_operand_size size)
         {
-          byte imm  = (byte)inp_next(ref u);
-          byte mask = (byte)(u.dis_mode == 64 ? 0xf : 0x7);
-          if (u.error != 0) return u.error;
-          Debug.Assert(u.vex_op != 0);
-          decode_reg(ref u, ref opr, reg_class.REGCLASS_XMM, (byte)(mask & (imm >> 4)), size);
-          return 0;
+            byte imm = (byte)inp_next(ref u);
+            byte mask = (byte)(u.dis_mode == 64 ? 0xf : 0x7);
+            if (u.error != 0) return u.error;
+            Debug.Assert(u.vex_op != 0);
+            decode_reg(ref u, ref opr, reg_class.REGCLASS_XMM, (byte)(mask & (imm >> 4)), size);
+            return 0;
         }
 
         ud_operand_size Mx_mem_size(int size)
@@ -1228,32 +1228,39 @@ namespace SharpDisasm.Udis86
         int
         decode_vex(ref ud u)
         {
-          byte index;
-          if (u.dis_mode != 64 && BitOps.MODRM_MOD((byte)inp_peek(ref u)) != 0x3) {
-            index = 0;
-          } else {
-            u.vex_op = (byte)inp_curr(ref u);
-            u.vex_b1 = (byte)inp_next(ref u);
-            if (u.vex_op == 0xc4) {
-              byte pp, m;
-              /* 3-byte vex */
-              u.vex_b2 = inp_next(ref u);
-              if (u.error != 0) return u.error;
-
-              m  = (byte)(u.vex_b1 & 0x1f);
-              if (m == 0 || m > 3) {
-                  u.error = 1;
-                  u.errorMessage = "decode-error: reserved vex.m-mmmm value";
-              }
-              pp = (byte)(u.vex_b2 & 0x3);
-              index = (byte)((pp << 2) | m);
-            } else {
-              /* 2-byte vex */
-              Debug.Assert(u.vex_op == 0xc5);
-              index = (byte)(0x1 | ((u.vex_b1 & 0x3) << 2));
+            byte index;
+            if (u.dis_mode != 64 && BitOps.MODRM_MOD((byte)inp_peek(ref u)) != 0x3)
+            {
+                index = 0;
             }
-          }
-          return decode_ext(ref u, u.le.Table[index]); 
+            else
+            {
+                u.vex_op = (byte)inp_curr(ref u);
+                u.vex_b1 = (byte)inp_next(ref u);
+                if (u.vex_op == 0xc4)
+                {
+                    byte pp, m;
+                    /* 3-byte vex */
+                    u.vex_b2 = inp_next(ref u);
+                    if (u.error != 0) return u.error;
+
+                    m = (byte)(u.vex_b1 & 0x1f);
+                    if (m == 0 || m > 3)
+                    {
+                        u.error = 1;
+                        u.errorMessage = "decode-error: reserved vex.m-mmmm value";
+                    }
+                    pp = (byte)(u.vex_b2 & 0x3);
+                    index = (byte)((pp << 2) | m);
+                }
+                else
+                {
+                    /* 2-byte vex */
+                    Debug.Assert(u.vex_op == 0xc5);
+                    index = (byte)(0x1 | ((u.vex_b1 & 0x3) << 2));
+                }
+            }
+            return decode_ext(ref u, u.le.Table[index]);
         }
 
 

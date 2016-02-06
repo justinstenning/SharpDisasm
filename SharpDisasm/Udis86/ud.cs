@@ -39,6 +39,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using SharpDisasm.Helpers;
+
 #pragma warning disable 1591
 namespace SharpDisasm.Udis86
 {
@@ -46,40 +48,22 @@ namespace SharpDisasm.Udis86
     public delegate string UdSymbolResolverDelegate(ref ud ud, long addr, ref long offset);
     public delegate int UdInputCallback(ref ud ud);
 
-    public sealed unsafe class ud : IDisposable
+    public sealed class ud
     {
-  /*
-   * input buffering
-   */
+        /*
+         * input buffering
+         */
         //public int (*inp_hook) (struct ud*);
         public UdInputCallback inp_hook;
 
-        /// <summary>
-        /// Returns a pointer to the source buffer (either inp_buf or inp_sess)
-        /// </summary>
-        public IntPtr inp_bufPtr
-        {
-            get
-            {
-                if (inp_buf != null)
-                {
-                    return new IntPtr(inp_buf);
-                }
-                else
-                {
-                    return _inputSessionPinner;
-                }
-            }
-        }
-        internal byte * inp_buf = null;
+        public IAssemblyCode inp_buf;
         public System.IO.FileStream inp_file = null;
-        public int    inp_buf_size;
-        public int    inp_buf_index;
-        public byte   inp_curr;
-        public int    inp_ctr;
-        public byte[] inp_sess = new byte[64];
-        public int    inp_end;
-        public int    inp_peek;
+        public int inp_buf_size;
+        public int inp_buf_index;
+        public byte inp_curr;
+        public int inp_ctr;
+        public int inp_end;
+        public int inp_peek;
 
         //void      (*translator)(struct ud*);
         public UdTranslatorDelegate translator;
@@ -91,8 +75,8 @@ namespace SharpDisasm.Udis86
         * Assembly output buffer
         */
         public char[] asm_buf;
-        public int    asm_buf_size;
-        public int    asm_buf_fill;
+        public int asm_buf_size;
+        public int asm_buf_fill;
         public char[] asm_buf_int = new char[128];
 
         /*
@@ -101,12 +85,12 @@ namespace SharpDisasm.Udis86
         //const char* (*sym_resolver)(struct ud*, uint64_t addr, int64_t *offset);
         public UdSymbolResolverDelegate sym_resolver;
 
-        public byte   dis_mode;
+        public byte dis_mode;
         public UInt64 pc;
-        public byte   vendor;
+        public byte vendor;
         public ud_mnemonic_code mnemonic;
         public ud_operand[] operand = new ud_operand[4];
-        public byte   error;
+        public byte error;
         public string errorMessage;
         public byte _rex;
         public byte pfx_rex;
@@ -129,44 +113,17 @@ namespace SharpDisasm.Udis86
         public byte vex_b1;
         public byte vex_b2;
         public byte primary_opcode;
-        public IntPtr user_opaque_data;
         public ud_itab_entry itab_entry;
         public ud_lookup_table_list_entry le;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ud"/> class.
+        /// </summary>
         public ud()
         {
-            _inputSessionPinner = new AutoPinner(inp_sess);
+            inp_buf = new AssemblyCodeArray(new byte[64]);
         }
 
-        /// <summary>
-        /// Keeps a reference to the input session array
-        /// </summary>
-        internal AutoPinner _inputSessionPinner;
-
-        /// <summary>
-        /// Frees the pinned buffer
-        /// </summary>
-        void CleanupPinners()
-        {
-            if (_inputSessionPinner != null)
-            {
-                _inputSessionPinner.Dispose();
-                _inputSessionPinner = null;
-            }
-        }
-
-        ~ud()
-        {
-            Dispose();
-        }
-
-        /// <summary>
-        /// Cleanup unmanaged resources
-        /// </summary>
-        public void Dispose()
-        {
-            CleanupPinners();
-        }
     }
 }
 #pragma warning restore 1591

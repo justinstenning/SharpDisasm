@@ -39,6 +39,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using SharpDisasm.Helpers;
+
 namespace SharpDisasm
 {
     /// <summary>
@@ -48,7 +50,7 @@ namespace SharpDisasm
     {
         #region Public field members
         /// <summary>
-        /// The address offset for the <see cref="Code"/>.
+        /// The address
         /// </summary>
         public readonly ulong Address;
 
@@ -61,7 +63,7 @@ namespace SharpDisasm
         /// Copies the source binary to the decoded instructions. When true this option increases the memory required for each decoded instruction.
         /// </summary>
         public readonly bool CopyBinaryToInstruction = false;
-        
+
         /// <summary>
         /// Which vendor instructions to support for disassembly. Options are AMD, Intel or Any.
         /// </summary>
@@ -74,25 +76,7 @@ namespace SharpDisasm
         /// </summary>
         private Udis86.ud _u = new Udis86.ud();
 
-        /// <summary>
-        /// The binary code to be disassembled provided as a byte array.
-        /// </summary>
-        private readonly byte[] Code;
-
-        /// <summary>
-        /// Used to pin the <see cref="Code"/> byte array (if provided).
-        /// </summary>
-        private AutoPinner _pinnedCodeArray;
-
-        /// <summary>
-        /// A pointer to the code to be disassembled (e.g. a pointer to a function in memory)
-        /// </summary>
-        private readonly IntPtr CodePtr;
-
-        /// <summary>
-        /// The maximum length of the code in memory to be disassembled <see cref="CodePtr"/>
-        /// </summary>
-        private readonly int CodeLength;
+        private IAssemblyCode code;
 
         #endregion
 
@@ -107,6 +91,26 @@ namespace SharpDisasm
         public int BytesDecoded { get; private set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Disassembler"/> class.
+        /// </summary>
+        /// <param name="code">The code.</param>
+        /// <param name="architecture">The architecture.</param>
+        /// <param name="address">The address.</param>
+        /// <param name="copyBinaryToInstruction">if set to <c>true</c> [copy binary to instruction].</param>
+        /// <param name="vendor">The vendor.</param>
+        public Disassembler(IAssemblyCode code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
+        {
+            this.code = code;
+
+            this.Architecture = architecture;
+            this.Address = address;
+            this.CopyBinaryToInstruction = copyBinaryToInstruction;
+            this.Vendor = vendor;
+
+            InitUdis86();
+        }
+
+        /// <summary>
         /// Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
         /// </summary>
         /// <param name="code">The code to be disassembled</param>
@@ -115,20 +119,8 @@ namespace SharpDisasm
         /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
         /// <param name="vendor">What vendor instructions to support during disassembly, default is Any. Other options are AMD or Intel.</param>
         public Disassembler(byte[] code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
+            : this(new AssemblyCodeArray(code), architecture, address, copyBinaryToInstruction, vendor)
         {
-            this.Code = code;
-            if (code != null)
-            {
-                _pinnedCodeArray = new AutoPinner(Code);
-                this.CodePtr = _pinnedCodeArray;
-                this.CodeLength = Code.Length;
-            }
-            this.Architecture = architecture;
-            this.Address = address;
-            this.CopyBinaryToInstruction = copyBinaryToInstruction;
-            this.Vendor = vendor;
-
-            InitUdis86();
         }
 
         /// <summary>
@@ -141,15 +133,12 @@ namespace SharpDisasm
         /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
         /// <param name="vendor">What vendors to support for disassembly, default is Any. Other options are AMD or Intel.</param>
         public Disassembler(IntPtr codePtr, int codeLength, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
-            : this(null, architecture, address, copyBinaryToInstruction, vendor)
+            : this(new AssemblyCodeMemory(codePtr, codeLength), architecture, address, copyBinaryToInstruction, vendor)
         {
             if (codePtr == IntPtr.Zero)
                 throw new ArgumentOutOfRangeException("codePtr");
             if (codeLength <= 0)
                 throw new ArgumentOutOfRangeException("codeLength", "Code length must be larger than 0.");
-            
-            this.CodePtr = codePtr;
-            this.CodeLength = codeLength;
         }
 
         /// <summary>
@@ -160,7 +149,7 @@ namespace SharpDisasm
             // reset _u and initialise
             Udis86.udis86.ud_init(ref _u);
             // set input buffer
-            Udis86.udis86.ud_set_input_buffer(ref _u, this.CodePtr, this.CodeLength);
+            Udis86.udis86.ud_set_input_buffer(ref _u, this.code);
             // set architecture
             Udis86.udis86.ud_set_mode(ref _u, (byte)this.Architecture);
             // set program counter
@@ -225,11 +214,11 @@ namespace SharpDisasm
         /// </summary>
         public void Dispose()
         {
-            if (_pinnedCodeArray != null)
-            {
-                _pinnedCodeArray.Dispose();
-                _pinnedCodeArray = null;
-            }
+            //if (_pinnedCodeArray != null)
+            //{
+            //	_pinnedCodeArray.Dispose();
+            //	_pinnedCodeArray = null;
+            //}
         }
     }
 }
