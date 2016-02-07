@@ -53,7 +53,7 @@ namespace SharpDisasm
         /// Instruction Offset
         /// </summary>
         public ulong Offset { get; private set; }
-        
+
         /// <summary>
         /// Program counter
         /// </summary>
@@ -68,12 +68,12 @@ namespace SharpDisasm
         /// Mnemonic
         /// </summary>
         public SharpDisasm.Udis86.ud_mnemonic_code Mnemonic { get; private set; }
-        
+
         /// <summary>
         /// The instruction operands (maximum 3)
         /// </summary>
         public Operand[] Operands { get; private set; }
-        
+
         /// <summary>
         /// The length of the instruction in bytes
         /// </summary>
@@ -83,7 +83,7 @@ namespace SharpDisasm
         /// Indicates whether the instruction was successfully decoded.
         /// </summary>
         public bool Error { get; private set; }
-        
+
         /// <summary>
         /// The reason an instruction was not successfully decoded.
         /// </summary>
@@ -94,69 +94,69 @@ namespace SharpDisasm
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_rex;
+        internal byte pfx_rex;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_seg;
+        internal byte pfx_seg;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_opr;
+        internal byte pfx_opr;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_adr;
+        internal byte pfx_adr;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_lock;
+        internal byte pfx_lock;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_str;
+        internal byte pfx_str;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_rep;
+        internal byte pfx_rep;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_repe;
+        internal byte pfx_repe;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte pfx_repne;
-        
+        internal byte pfx_repne;
+
         /// <summary>
         /// The operand mode (16-,32-, or 64-bit), i.e. we could be reading a 16-bit value from a 32-bit address, in which case opr_mode would be 16, while adr_mode would be 32.
         /// </summary>
-        public byte opr_mode;
-        
+        internal byte opr_mode;
+
         /// <summary>
         /// The memory addressing mode of the instruction (16-,32-, or 64-bit)
         /// </summary>
-        public byte adr_mode;
+        internal byte adr_mode;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte br_far;
+        internal byte br_far;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte br_near;
+        internal byte br_near;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte have_modrm;
+        internal byte have_modrm;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte modrm;
+        internal byte modrm;
         /// <summary>
         /// Low-level decode information
         /// </summary>
-        public byte primary_opcode;
+        internal byte primary_opcode;
 
         #endregion
 
@@ -164,11 +164,11 @@ namespace SharpDisasm
         /// The instruction architecture as configured within the constructor of <see cref="Disassembler"/>
         /// </summary>
         public ArchitectureMode dis_mode;
-        
+
         /// <summary>
         /// The instruction table entry that applies to this instruction
         /// </summary>
-        public SharpDisasm.Udis86.ud_itab_entry itab_entry;
+        internal SharpDisasm.Udis86.ud_itab_entry itab_entry;
 
         internal Instruction(ref Udis86.ud u, bool keepBinary)
         {

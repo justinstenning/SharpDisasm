@@ -13,24 +13,24 @@
 // All rights reserved.
 // UDIS86: https://github.com/vmt/udis86
 //
-// Redistribution and use in source and binary forms, with or without modification, 
+// Redistribution and use in source and binary forms, with or without modification,
 // are permitted provided that the following conditions are met:
-// 
-// 1. Redistributions of source code must retain the above copyright notice, 
+//
+// 1. Redistributions of source code must retain the above copyright notice,
 //    this list of conditions and the following disclaimer.
-// 2. Redistributions in binary form must reproduce the above copyright notice, 
-//    this list of conditions and the following disclaimer in the documentation 
+// 2. Redistributions in binary form must reproduce the above copyright notice,
+//    this list of conditions and the following disclaimer in the documentation
 //    and/or other materials provided with the distribution.
-// 
-// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
-// ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
-// WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-// DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR 
-// ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
-// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
-// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON 
-// ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
-// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+// ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+// WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+// DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+// ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+// ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // --------------------------------------------------------------------------------
 
@@ -49,6 +49,7 @@ namespace SharpDisasm
     public sealed class Disassembler : IDisposable
     {
         #region Public field members
+
         /// <summary>
         /// The address
         /// </summary>
@@ -68,15 +69,22 @@ namespace SharpDisasm
         /// Which vendor instructions to support for disassembly. Options are AMD, Intel or Any.
         /// </summary>
         public readonly Vendor Vendor;
+
+        /// <summary>
+        /// The offset
+        /// </summary>
+        public readonly ulong Offset;
+
         #endregion
 
         #region Private field members
+
+        private readonly IAssemblyCode Code;
+
         /// <summary>
         /// The udis86 ud structure used during disassembly.
         /// </summary>
         private Udis86.ud _u = new Udis86.ud();
-
-        private IAssemblyCode code;
 
         #endregion
 
@@ -91,35 +99,38 @@ namespace SharpDisasm
         public int BytesDecoded { get; private set; }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Disassembler"/> class.
+        /// Initializes a new instance of the <see cref="Disassembler" /> class.
         /// </summary>
         /// <param name="code">The code.</param>
         /// <param name="architecture">The architecture.</param>
+        /// <param name="offset">The offset.</param>
         /// <param name="address">The address.</param>
         /// <param name="copyBinaryToInstruction">if set to <c>true</c> [copy binary to instruction].</param>
         /// <param name="vendor">The vendor.</param>
-        public Disassembler(IAssemblyCode code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
+        public Disassembler(IAssemblyCode code, ArchitectureMode architecture, ulong offset = 0x0, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
         {
-            this.code = code;
+            this.Code = code;
 
             this.Architecture = architecture;
             this.Address = address;
             this.CopyBinaryToInstruction = copyBinaryToInstruction;
             this.Vendor = vendor;
+            this.Offset = offset;
 
             InitUdis86();
         }
 
         /// <summary>
-        /// Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
+        /// Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="Disassemble" />. The base address used to resolve relative addresses should be provided in <paramref name="address" />.
         /// </summary>
         /// <param name="code">The code to be disassembled</param>
         /// <param name="architecture">The target x86 instruction set architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
         /// <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
-        /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
+        /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary" /> option.</param>
         /// <param name="vendor">What vendor instructions to support during disassembly, default is Any. Other options are AMD or Intel.</param>
-        public Disassembler(byte[] code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
-            : this(new AssemblyCodeArray(code), architecture, address, copyBinaryToInstruction, vendor)
+        /// <param name="offset">The offset.</param>
+        public Disassembler(byte[] code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any, ulong offset = 0)
+            : this(new AssemblyCodeArray(code), architecture, offset, address, copyBinaryToInstruction, vendor)
         {
         }
 
@@ -133,7 +144,7 @@ namespace SharpDisasm
         /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
         /// <param name="vendor">What vendors to support for disassembly, default is Any. Other options are AMD or Intel.</param>
         public Disassembler(IntPtr codePtr, int codeLength, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
-            : this(new AssemblyCodeMemory(codePtr, codeLength), architecture, address, copyBinaryToInstruction, vendor)
+            : this(new AssemblyCodeMemory(codePtr, codeLength), architecture, 0, address, copyBinaryToInstruction, vendor)
         {
             if (codePtr == IntPtr.Zero)
                 throw new ArgumentOutOfRangeException("codePtr");
@@ -149,13 +160,15 @@ namespace SharpDisasm
             // reset _u and initialise
             Udis86.udis86.ud_init(ref _u);
             // set input buffer
-            Udis86.udis86.ud_set_input_buffer(ref _u, this.code);
+            Udis86.udis86.ud_set_input_buffer(ref _u, this.Code);
             // set architecture
             Udis86.udis86.ud_set_mode(ref _u, (byte)this.Architecture);
             // set program counter
             Udis86.udis86.ud_set_pc(ref _u, Address);
             // set the vendor
             Udis86.udis86.ud_set_vendor(ref _u, (int)Vendor);
+
+            _u.inp_buf_index = (int)Offset;
         }
 
         /// <summary>
@@ -179,7 +192,7 @@ namespace SharpDisasm
         {
             InitUdis86();
             BytesDecoded = 0;
-            _u.inp_buf_index = 0;
+            _u.inp_buf_index = (int)Offset;
         }
 
         /// <summary>

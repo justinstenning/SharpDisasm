@@ -346,6 +346,11 @@
             Which vendor instructions to support for disassembly. Options are AMD, Intel or Any.
             </summary>
         </member>
+        <member name="F:SharpDisasm.Disassembler.Offset">
+            <summary>
+            The offset
+            </summary>
+        </member>
         <member name="F:SharpDisasm.Disassembler._u">
             <summary>
             The udis86 ud structure used during disassembly.
@@ -356,17 +361,18 @@
             The translator that will be used when calling <see cref="M:SharpDisasm.Instruction.ToString"/>.
             </summary>
         </member>
-        <member name="M:SharpDisasm.Disassembler.#ctor(SharpDisasm.IAssemblyCode,SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
+        <member name="M:SharpDisasm.Disassembler.#ctor(SharpDisasm.IAssemblyCode,SharpDisasm.ArchitectureMode,System.UInt64,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
             <summary>
             Initializes a new instance of the <see cref="T:SharpDisasm.Disassembler"/> class.
             </summary>
             <param name="code">The code.</param>
             <param name="architecture">The architecture.</param>
+            <param name="offset">The offset.</param>
             <param name="address">The address.</param>
             <param name="copyBinaryToInstruction">if set to <c>true</c> [copy binary to instruction].</param>
             <param name="vendor">The vendor.</param>
         </member>
-        <member name="M:SharpDisasm.Disassembler.#ctor(System.Byte[],SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
+        <member name="M:SharpDisasm.Disassembler.#ctor(System.Byte[],SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor,System.UInt64)">
             <summary>
             Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="M:SharpDisasm.Disassembler.Disassemble"/>. The base address used to resolve relative addresses should be provided in <paramref name="address"/>.
             </summary>
@@ -375,6 +381,7 @@
             <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
             <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="P:SharpDisasm.Translators.Translator.IncludeBinary"/> option.</param>
             <param name="vendor">What vendor instructions to support during disassembly, default is Any. Other options are AMD or Intel.</param>
+            <param name="offset">The offset.</param>
         </member>
         <member name="M:SharpDisasm.Disassembler.#ctor(System.IntPtr,System.Int32,SharpDisasm.ArchitectureMode,System.UInt64,System.Boolean,SharpDisasm.Vendor)">
             <summary>
@@ -802,13 +809,6 @@
             </summary>
             <param name="u">The u.</param>
             <param name="code">The code.</param>
-        </member>
-        <member name="M:SharpDisasm.Udis86.udis86.ud_set_input_file(SharpDisasm.Udis86.ud@,System.IO.FileStream)">
-            <summary>
-            Set file as input for disassembly.
-            </summary>
-            <param name="u"></param>
-            <param name="file">File stream that will be read from. The stream must support reading.</param>
         </member>
         <member name="T:SharpDisasm.Udis86.ud_itab_entry">
             <summary>

@@ -46,30 +46,21 @@ namespace SharpDisasm.Udis86
 {
     public delegate void UdTranslatorDelegate(ref ud ud);
     public delegate string UdSymbolResolverDelegate(ref ud ud, long addr, ref long offset);
-    public delegate int UdInputCallback(ref ud ud);
 
     public sealed class ud
     {
-        /*
-         * input buffering
-         */
-        //public int (*inp_hook) (struct ud*);
-        public UdInputCallback inp_hook;
-
         public IAssemblyCode inp_buf;
-        public System.IO.FileStream inp_file = null;
-        public int inp_buf_size;
+        public int inp_buf_size { get { return inp_buf.Length; } }
+
         public int inp_buf_index;
         public byte inp_curr;
         public int inp_ctr;
         public int inp_end;
         public int inp_peek;
 
-        //void      (*translator)(struct ud*);
         public UdTranslatorDelegate translator;
 
         public ulong insn_offset;
-        //public char[] insn_hexcode = new char[64];
 
         /*
         * Assembly output buffer
@@ -82,7 +73,6 @@ namespace SharpDisasm.Udis86
         /*
         * Symbol resolver for use in the translation phase.
         */
-        //const char* (*sym_resolver)(struct ud*, uint64_t addr, int64_t *offset);
         public UdSymbolResolverDelegate sym_resolver;
 
         public byte dis_mode;
