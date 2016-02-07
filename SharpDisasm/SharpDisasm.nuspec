@@ -28,6 +28,9 @@ It features:
 Usage: http://sharpdisasm.codeplex.com/documentation</description>
         <summary>A C# port of the udis86 x86 disassembler.</summary>
         <releaseNotes>$version$
+1.1.5
+1. Use of unsafe replaced with an assembly code reader interface
+1.0.2
 1. Full port of udis86 C-library into C#
 2. Wrapper class Disassembler for those not familiar with the libudis86 C-library</releaseNotes>
         <copyright>Copyright (c) 2015 Justin Stenning</copyright>

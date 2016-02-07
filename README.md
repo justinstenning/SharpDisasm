@@ -3,7 +3,7 @@ SharpDisasm
 
 SharpDisam is a C# disassembler able to decode binary executable code for the x86 and x86-64 CPU architectures into disassembled instructions.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/vpqkaxrpceg7esgo?svg=true)](https://ci.appveyor.com/project/spazzarama/sharpdisam)
+[![Build status](https://ci.appveyor.com/api/projects/status/vpqkaxrpceg7esgo?svg=true)](https://ci.appveyor.com/project/spazzarama/sharpdisasm)
 
 About
 -----
