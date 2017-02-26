@@ -13,24 +13,24 @@
 // All rights reserved.
 // UDIS86: https://github.com/vmt/udis86
 //
-// Redistribution and use in source and binary forms, with or without modification, 
+// Redistribution and use in source and binary forms, with or without modification,
 // are permitted provided that the following conditions are met:
-// 
-// 1. Redistributions of source code must retain the above copyright notice, 
+//
+// 1. Redistributions of source code must retain the above copyright notice,
 //    this list of conditions and the following disclaimer.
-// 2. Redistributions in binary form must reproduce the above copyright notice, 
-//    this list of conditions and the following disclaimer in the documentation 
+// 2. Redistributions in binary form must reproduce the above copyright notice,
+//    this list of conditions and the following disclaimer in the documentation
 //    and/or other materials provided with the distribution.
-// 
-// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
-// ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
-// WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
-// DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR 
-// ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
-// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
-// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON 
-// ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
-// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+// ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+// WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+// DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+// ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+// ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // --------------------------------------------------------------------------------
 
@@ -79,7 +79,7 @@ namespace SharpDisasm.Udis86
 
         /* =============================================================================
          * ud_disassemble
-         *    Disassembles one instruction and returns the number of 
+         *    Disassembles one instruction and returns the number of
          *    bytes disassembled. A zero means end of disassembly.
          * =============================================================================
          */
@@ -156,7 +156,7 @@ namespace SharpDisasm.Udis86
         }
 
         /* =============================================================================
-         * ud_set_pc() - Sets code origin. 
+         * ud_set_pc() - Sets code origin.
          * =============================================================================
          */
         /// <summary>
@@ -226,28 +226,19 @@ namespace SharpDisasm.Udis86
         static string
         ud_insn_hex(ref ud u)
         {
-            //u.insn_hexcode[0] = '\0';
-            StringBuilder src_hex = new StringBuilder();
+            var src_hex = new StringBuilder();
+
             if (u.error == 0)
             {
                 int i;
-                IAssemblyCode src_ptr = ud_insn_ptr(ref u);
+                var src_ptr = ud_insn_ptr(ref u);
                 unsafe
                 {
-                    //byte* src = (byte*)src_ptr.ToPointer();
                     for (i = 0; i < ud_insn_len(ref u); i++)
                     {
                         src_hex.AppendFormat("{0:2X", src_ptr[i]);
                     }
                 }
-                //byte[] src_ptr = ud_insn_ptr(ref u);
-                // //char[] src_hex;
-                // /* for each byte used to decode instruction */
-                //for (i = 0; i < src_ptr.Length; // && i < u.insn_hexcode.Length / 2;
-                //     ++i)
-                //{
-                //    src_hex.Append(String.Format("{0:2x}", src_ptr[i] & 0xFF));
-                //}
             }
             return src_hex.ToString();
         }
@@ -435,35 +426,20 @@ namespace SharpDisasm.Udis86
         }
 
 
-        /* 
+        /*
          * ud_inp_init
          *    Initializes the input system.
          */
         static unsafe void
         ud_inp_init(ref ud u)
         {
-            u.inp_hook = null;
-            u.inp_buf = null;
-            u.inp_buf_size = 0;
-            u.inp_buf_index = 0;
+            //u.inp_buf = null;
+            //u.inp_buf_index = 0;
             u.inp_curr = 0;
             u.inp_ctr = 0;
             u.inp_end = 0;
             u.inp_peek = Decode.UD_EOI;
             //UD_NON_STANDALONE(u.inp_file = NULL);
-        }
-
-
-        /* =============================================================================
-         * ud_inp_set_hook
-         *    Sets input hook.
-         * =============================================================================
-         */
-        static void
-        ud_set_input_hook(ref ud u, UdInputCallback hook)
-        {
-            ud_inp_init(ref u);
-            u.inp_hook = hook;
         }
 
         /* =============================================================================
@@ -480,36 +456,8 @@ namespace SharpDisasm.Udis86
         {
             ud_inp_init(ref u);
             u.inp_buf = code;
-            u.inp_buf_size = code.Length;
             u.inp_buf_index = 0;
         }
-
-        //#ifndef __UD_STANDALONE__
-        /* =============================================================================
-         * ud_input_set_file
-         *    Set FILE as input.
-         * =============================================================================
-         */
-        static int
-        inp_file_hook(ref ud u)
-        {
-            return u.inp_file.ReadByte();// fgetc(u.inp_file);
-        }
-
-        /// <summary>
-        /// Set file as input for disassembly.
-        /// </summary>
-        /// <param name="u"></param>
-        /// <param name="file">File stream that will be read from. The stream must support reading.</param>
-        public static void
-        ud_set_input_file(ref ud u, System.IO.FileStream file)
-        {
-            ud_inp_init(ref u);
-            u.inp_hook = inp_file_hook;
-            u.inp_file = file;
-        }
-        //#endif /* __UD_STANDALONE__ */
-
 
         /* =============================================================================
          * ud_input_skip
@@ -522,29 +470,15 @@ namespace SharpDisasm.Udis86
             {
                 return;
             }
-            if (u.inp_buf == null)
+
+            if (n > u.inp_buf_size ||
+                u.inp_buf_index > u.inp_buf_size - n)
             {
-                while (n-- > 0)
-                {
-                    int c = u.inp_hook(ref u);
-                    if (c == Decode.UD_EOI)
-                    {
-                        goto eoi;
-                    }
-                }
-                return;
+                u.inp_buf_index = u.inp_buf_size;
+                goto eoi;
             }
-            else
-            {
-                if (n > u.inp_buf_size ||
-                    u.inp_buf_index > u.inp_buf_size - n)
-                {
-                    u.inp_buf_index = u.inp_buf_size;
-                    goto eoi;
-                }
-                u.inp_buf_index += n;
-                return;
-            }
+            u.inp_buf_index += n;
+            return;
         eoi:
             u.inp_end = 1;
             u.error = 1;
