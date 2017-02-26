@@ -71,25 +71,9 @@ namespace SharpDisasm.Udis86
         {
             if (u.inp_end == 0)
             {
-                if (u.inp_buf != null)
+                if (u.inp_buf_index < u.inp_buf_size)
                 {
-                    if (u.inp_buf_index < u.inp_buf_size)
-                    {
-                        return u.inp_buf[u.inp_buf_index];
-                    }
-                }
-                else if (u.inp_peek != UD_EOI)
-                {
-                    return u.inp_peek;
-                }
-                else
-                {
-                    int c;
-                    if ((c = u.inp_hook(ref u)) != UD_EOI)
-                    {
-                        u.inp_peek = c;
-                        return u.inp_peek;
-                    }
+                    return u.inp_buf[u.inp_buf_index];
                 }
             }
             u.inp_end = 1;
@@ -102,25 +86,11 @@ namespace SharpDisasm.Udis86
         {
             if (u.inp_end == 0)
             {
-                //if (u.inp_buf != null)
-                //{
                 if (u.inp_buf_index < u.inp_buf_size)
                 {
                     u.inp_ctr++;
                     return (u.inp_curr = u.inp_buf[u.inp_buf_index++]);
                 }
-                //}
-                //else
-                //{
-                //	int c = u.inp_peek;
-                //	if ((c = u.inp_hook(ref u)) != UD_EOI)
-                //	{
-                //		u.inp_peek = UD_EOI;
-                //		u.inp_curr = (byte)c;
-                //		u.inp_sess[u.inp_ctr++] = u.inp_curr;
-                //		return u.inp_curr;
-                //	}
-                //}
             }
             u.inp_end = 1;
             u.error = 1;

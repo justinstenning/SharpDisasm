@@ -169,7 +169,7 @@ namespace SharpDisasm.Tests
                 }
             }
 
-            var disasm = new Disassembler(mem, len, ArchitectureMode.x86_64, 0, false);
+            var disasm = new Disassembler(mem, len, ArchitectureMode.x86_64, (ulong)mem.ToInt64(), false);
 
             Stopwatch sw = new Stopwatch();
             int instructionCount = 0;
