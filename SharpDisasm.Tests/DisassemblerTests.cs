@@ -281,6 +281,21 @@ namespace SharpDisasm.Tests
         }
 
         [TestMethod]
+        public void DisassembleInvalidNumberOfOperands()
+        {
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
+                    0xc4, 0xdb, 0x04
+                },
+                ArchitectureMode.x86_32, 0, false);
+            Assert.AreEqual(disasm.Disassemble().Last().Mnemonic, Udis86.ud_mnemonic_code.UD_Iinvalid);
+            foreach (var ins in disasm.Disassemble())
+            {
+                Assert.IsTrue(ins.Error);
+                Debug.WriteLine(ins.ToString());
+            }
+        }
+
+        [TestMethod]
         public void DisassembleTests()
         {
             var disasm = new SharpDisasm.Disassembler(new byte[] {
@@ -386,6 +401,21 @@ namespace SharpDisasm.Tests
             Disassembler.Translator.IncludeBinary = true;
 
             results = disasm.Disassemble().ToArray();
+            foreach (var ins in results)
+            {
+                Debug.WriteLine(ins.ToString());
+            }
+        }
+
+        [TestMethod]
+        public void DisassemblerPrintIntelUnexpectedPrefix()
+        {
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
+                0x2e,                                   // cs prefix has no meaning in 'outsd' context
+                0x6f                                    // outsd
+            }, ArchitectureMode.x86_64, 0, true);
+
+            var results = disasm.Disassemble().ToArray();
             foreach (var ins in results)
             {
                 Debug.WriteLine(ins.ToString());
