@@ -28,6 +28,11 @@ It features:
 Usage: http://sharpdisasm.codeplex.com/documentation</description>
         <summary>A C# port of the udis86 x86 disassembler.</summary>
         <releaseNotes>$version$
+1. Added support for offset into IAssemblyCode
+2. Fix exceptions on invalid instructions (contributed by ste-art)
+3. Fix ATT syntax for enter/bound mnemonics being dropped
+4. Translator internals refactored (better code reuse)
+5. A few Debug.Asserts replaced with exceptions for Translator and Instruction.ToString
 1.1.5
 1. Use of unsafe replaced with an assembly code reader interface
 1.0.2

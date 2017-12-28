@@ -508,5 +508,16 @@ namespace SharpDisasm.Tests
                 SharpDisasm.Disassembler.Translator = defaultTranslator;
             }
         }
+
+        [TestMethod]
+        public void DisassemblerPrintATTSyntaxBound()
+        {
+            var disasm = new SharpDisasm.Disassembler(new byte[]
+            {
+                    0x62, 0x05, 0x01, 0x00, 0x00, 0x00
+            }, ArchitectureMode.x86_32, 0, true);
+            var boundInstr = disasm.Disassemble().First();
+            Assert.IsTrue(boundInstr.ToString().Contains("bound"));
+        }
     }
 }
