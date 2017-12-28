@@ -1219,6 +1219,7 @@ namespace SharpDisasm.Udis86
                     {
                         u.error = 1;
                         u.errorMessage = "decode-error: reserved vex.m-mmmm value";
+                        return u.error;
                     }
                     pp = (byte)(u.vex_b2 & 0x3);
                     index = (byte)((pp << 2) | m);

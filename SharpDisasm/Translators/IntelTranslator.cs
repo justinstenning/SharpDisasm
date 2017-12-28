@@ -220,6 +220,7 @@ namespace SharpDisasm.Translators
             }
 
             if (insn.pfx_seg > 0 &&
+                insn.Operands.Length > 1 &&
                 insn.Operands[0].Type != ud_type.UD_OP_MEM &&
                 insn.Operands[1].Type != ud_type.UD_OP_MEM)
             {
