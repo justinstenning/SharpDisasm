@@ -53,7 +53,7 @@ namespace SharpDisasm.Helpers
 		/// <param name="offset">The offset.</param>
 		/// <param name="length">The length.</param>
 		/// <returns></returns>
-		public static byte[] CopyToBytes(IAssemblyCode source, int offset, int length)
+		public static byte[] CopyToBytes(this IAssemblyCode source, int offset, int length)
 		{
 			var bytes = new byte[length];
 
@@ -72,9 +72,9 @@ namespace SharpDisasm.Helpers
 		/// <param name="offset">The offset.</param>
 		/// <param name="length">The length.</param>
 		/// <returns></returns>
-		public static IAssemblyCode Copy(IAssemblyCode source, int offset, int length)
+		public static IAssemblyCode Copy(this IAssemblyCode source, int offset, int length)
 		{
-			return new AssemblyCodeArray(CopyToBytes(source, offset, length));
+			return new AssemblyCodeArray(source.CopyToBytes(offset, length));
 		}
 	}
 }

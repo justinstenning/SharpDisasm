@@ -74,19 +74,97 @@ namespace SharpDisasm.Translators
         public SymbolResolverDelegate SymbolResolver { get; set; }
 
         /// <summary>
-        /// Abstract method to translate multiple instructions. Classes implementing this method must reset the protected <see cref="Content"/> member instance and cleanup.
+        /// Translate a list of instructions separated by <see cref="Environment.NewLine"/>.
         /// </summary>
-        /// <param name="insns">Collection of instructions to be translated</param>
-        /// <returns>The result of the translated instructions</returns>
-        public abstract string Translate(IEnumerable<Instruction> insns);
+        /// <param name="insns">The instructions to translate</param>
+        /// <returns>Each of the translated instructions separated by <see cref="Environment.NewLine"/></returns>
+        public virtual string Translate(IEnumerable<Instruction> insns)
+        {
+            Content.Length = 0;
+            bool first = true;
+            foreach (var insn in insns)
+            {
+                if (first)
+                    first = false;
+                else
+                    Content.Append(Environment.NewLine);
+
+                if (IncludeAddress)
+                    WriteAddress(insn);
+                if (IncludeBinary)
+                    WriteBinary(insn);
+
+                TranslateInstruction(insn);
+                TrimContent();
+            }
+            var result = Content.ToString();
+            Content.Length = 0;
+            return result;
+        }
 
         /// <summary>
-        /// Abstract method to translate a single instruction. Classes implementing this method must reset the protected <see cref="Content"/> member instance and cleanup.
+        /// Translate a single instruction
         /// </summary>
         /// <param name="insn">The instruction to translate</param>
         /// <returns>The result of the single translated instruction</returns>
-        public abstract string Translate(Instruction insn);
-        
+        public virtual string Translate(Instruction insn)
+        {
+            Content.Length = 0;
+            if (IncludeAddress)
+                WriteAddress(insn);
+            if (IncludeBinary)
+                WriteBinary(insn);
+            TranslateInstruction(insn);
+            TrimContent();
+            var result = Content.ToString();
+            Content.Length = 0;
+            return result;
+        }
+
+        /// <summary>
+        /// Gets a printable version of an instruction's address.
+        /// </summary>
+        public virtual string TranslateAddress(Instruction insn)
+        {
+            Content.Length = 0;
+            WriteAddress(insn);
+            TrimContent();
+            var result = Content.ToString();
+            Content.Length = 0;
+            return result;
+        }
+
+        /// <summary>
+        /// Gets a printable version of an instruction's bytes.
+        /// </summary>
+        public virtual string TranslateBytes(Instruction insn)
+        {
+            Content.Length = 0;
+            WriteBinary(insn);
+            TrimContent();
+            var result = Content.ToString();
+            Content.Length = 0;
+            return result;
+        }
+
+        /// <summary>
+        /// Gets a printable version of an instruction's mnemonic opcode.
+        /// </summary>
+        public virtual string TranslateMnemonic(Instruction insn)
+        {
+            Content.Length = 0;
+            TranslateInstruction(insn);
+            TrimContent();
+            var result = Content.ToString();
+            Content.Length = 0;
+            return result;
+        }
+
+        /// <summary>
+        /// Each translator will translate an instruction here.
+        /// </summary>
+        protected abstract void TranslateInstruction(Instruction insn);
+
         /// <summary>
         /// Converts a <see cref="SharpDisasm.Udis86.ud_type"/> into an index into <see cref="Registers"/> and returns the result.
         /// </summary>
@@ -131,7 +209,20 @@ namespace SharpDisasm.Translators
                                                                    select String.Format("{0:x2} ", b)).ToArray()));
             }
         }
-        
+
+        /// <summary>
+        /// Removes spaces from the end of 'Content' stringbuilder.
+        /// </summary>
+        protected void TrimContent()
+        {
+            // the Translate() methods tend to add a trailing space,
+            // so remove it
+            while (Content.Length > 0 && Content[Content.Length - 1] == ' ')
+            {
+                Content.Length -= 1;
+            }
+        }
+
         /// <summary>
         /// TODO: document and rename ported translator methods
         /// </summary>
@@ -146,8 +237,8 @@ namespace SharpDisasm.Translators
                 case 8: return (insn.PC + (ulong)opr.LvalSByte) & trunc_mask;
                 case 16: return (insn.PC + (ulong)opr.LvalSWord) & trunc_mask;
                 case 32: return (insn.PC + (ulong)opr.LvalSDWord) & trunc_mask;
-                default: Debug.Assert(false, "invalid relative offset size.");
-                    return 0;
+                default:
+                    throw new InvalidOperationException(string.Format("invalid relative offset size {0}.", opr.Size));
             }
         }
 
@@ -197,7 +288,8 @@ namespace SharpDisasm.Translators
                 }
                 else
                 {
-                    Debug.Assert(op.Size == 32);
+                    if (op.Size != 32)
+                        throw new InvalidOperationException("Operand size must be 32");
                     v = (ulong)op.LvalSDWord;
                 }
                 if (insn.opr_mode < 64)
@@ -213,8 +305,8 @@ namespace SharpDisasm.Translators
                     case 16: v = op.LvalUWord; break;
                     case 32: v = op.LvalUDWord; break;
                     case 64: v = op.LvalUQWord; break;
-                    default: Debug.Assert(false, "invalid offset"); v = 0; /* keep cc happy */
-                        break;
+                    default:
+                        throw new InvalidOperationException(string.Format("Invalid size for operand: {0}", op.Size));
                 }
             }
             Content.AppendFormat("0x{0:x}", v);
@@ -229,33 +321,30 @@ namespace SharpDisasm.Translators
         /// <param name="sign"></param>
         protected void ud_syn_print_mem_disp(Instruction insn, Operand op, int sign)
         {
-            Debug.Assert(op.Offset != 0);
             if (op.Base == SharpDisasm.Udis86.ud_type.UD_NONE && op.Index == SharpDisasm.Udis86.ud_type.UD_NONE)
             {
                 ulong v;
-                Debug.Assert(op.Scale == 0 && op.Offset != 8);
                 /* unsigned mem-offset */
                 switch (op.Offset)
                 {
                     case 16: v = op.LvalUWord; break;
                     case 32: v = op.LvalUDWord; break;
                     case 64: v = op.LvalUQWord; break;
-                    default: Debug.Assert(false, "invalid offset"); v = 0; /* keep cc happy */
-                        break;
+                    default:
+                        throw new InvalidOperationException(string.Format("Invalid operand offset {0}", op.Offset));
                 }
                 Content.AppendFormat("0x{0:x}", v);
             }
             else
             {
                 long v;
-                Debug.Assert(op.Offset != 64);
                 switch (op.Offset)
                 {
                     case 8: v = op.LvalSByte; break;
                     case 16: v = op.LvalSWord; break;
                     case 32: v = op.LvalSDWord; break;
-                    default: Debug.Assert(false, "invalid offset"); v = 0; /* keep cc happy */
-                        break;
+                    default:
+                        throw new InvalidOperationException(string.Format("Invalid operand offset {0}", op.Offset));
                 }
                 if (v < 0)
                 {

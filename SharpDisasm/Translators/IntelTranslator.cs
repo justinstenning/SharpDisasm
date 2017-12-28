@@ -49,51 +49,13 @@ namespace SharpDisasm.Translators
     public class IntelTranslator: Translator
     {
         /// <summary>
-        /// Translate a list of instructions separated by <see cref="Environment.NewLine"/>.
-        /// </summary>
-        /// <param name="insns">The instructions to translate</param>
-        /// <returns>Each instruction as Intel ASM syntax separated by <see cref="Environment.NewLine"/></returns>
-        public override string Translate(IEnumerable<Instruction> insns)
-        {
-            Content.Length = 0;
-            bool first = true;
-            foreach (var insn in insns)
-            {
-                if (first)
-                    first = false;
-                else
-                    Content.Append(Environment.NewLine);
-
-                if (IncludeAddress)
-                    WriteAddress(insn);
-                if (IncludeBinary)
-                    WriteBinary(insn);
-                
-                ud_translate_intel(insn);
-            }
-            var result = Content.ToString();
-            Content.Length = 0;
-            return result;
-        }
-
-        /// <summary>
-        /// Translate a single instruction
+        /// Translate the instruction into Intel syntax
         /// </summary>
         /// <param name="insn"></param>
-        /// <returns></returns>
-        public override string Translate(Instruction insn)
+        protected override void TranslateInstruction(Instruction insn)
         {
-            Content.Length = 0;
-            if (IncludeAddress)
-                WriteAddress(insn);
-            if (IncludeBinary)
-                WriteBinary(insn);
             ud_translate_intel(insn);
-            var result = Content.ToString();
-            Content.Length = 0;
-            return result;
         }
-
 
         /* -----------------------------------------------------------------------------
          * opr_cast() - Prints an operand cast.
@@ -103,15 +65,15 @@ namespace SharpDisasm.Translators
         {
             if (insn.br_far > 0)
             {
-                Content.AppendFormat("far ");
+                Content.Append("far ");
             }
             switch (op.Size)
             {
-                case 8: Content.AppendFormat("byte "); break;
-                case 16: Content.AppendFormat("word "); break;
-                case 32: Content.AppendFormat("dword "); break;
-                case 64: Content.AppendFormat("qword "); break;
-                case 80: Content.AppendFormat("tword "); break;
+                case 8: Content.Append("byte "); break;
+                case 16: Content.Append("word "); break;
+                case 32: Content.Append("dword "); break;
+                case 64: Content.Append("qword "); break;
+                case 80: Content.Append("tword "); break;
                 default: break;
             }
         }
@@ -133,7 +95,7 @@ namespace SharpDisasm.Translators
                     {
                         opr_cast(insn, op);
                     }
-                    Content.AppendFormat("[");
+                    Content.Append("[");
                     if (insn.pfx_seg > 0)
                     {
                         Content.AppendFormat("{0}:", RegisterForType((ud_type)insn.pfx_seg));
@@ -156,7 +118,7 @@ namespace SharpDisasm.Translators
                         ud_syn_print_mem_disp(insn, op, (op.Base != ud_type.UD_NONE ||
                                                     op.Index != ud_type.UD_NONE) ? 1 : 0);
                     }
-                    Content.AppendFormat("]");
+                    Content.Append("]");
                     break;
 
                 case ud_type.UD_OP_IMM:
@@ -202,9 +164,9 @@ namespace SharpDisasm.Translators
             {
                 switch (insn.dis_mode)
                 {
-                    case ArchitectureMode.x86_16: Content.AppendFormat("o32 "); break;
+                    case ArchitectureMode.x86_16: Content.Append("o32 "); break;
                     case ArchitectureMode.x86_32:
-                    case ArchitectureMode.x86_64: Content.AppendFormat("o16 "); break;
+                    case ArchitectureMode.x86_64: Content.Append("o16 "); break;
                 }
             }
 
@@ -213,13 +175,14 @@ namespace SharpDisasm.Translators
             {
                 switch (insn.dis_mode)
                 {
-                    case ArchitectureMode.x86_16: Content.AppendFormat("a32 "); break;
-                    case ArchitectureMode.x86_32: Content.AppendFormat("a16 "); break;
-                    case ArchitectureMode.x86_64: Content.AppendFormat("a32 "); break;
+                    case ArchitectureMode.x86_16: Content.Append("a32 "); break;
+                    case ArchitectureMode.x86_32: Content.Append("a16 "); break;
+                    case ArchitectureMode.x86_64: Content.Append("a32 "); break;
                 }
             }
 
             if (insn.pfx_seg > 0 &&
+                insn.Operands.Length > 1 &&
                 insn.Operands[0].Type != ud_type.UD_OP_MEM &&
                 insn.Operands[1].Type != ud_type.UD_OP_MEM)
             {
@@ -228,19 +191,19 @@ namespace SharpDisasm.Translators
 
             if (insn.pfx_lock > 0)
             {
-                Content.AppendFormat("lock ");
+                Content.Append("lock ");
             }
             if (insn.pfx_rep > 0)
             {
-                Content.AppendFormat("rep ");
+                Content.Append("rep ");
             }
             else if (insn.pfx_repe > 0)
             {
-                Content.AppendFormat("repe ");
+                Content.Append("repe ");
             }
             else if (insn.pfx_repne > 0)
             {
-                Content.AppendFormat("repne ");
+                Content.Append("repne ");
             }
 
             /* print the instruction mnemonic */
@@ -249,7 +212,7 @@ namespace SharpDisasm.Translators
             if (insn.Operands.Length > 0 && insn.Operands[0].Type != ud_type.UD_NONE)
             {
                 int cast = 0;
-                Content.AppendFormat(" ");
+                Content.Append(" ");
                 if (insn.Operands[0].Type == ud_type.UD_OP_MEM)
                 {
                     if ((insn.Operands.Length > 1 && 
@@ -286,7 +249,7 @@ namespace SharpDisasm.Translators
             if (insn.Operands.Length > 1 && insn.Operands[1].Type != ud_type.UD_NONE)
             {
                 int cast = 0;
-                Content.AppendFormat(", ");
+                Content.Append(", ");
                 if (insn.Operands[1].Type == ud_type.UD_OP_MEM &&
                     insn.Operands[0].Size != insn.Operands[1].Size &&
                     !Udis86.udis86.ud_opr_is_sreg(ref insn.Operands[0].UdOperand))
@@ -299,7 +262,7 @@ namespace SharpDisasm.Translators
             if (insn.Operands.Length > 2 && insn.Operands[1].Type != ud_type.UD_NONE)
             {
                 int cast = 0;
-                Content.AppendFormat(", ");
+                Content.Append(", ");
                 if (insn.Operands[2].Type == ud_type.UD_OP_MEM &&
                     insn.Operands[2].Size != insn.Operands[1].Size)
                 {
@@ -310,7 +273,7 @@ namespace SharpDisasm.Translators
 
             if (insn.Operands.Length > 3 && insn.Operands[3].Type != ud_type.UD_NONE)
             {
-                Content.AppendFormat(", ");
+                Content.Append(", ");
                 gen_operand(insn, insn.Operands[3], 0);
             }
         }

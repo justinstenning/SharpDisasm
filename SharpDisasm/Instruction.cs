@@ -198,7 +198,7 @@ namespace SharpDisasm
             // Copy the instruction bytes
             if (keepBinary)
             {
-				this.Bytes = AssemblyCode.CopyToBytes(u.inp_buf, u.inp_buf_index - this.Length, this.Length);
+				this.Bytes = u.inp_buf.CopyToBytes(u.inp_buf_index - this.Length, this.Length);
             }
 
             if (u.error > 0)
@@ -238,7 +238,8 @@ namespace SharpDisasm
         /// <returns>The translated instruction (e.g. Intel ASM syntax)</returns>
         public override string ToString()
         {
-            System.Diagnostics.Debug.Assert(Disassembler.Translator != null, "Disassembler.Translator must be configured to use Instruction.ToString");
+            if (Disassembler.Translator == null)
+                throw new ArgumentNullException("Translator", "Disassembler.Translator must be configured to use Instruction.ToString");
             return Disassembler.Translator.Translate(this);
         }
     }

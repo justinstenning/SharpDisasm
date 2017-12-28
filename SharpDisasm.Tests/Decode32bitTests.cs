@@ -17,6 +17,9 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void Decode32Test()
         {
+            Disassembler.Translator.IncludeAddress = false;
+            Disassembler.Translator.IncludeBinary = false;
+
             var disasm = new Disassembler(new byte[] {
                 0xb8, 0x34, 0x12, 0x00, 0x00,   // mov eax, 0x1234
                 0xa1, 0x34, 0x12, 0x00, 0x00,   // mov eax, [0x1234]
@@ -42,6 +45,9 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void Corner32Test()
         {
+            Disassembler.Translator.IncludeAddress = false;
+            Disassembler.Translator.IncludeBinary = false;
+
             var disasm = new Disassembler(new byte[] {
                 0x67, 0x0f, 0x02, 0x00,
                 0x90,
@@ -223,6 +229,9 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void DecodeNotFromZero()
         {
+            Disassembler.Translator.IncludeAddress = false;
+            Disassembler.Translator.IncludeBinary = false;
+
             var disasm = new Disassembler(new byte[] {
                 0xb8, 0x34, 0x12, 0x00, 0x00,   // mov eax, 0x1234
                 0x83, 0xe2, 0xdf,               // and edx, 0xffffffdf

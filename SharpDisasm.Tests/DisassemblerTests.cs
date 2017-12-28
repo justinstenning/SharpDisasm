@@ -281,6 +281,21 @@ namespace SharpDisasm.Tests
         }
 
         [TestMethod]
+        public void DisassembleInvalidNumberOfOperands()
+        {
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
+                    0xc4, 0xdb, 0x04
+                },
+                ArchitectureMode.x86_32, 0, false);
+            Assert.AreEqual(disasm.Disassemble().Last().Mnemonic, Udis86.ud_mnemonic_code.UD_Iinvalid);
+            foreach (var ins in disasm.Disassemble())
+            {
+                Assert.IsTrue(ins.Error);
+                Debug.WriteLine(ins.ToString());
+            }
+        }
+
+        [TestMethod]
         public void DisassembleTests()
         {
             var disasm = new SharpDisasm.Disassembler(new byte[] {
@@ -311,6 +326,9 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void Disassemble64BitRIPRelative()
         {
+            Disassembler.Translator.IncludeAddress = false;
+            Disassembler.Translator.IncludeBinary = false;
+
             var disasm = new SharpDisasm.Disassembler(new byte[] {
                  0x48, 0x8B, 0x05, 0xF7, 0xFF, 0xFF, 0xFF, // mov rax, [rip-0x9]
             }, ArchitectureMode.x86_64, 0, true);
@@ -386,6 +404,21 @@ namespace SharpDisasm.Tests
             Disassembler.Translator.IncludeBinary = true;
 
             results = disasm.Disassemble().ToArray();
+            foreach (var ins in results)
+            {
+                Debug.WriteLine(ins.ToString());
+            }
+        }
+
+        [TestMethod]
+        public void DisassemblerPrintIntelUnexpectedPrefix()
+        {
+            var disasm = new SharpDisasm.Disassembler(new byte[] {
+                0x2e,                                   // cs prefix has no meaning in 'outsd' context
+                0x6f                                    // outsd
+            }, ArchitectureMode.x86_64, 0, true);
+
+            var results = disasm.Disassemble().ToArray();
             foreach (var ins in results)
             {
                 Debug.WriteLine(ins.ToString());
@@ -477,6 +510,17 @@ namespace SharpDisasm.Tests
             {
                 SharpDisasm.Disassembler.Translator = defaultTranslator;
             }
+        }
+
+        [TestMethod]
+        public void DisassemblerPrintATTSyntaxBound()
+        {
+            var disasm = new SharpDisasm.Disassembler(new byte[]
+            {
+                    0x62, 0x05, 0x01, 0x00, 0x00, 0x00
+            }, ArchitectureMode.x86_32, 0, true);
+            var boundInstr = disasm.Disassemble().First();
+            Assert.IsTrue(boundInstr.ToString().Contains("bound"));
         }
     }
 }
