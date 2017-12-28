@@ -251,8 +251,12 @@ namespace SharpDisasm.Translators
                     break;
                 case Udis86.ud_mnemonic_code.UD_Ibound:
                 case Udis86.ud_mnemonic_code.UD_Ienter:
+                    Content.AppendFormat("{0}", Udis86.udis86.ud_lookup_mnemonic(u.Mnemonic));
                     if (u.Operands.Length > 0 && u.Operands[0].Type != Udis86.ud_type.UD_NONE)
+                    {
+                        Content.Append(" ");
                         gen_operand(u, u.Operands[0]);
+                    }
                     if (u.Operands.Length > 1 && u.Operands[1].Type != Udis86.ud_type.UD_NONE)
                     {
                         Content.Append(",");
