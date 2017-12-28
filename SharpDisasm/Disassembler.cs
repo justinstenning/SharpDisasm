@@ -91,7 +91,7 @@ namespace SharpDisasm
         /// <summary>
         /// The translator that will be used when calling <see cref="Instruction.ToString"/>.
         /// </summary>
-        public static SharpDisasm.Translators.Translator Translator = new SharpDisasm.Translators.IntelTranslator() { IncludeAddress = true, IncludeBinary = true };
+        public static SharpDisasm.Translators.Translator Translator = new SharpDisasm.Translators.IntelTranslator();
 
         /// <summary>
         /// The number of bytes successfully decoded into instructions. This excludes invalid instructions.

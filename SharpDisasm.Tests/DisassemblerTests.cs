@@ -326,6 +326,9 @@ namespace SharpDisasm.Tests
         [TestMethod]
         public void Disassemble64BitRIPRelative()
         {
+            Disassembler.Translator.IncludeAddress = false;
+            Disassembler.Translator.IncludeBinary = false;
+
             var disasm = new SharpDisasm.Disassembler(new byte[] {
                  0x48, 0x8B, 0x05, 0xF7, 0xFF, 0xFF, 0xFF, // mov rax, [rip-0x9]
             }, ArchitectureMode.x86_64, 0, true);
