@@ -40,16 +40,29 @@ Below is the output of the following console application that decodes a Hex stri
     00000017 8b 04 6d 85 ff ff ff           mov eax, [ebp*2-0x7b]
     0000001e 89 45 f0                       mov [ebp-0x10], eax
     
-    C:\>echo 488b05f7ffffff67668b40f06766035e1048030425ffff
+    C:\>echo 8b0550000000488b05f7ffffff67668b40f06766035e1048030425ffff
     000067660344bef04c0384980000008048a10000000000800000 | disasmcli 64
     
-    0000000000000000 48 8b 05 f7 ff ff ff           mov rax, [rip-0x9]
-    0000000000000007 67 66 8b 40 f0                 mov ax, [eax-0x10]
-    000000000000000c 67 66 03 5e 10                 add bx, [esi+0x10]
-    0000000000000011 48 03 04 25 ff ff 00 00        add rax, [0xffff]
-    0000000000000019 67 66 03 44 be f0              add ax, [esi+edi*4-0x10]
-    000000000000001f 4c 03 84 98 00 00 00 80        add r8, [rax+rbx*4-0x80000000]
-    0000000000000027 48 a1 00 00 00 00 00 80 00 00  mov rax, [0x800000000000]
+    0000000000000000 8b 05 50 00 00 00              mov eax, [rip+0x50]
+    0000000000000006 48 8b 05 f7 ff ff ff           mov rax, [rip-0x9]
+    000000000000000d 67 66 8b 40 f0                 mov ax, [eax-0x10]
+    0000000000000012 67 66 03 5e 10                 add bx, [esi+0x10]
+    0000000000000017 48 03 04 25 ff ff 00 00        add rax, [0xffff]
+    000000000000001f 67 66 03 44 be f0              add ax, [esi+edi*4-0x10]
+    0000000000000025 4c 03 84 98 00 00 00 80        add r8, [rax+rbx*4-0x80000000]
+    000000000000002d 48 a1 00 00 00 00 00 80 00 00  mov rax, [0x800000000000]
+
+    C:\>echo 8b0550000000488b05f7ffffff67668b40f06766035e1048030425ffff
+    000067660344bef04c0384980000008048a10000000000800000 | disasmcli 64 resolveRip
+
+    0000000000000000 8b 05 50 00 00 00              mov eax, [0x56]
+    0000000000000006 48 8b 05 f7 ff ff ff           mov rax, [0x4]
+    000000000000000d 67 66 8b 40 f0                 mov ax, [eax-0x10]
+    0000000000000012 67 66 03 5e 10                 add bx, [esi+0x10]
+    0000000000000017 48 03 04 25 ff ff 00 00        add rax, [0xffff]
+    000000000000001f 67 66 03 44 be f0              add ax, [esi+edi*4-0x10]
+    0000000000000025 4c 03 84 98 00 00 00 80        add r8, [rax+rbx*4-0x80000000]
+    000000000000002d 48 a1 00 00 00 00 00 80 00 00  mov rax, [0x800000000000]
 
 Here is the source of the **disasmcli** console application used above.
 
@@ -75,6 +88,13 @@ Here is the source of the **disasmcli** console application used above.
                         case "64": { mode = SharpDisasm.ArchitectureMode.x86_64; break; }
                         default:
                             break;
+                    }
+                    if (args.Length > 1)
+                    {
+                        if (args[1].ToLower() == "resolverip")
+                        {
+                            SharpDisasm.Disassembler.Translator.ResolveRip = true;
+                        }
                     }
                 }
                 // Allow input >256 chars

@@ -22,6 +22,13 @@ namespace disasmcli
                     default:
                         break;
                 }
+                if (args.Length > 1)
+                {
+                    if (args[1].ToLower() == "resolverip")
+                    {
+                        SharpDisasm.Disassembler.Translator.ResolveRip = true;
+                    }
+                }
             }
 
             // Allow input >256 chars
