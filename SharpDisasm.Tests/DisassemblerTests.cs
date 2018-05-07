@@ -345,6 +345,53 @@ namespace SharpDisasm.Tests
             }
         }
 
+
+        [TestMethod]
+        public void Disassemble64BitResolveRIPAddress()
+        {
+            var defaultTranslator = SharpDisasm.Disassembler.Translator;
+            SharpDisasm.Disassembler.Translator = new SharpDisasm.Translators.IntelTranslator()
+            {
+                ResolveRip = true
+            };
+            try
+            {
+                var disasm = new Disassembler(new byte[] {
+                    0x48, 0x8B, 0x05, 0xF7, 0xFF, 0xFF, 0xFF, // mov rax, [rip-0x9] -> mov rax, [0x7ff71bfffffe]
+                    0xFF, 0x15, 0xF7, 0xFF, 0xFF, 0xFF,       // call qword [rip-0x9] -> call qword [0x7ff71c000004]
+            }, ArchitectureMode.x86_64, 0x7ff71c000000);
+
+                var dis = disasm.Disassemble();
+                Assert.AreEqual("mov rax, [0x7ff71bfffffe]", dis.First().ToString());
+                Assert.AreEqual("call qword [0x7ff71c000004]", dis.Last().ToString());
+
+                Disassembler.Translator.IncludeAddress = true;
+                Disassembler.Translator.IncludeBinary = true;
+                foreach (var ins in dis)
+                {
+                    Debug.WriteLine(ins.ToString());
+                }
+
+                SharpDisasm.Disassembler.Translator = new SharpDisasm.Translators.ATTTranslator()
+                {
+                    ResolveRip = true
+                };
+
+                Assert.AreEqual("movq 0x7ff71bfffffe, %rax", dis.First().ToString());
+                Assert.AreEqual("callq 0x7ff71c000004", dis.Last().ToString());
+
+                Disassembler.Translator.IncludeAddress = true;
+                Disassembler.Translator.IncludeBinary = true;
+                foreach (var ins in disasm.Disassemble())
+                {
+                    Debug.WriteLine(ins.ToString());
+                }
+            }
+            finally
+            {
+                SharpDisasm.Disassembler.Translator = defaultTranslator;
+            }
+        }
         [TestMethod]
         public void DisassemblerPrintIntelSyntax()
         {
