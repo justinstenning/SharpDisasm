@@ -69,6 +69,11 @@ namespace SharpDisasm.Translators
         public bool IncludeBinary { get; set; }
 
         /// <summary>
+        /// Indicates whether the generated output will resolve instruction that contains RIP register to absolute address
+        /// </summary>
+        public bool ResolveRip { get; set; }
+
+        /// <summary>
         /// An optional symbol resolver <see cref="SharpDisasm.Translators.SymbolResolverDelegate"/>.
         /// </summary>
         public SymbolResolverDelegate SymbolResolver { get; set; }
@@ -346,13 +351,21 @@ namespace SharpDisasm.Translators
                     default:
                         throw new InvalidOperationException(string.Format("Invalid operand offset {0}", op.Offset));
                 }
-                if (v < 0)
+                if (ResolveRip && op.Base == Udis86.ud_type.UD_R_RIP && op.Index == Udis86.ud_type.UD_NONE)
                 {
-                    Content.AppendFormat("-0x{0:x}", -v);
+                    v = v + (long)insn.PC;
+                    Content.AppendFormat("0x{0:x}", v);
                 }
-                else if (v > 0)
+                else
                 {
-                    Content.AppendFormat("{0}0x{1:x}", sign > 0 ? "+" : "", v);
+                    if (v < 0)
+                    {
+                        Content.AppendFormat("-0x{0:x}", -v);
+                    }
+                    else if (v > 0)
+                    {
+                        Content.AppendFormat("{0}0x{1:x}", sign > 0 ? "+" : "", v);
+                    }
                 }
             }
         }
