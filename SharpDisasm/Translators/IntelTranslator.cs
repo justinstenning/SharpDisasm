@@ -100,7 +100,9 @@ namespace SharpDisasm.Translators
                     {
                         Content.AppendFormat("{0}:", RegisterForType((ud_type)insn.pfx_seg));
                     }
-                    if (op.Base > 0)
+                    
+                    // don't print out the base register rip if resolve rip option is enabled
+                    if (op.Base > 0 && !(ResolveRip && op.Base == ud_type.UD_R_RIP && op.Index == ud_type.UD_NONE))
                     {
                         Content.AppendFormat("{0}", RegisterForType(op.Base));
                     }

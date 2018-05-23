@@ -112,7 +112,10 @@ namespace SharpDisasm.Translators
                     {
                         ud_syn_print_mem_disp(u, op, 0);
                     }
-                    if (op.Base != Udis86.ud_type.UD_NONE)
+
+                    // don't print out the base register rip if resolve rip option is enabled
+                    bool resolvingRip = ResolveRip && op.Base == Udis86.ud_type.UD_R_RIP && op.Index == Udis86.ud_type.UD_NONE;
+                    if (op.Base != Udis86.ud_type.UD_NONE && !resolvingRip)
                     {
                         Content.AppendFormat("(%{0}", RegisterForType(op.Base));
                     }
@@ -132,7 +135,7 @@ namespace SharpDisasm.Translators
                     {
                         Content.AppendFormat(",{0}", op.Scale);
                     }
-                    if (op.Base != Udis86.ud_type.UD_NONE || op.Index != Udis86.ud_type.UD_NONE)
+                    if (!resolvingRip && (op.Base != Udis86.ud_type.UD_NONE || op.Index != Udis86.ud_type.UD_NONE))
                     {
                         Content.Append(")");
                     }
