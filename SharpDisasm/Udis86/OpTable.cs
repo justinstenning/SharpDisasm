@@ -34,7 +34,7 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // --------------------------------------------------------------------------------
 
-// Do not edit. File generated from optable.xml on 31-Jan-2016 02:03 PM
+// Do not edit. File generated from optable.xml on 07-May-2018 08:16 PM
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,68 +55,68 @@ namespace SharpDisasm.Udis86
           /* 0c */         968,         969,    0x8000|3,    0x8000|4,
           /* 10 */           5,           6,           7,           8,
           /* 14 */           9,          10,  0x8000|284,  0x8000|285,
-          /* 18 */        1336,        1337,        1338,        1339,
-          /* 1c */        1340,        1341,  0x8000|286,  0x8000|287,
+          /* 18 */        1337,        1338,        1339,        1340,
+          /* 1c */        1341,        1342,  0x8000|286,  0x8000|287,
           /* 20 */          49,          50,          51,          52,
           /* 24 */          53,          54,     INVALID,  0x8000|288,
-          /* 28 */        1407,        1408,        1409,        1410,
-          /* 2c */        1411,        1412,     INVALID,  0x8000|289,
-          /* 30 */        1487,        1488,        1489,        1490,
-          /* 34 */        1491,        1492,     INVALID,  0x8000|290,
+          /* 28 */        1408,        1409,        1410,        1411,
+          /* 2c */        1412,        1413,     INVALID,  0x8000|289,
+          /* 30 */        1488,        1489,        1490,        1491,
+          /* 34 */        1492,        1493,     INVALID,  0x8000|290,
           /* 38 */         100,         101,         102,         103,
           /* 3c */         104,         105,     INVALID,  0x8000|291,
           /* 40 */         699,         700,         701,         702,
           /* 44 */         703,         704,         705,         706,
           /* 48 */         175,         176,         177,         178,
           /* 4c */         179,         180,         181,         182,
-          /* 50 */        1246,        1247,        1248,        1249,
-          /* 54 */        1250,        1251,        1252,        1253,
+          /* 50 */        1247,        1248,        1249,        1250,
+          /* 54 */        1251,        1252,        1253,        1254,
           /* 58 */        1101,        1102,        1103,        1104,
           /* 5c */        1105,        1106,        1107,        1108,
           /* 60 */  0x8000|292,  0x8000|295,  0x8000|298,  0x8000|299,
           /* 64 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 68 */        1254,         697,        1256,         698,
+          /* 68 */        1255,         697,        1257,         698,
           /* 6c */         709,  0x8000|300,         982,  0x8000|301,
           /* 70 */         726,         728,         730,         732,
           /* 74 */         734,         736,         738,         740,
           /* 78 */         742,         744,         746,         748,
           /* 7c */         750,         752,         754,         756,
           /* 80 */  0x8000|302,  0x8000|303,  0x8000|304,  0x8000|313,
-          /* 84 */        1433,        1434,        1475,        1476,
+          /* 84 */        1434,        1435,        1476,        1477,
           /* 88 */         828,         829,         830,         831,
           /* 8c */         832,         770,         833,  0x8000|314,
-          /* 90 */        1477,        1478,        1479,        1480,
-          /* 94 */        1481,        1482,        1483,        1484,
-          /* 98 */  0x8000|315,  0x8000|316,  0x8000|317,        1470,
-          /* 9c */  0x8000|318,  0x8000|322,        1310,         766,
+          /* 90 */        1478,        1479,        1480,        1481,
+          /* 94 */        1482,        1483,        1484,        1485,
+          /* 98 */  0x8000|315,  0x8000|316,  0x8000|317,        1471,
+          /* 9c */  0x8000|318,  0x8000|322,        1311,         766,
           /* a0 */         834,         835,         836,         837,
           /* a4 */         922,  0x8000|326,         114,  0x8000|327,
-          /* a8 */        1435,        1436,        1402,  0x8000|328,
-          /* ac */         790,  0x8000|329,        1346,  0x8000|330,
+          /* a8 */        1436,        1437,        1403,  0x8000|328,
+          /* ac */         790,  0x8000|329,        1347,  0x8000|330,
           /* b0 */         838,         839,         840,         841,
           /* b4 */         842,         843,         844,         845,
           /* b8 */         846,         847,         848,         849,
           /* bc */         850,         851,         852,         853,
-          /* c0 */  0x8000|331,  0x8000|332,        1301,        1302,
+          /* c0 */  0x8000|331,  0x8000|332,        1302,        1303,
           /* c4 */  0x8000|333,  0x8000|403,  0x8000|405,  0x8000|406,
-          /* c8 */         200,         776,        1303,        1304,
+          /* c8 */         200,         776,        1304,        1305,
           /* cc */         713,         714,  0x8000|407,  0x8000|408,
           /* d0 */  0x8000|409,  0x8000|410,  0x8000|411,  0x8000|412,
-          /* d4 */  0x8000|413,  0x8000|414,  0x8000|415,        1486,
+          /* d4 */  0x8000|413,  0x8000|414,  0x8000|415,        1487,
           /* d8 */  0x8000|416,  0x8000|419,  0x8000|422,  0x8000|425,
           /* dc */  0x8000|428,  0x8000|431,  0x8000|434,  0x8000|437,
           /* e0 */         794,         795,         796,  0x8000|440,
           /* e4 */         690,         691,         978,         979,
           /* e8 */          72,         763,  0x8000|441,         765,
           /* ec */         692,         693,         980,         981,
-          /* f0 */         789,         712,        1299,        1300,
+          /* f0 */         789,         712,        1300,        1301,
           /* f4 */         687,          83,  0x8000|442,  0x8000|443,
-          /* f8 */          77,        1395,          81,        1398,
-          /* fc */          78,        1396,  0x8000|444,  0x8000|445,
+          /* f8 */          77,        1396,          81,        1399,
+          /* fc */          78,        1397,  0x8000|444,  0x8000|445,
         };
         
         internal static readonly ushort[] ud_itab__1 = {
-          /* 00 */        1240,     INVALID,
+          /* 00 */        1241,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__2 = {
@@ -124,13 +124,13 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__3 = {
-          /* 00 */        1241,     INVALID,
+          /* 00 */        1242,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__4 = {
           /* 00 */    0x8000|5,    0x8000|6,         767,         797,
-          /* 04 */     INVALID,        1426,          82,        1431,
-          /* 08 */         716,        1471,     INVALID,        1444,
+          /* 04 */     INVALID,        1427,          82,        1432,
+          /* 08 */         716,        1472,     INVALID,        1445,
           /* 0c */     INVALID,   0x8000|27,         430,   0x8000|28,
           /* 10 */   0x8000|29,   0x8000|30,   0x8000|31,   0x8000|34,
           /* 14 */   0x8000|35,   0x8000|36,   0x8000|37,   0x8000|40,
@@ -140,8 +140,8 @@ namespace SharpDisasm.Udis86
           /* 24 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 28 */   0x8000|42,   0x8000|43,   0x8000|44,   0x8000|45,
           /* 2c */   0x8000|46,   0x8000|47,   0x8000|48,   0x8000|49,
-          /* 30 */        1472,        1297,        1295,        1296,
-          /* 34 */   0x8000|50,   0x8000|52,     INVALID,        1514,
+          /* 30 */        1473,        1298,        1296,        1297,
+          /* 34 */   0x8000|50,   0x8000|52,     INVALID,        1515,
           /* 38 */   0x8000|54,     INVALID,  0x8000|116,     INVALID,
           /* 3c */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 40 */          84,          85,          86,          87,
@@ -164,22 +164,22 @@ namespace SharpDisasm.Udis86
           /* 84 */         735,         737,         739,         741,
           /* 88 */         743,         745,         747,         749,
           /* 8c */         751,         753,         755,         757,
-          /* 90 */        1350,        1351,        1352,        1353,
-          /* 94 */        1354,        1355,        1356,        1357,
-          /* 98 */        1358,        1359,        1360,        1361,
-          /* 9c */        1362,        1363,        1364,        1365,
-          /* a0 */        1245,        1100,         131,        1670,
-          /* a4 */        1375,        1376,  0x8000|202,  0x8000|207,
-          /* a8 */        1244,        1099,        1305,        1675,
-          /* ac */        1377,        1378,  0x8000|215,         694,
-          /* b0 */         122,         123,         775,        1673,
+          /* 90 */        1351,        1352,        1353,        1354,
+          /* 94 */        1355,        1356,        1357,        1358,
+          /* 98 */        1359,        1360,        1361,        1362,
+          /* 9c */        1363,        1364,        1365,        1366,
+          /* a0 */        1246,        1100,         131,        1671,
+          /* a4 */        1376,        1377,  0x8000|202,  0x8000|207,
+          /* a8 */        1245,        1099,        1306,        1676,
+          /* ac */        1378,        1379,  0x8000|215,         694,
+          /* b0 */         122,         123,         775,        1674,
           /* b4 */         772,         773,         940,         941,
-          /* b8 */  0x8000|221,     INVALID,  0x8000|222,        1671,
-          /* bc */        1659,        1660,         930,         931,
-          /* c0 */        1473,        1474,  0x8000|223,         904,
+          /* b8 */  0x8000|221,     INVALID,  0x8000|222,        1672,
+          /* bc */        1660,        1661,         930,         931,
+          /* c0 */        1474,        1475,  0x8000|223,         904,
           /* c4 */  0x8000|224,  0x8000|225,  0x8000|226,  0x8000|227,
-          /* c8 */        1661,        1662,        1663,        1664,
-          /* cc */        1665,        1666,        1667,        1668,
+          /* c8 */        1662,        1663,        1664,        1665,
+          /* cc */        1666,        1667,        1668,        1669,
           /* d0 */  0x8000|236,  0x8000|237,  0x8000|238,  0x8000|239,
           /* d4 */  0x8000|240,  0x8000|241,  0x8000|242,  0x8000|243,
           /* d8 */  0x8000|244,  0x8000|245,  0x8000|246,  0x8000|247,
@@ -195,8 +195,8 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__5 = {
-          /* 00 */        1384,        1406,         786,         798,
-          /* 04 */        1453,        1454,     INVALID,     INVALID,
+          /* 00 */        1385,        1407,         786,         798,
+          /* 04 */        1454,        1455,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__6 = {
@@ -204,13 +204,13 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__7 = {
-          /* 00 */        1374,        1383,         785,         774,
-          /* 04 */        1385,     INVALID,         787,         719,
+          /* 00 */        1375,        1384,         785,         774,
+          /* 04 */        1386,     INVALID,         787,         719,
         };
         
         internal static readonly ushort[] ud_itab__8 = {
           /* 00 */    0x8000|9,   0x8000|14,   0x8000|15,   0x8000|16,
-          /* 04 */        1386,     INVALID,         788,   0x8000|25,
+          /* 04 */        1387,     INVALID,         788,   0x8000|25,
         };
         
         internal static readonly ushort[] ud_itab__9 = {
@@ -219,19 +219,19 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__10 = {
-          /* 00 */     INVALID,        1455,     INVALID,
+          /* 00 */     INVALID,        1456,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__11 = {
-          /* 00 */     INVALID,        1461,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__12 = {
           /* 00 */     INVALID,        1462,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__13 = {
+        internal static readonly ushort[] ud_itab__12 = {
           /* 00 */     INVALID,        1463,     INVALID,
+        };
+        
+        internal static readonly ushort[] ud_itab__13 = {
+          /* 00 */     INVALID,        1464,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__14 = {
@@ -240,7 +240,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__15 = {
-          /* 00 */        1485,        1508,     INVALID,     INVALID,
+          /* 00 */        1486,        1509,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
@@ -250,23 +250,23 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__17 = {
-          /* 00 */        1466,     INVALID,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__18 = {
           /* 00 */        1467,     INVALID,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__19 = {
+        internal static readonly ushort[] ud_itab__18 = {
           /* 00 */        1468,     INVALID,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__20 = {
+        internal static readonly ushort[] ud_itab__19 = {
           /* 00 */        1469,     INVALID,     INVALID,
         };
         
+        internal static readonly ushort[] ud_itab__20 = {
+          /* 00 */        1470,     INVALID,     INVALID,
+        };
+        
         internal static readonly ushort[] ud_itab__21 = {
-          /* 00 */        1397,     INVALID,     INVALID,
+          /* 00 */        1398,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__22 = {
@@ -274,7 +274,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__23 = {
-          /* 00 */        1399,     INVALID,     INVALID,
+          /* 00 */        1400,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__24 = {
@@ -282,28 +282,28 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__25 = {
-          /* 00 */        1425,   0x8000|26,     INVALID,     INVALID,
+          /* 00 */        1426,   0x8000|26,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__26 = {
-          /* 00 */        1298,     INVALID,     INVALID,
+          /* 00 */        1299,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__27 = {
-          /* 00 */        1119,        1120,        1121,        1122,
-          /* 04 */        1123,        1124,        1125,        1126,
+          /* 00 */        1120,        1121,        1122,        1123,
+          /* 04 */        1124,        1125,        1126,        1127,
         };
         
         internal static readonly ushort[] ud_itab__28 = {
           /* 00 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 08 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 0c */        1216,        1217,     INVALID,     INVALID,
+          /* 0c */        1217,        1218,     INVALID,     INVALID,
           /* 10 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 14 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 18 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 1c */        1218,        1219,     INVALID,     INVALID,
+          /* 1c */        1219,        1220,     INVALID,     INVALID,
           /* 20 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 24 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 28 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -330,20 +330,20 @@ namespace SharpDisasm.Udis86
           /* 7c */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 80 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 84 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 88 */     INVALID,     INVALID,        1220,     INVALID,
-          /* 8c */     INVALID,     INVALID,        1221,     INVALID,
-          /* 90 */        1222,     INVALID,     INVALID,     INVALID,
-          /* 94 */        1223,     INVALID,        1224,        1225,
-          /* 98 */     INVALID,     INVALID,        1226,     INVALID,
-          /* 9c */     INVALID,     INVALID,        1227,     INVALID,
-          /* a0 */        1228,     INVALID,     INVALID,     INVALID,
-          /* a4 */        1229,     INVALID,        1230,        1231,
-          /* a8 */     INVALID,     INVALID,        1232,     INVALID,
-          /* ac */     INVALID,     INVALID,        1233,     INVALID,
-          /* b0 */        1234,     INVALID,     INVALID,     INVALID,
-          /* b4 */        1235,     INVALID,        1236,        1237,
-          /* b8 */     INVALID,     INVALID,     INVALID,        1238,
-          /* bc */     INVALID,     INVALID,     INVALID,        1239,
+          /* 88 */     INVALID,     INVALID,        1221,     INVALID,
+          /* 8c */     INVALID,     INVALID,        1222,     INVALID,
+          /* 90 */        1223,     INVALID,     INVALID,     INVALID,
+          /* 94 */        1224,     INVALID,        1225,        1226,
+          /* 98 */     INVALID,     INVALID,        1227,     INVALID,
+          /* 9c */     INVALID,     INVALID,        1228,     INVALID,
+          /* a0 */        1229,     INVALID,     INVALID,     INVALID,
+          /* a4 */        1230,     INVALID,        1231,        1232,
+          /* a8 */     INVALID,     INVALID,        1233,     INVALID,
+          /* ac */     INVALID,     INVALID,        1234,     INVALID,
+          /* b0 */        1235,     INVALID,     INVALID,     INVALID,
+          /* b4 */        1236,     INVALID,        1237,        1238,
+          /* b8 */     INVALID,     INVALID,     INVALID,        1239,
+          /* bc */     INVALID,     INVALID,     INVALID,        1240,
           /* c0 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* c4 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* c8 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -375,11 +375,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__32 = {
-          /* 00 */         892,        1563,        1571,         888,
+          /* 00 */         892,        1564,        1572,         888,
         };
         
         internal static readonly ushort[] ud_itab__33 = {
-          /* 00 */         896,        1561,        1569,     INVALID,
+          /* 00 */         896,        1562,        1570,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__34 = {
@@ -387,11 +387,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__35 = {
-          /* 00 */        1449,     INVALID,     INVALID,        1451,
+          /* 00 */        1450,     INVALID,     INVALID,        1452,
         };
         
         internal static readonly ushort[] ud_itab__36 = {
-          /* 00 */        1447,     INVALID,     INVALID,        1445,
+          /* 00 */        1448,     INVALID,     INVALID,        1446,
         };
         
         internal static readonly ushort[] ud_itab__37 = {
@@ -399,11 +399,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__38 = {
-          /* 00 */         882,     INVALID,        1567,         878,
+          /* 00 */         882,     INVALID,        1568,         878,
         };
         
         internal static readonly ushort[] ud_itab__39 = {
-          /* 00 */         886,     INVALID,        1565,     INVALID,
+          /* 00 */         886,     INVALID,        1566,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__40 = {
@@ -411,7 +411,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__41 = {
-          /* 00 */        1127,        1128,        1129,        1130,
+          /* 00 */        1128,        1129,        1130,        1131,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
@@ -440,7 +440,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__48 = {
-          /* 00 */        1442,     INVALID,     INVALID,        1440,
+          /* 00 */        1443,     INVALID,     INVALID,        1441,
         };
         
         internal static readonly ushort[] ud_itab__49 = {
@@ -448,19 +448,19 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__50 = {
-          /* 00 */        1427,   0x8000|51,
+          /* 00 */        1428,   0x8000|51,
         };
         
         internal static readonly ushort[] ud_itab__51 = {
-          /* 00 */     INVALID,        1428,     INVALID,
+          /* 00 */     INVALID,        1429,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__52 = {
-          /* 00 */        1429,   0x8000|53,
+          /* 00 */        1430,   0x8000|53,
         };
         
         internal static readonly ushort[] ud_itab__53 = {
-          /* 00 */     INVALID,        1430,     INVALID,
+          /* 00 */     INVALID,        1431,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__54 = {
@@ -531,187 +531,187 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__55 = {
-          /* 00 */        1582,     INVALID,     INVALID,        1583,
+          /* 00 */        1583,     INVALID,     INVALID,        1584,
         };
         
         internal static readonly ushort[] ud_itab__56 = {
-          /* 00 */        1585,     INVALID,     INVALID,        1586,
+          /* 00 */        1586,     INVALID,     INVALID,        1587,
         };
         
         internal static readonly ushort[] ud_itab__57 = {
-          /* 00 */        1588,     INVALID,     INVALID,        1589,
+          /* 00 */        1589,     INVALID,     INVALID,        1590,
         };
         
         internal static readonly ushort[] ud_itab__58 = {
-          /* 00 */        1591,     INVALID,     INVALID,        1592,
+          /* 00 */        1592,     INVALID,     INVALID,        1593,
         };
         
         internal static readonly ushort[] ud_itab__59 = {
-          /* 00 */        1594,     INVALID,     INVALID,        1595,
+          /* 00 */        1595,     INVALID,     INVALID,        1596,
         };
         
         internal static readonly ushort[] ud_itab__60 = {
-          /* 00 */        1597,     INVALID,     INVALID,        1598,
+          /* 00 */        1598,     INVALID,     INVALID,        1599,
         };
         
         internal static readonly ushort[] ud_itab__61 = {
-          /* 00 */        1600,     INVALID,     INVALID,        1601,
+          /* 00 */        1601,     INVALID,     INVALID,        1602,
         };
         
         internal static readonly ushort[] ud_itab__62 = {
-          /* 00 */        1603,     INVALID,     INVALID,        1604,
+          /* 00 */        1604,     INVALID,     INVALID,        1605,
         };
         
         internal static readonly ushort[] ud_itab__63 = {
-          /* 00 */        1606,     INVALID,     INVALID,        1607,
+          /* 00 */        1607,     INVALID,     INVALID,        1608,
         };
         
         internal static readonly ushort[] ud_itab__64 = {
-          /* 00 */        1612,     INVALID,     INVALID,        1613,
+          /* 00 */        1613,     INVALID,     INVALID,        1614,
         };
         
         internal static readonly ushort[] ud_itab__65 = {
-          /* 00 */        1609,     INVALID,     INVALID,        1610,
+          /* 00 */        1610,     INVALID,     INVALID,        1611,
         };
         
         internal static readonly ushort[] ud_itab__66 = {
-          /* 00 */        1615,     INVALID,     INVALID,        1616,
+          /* 00 */        1616,     INVALID,     INVALID,        1617,
         };
         
         internal static readonly ushort[] ud_itab__67 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1621,
-        };
-        
-        internal static readonly ushort[] ud_itab__68 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1657,
-        };
-        
-        internal static readonly ushort[] ud_itab__69 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1656,
-        };
-        
-        internal static readonly ushort[] ud_itab__70 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1711,
-        };
-        
-        internal static readonly ushort[] ud_itab__71 = {
-          /* 00 */        1573,     INVALID,     INVALID,        1574,
-        };
-        
-        internal static readonly ushort[] ud_itab__72 = {
-          /* 00 */        1576,     INVALID,     INVALID,        1577,
-        };
-        
-        internal static readonly ushort[] ud_itab__73 = {
-          /* 00 */        1579,     INVALID,     INVALID,        1580,
-        };
-        
-        internal static readonly ushort[] ud_itab__74 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1685,
-        };
-        
-        internal static readonly ushort[] ud_itab__75 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1687,
-        };
-        
-        internal static readonly ushort[] ud_itab__76 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1689,
-        };
-        
-        internal static readonly ushort[] ud_itab__77 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1691,
-        };
-        
-        internal static readonly ushort[] ud_itab__78 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1693,
-        };
-        
-        internal static readonly ushort[] ud_itab__79 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1695,
-        };
-        
-        internal static readonly ushort[] ud_itab__80 = {
           /* 00 */     INVALID,     INVALID,     INVALID,        1622,
         };
         
-        internal static readonly ushort[] ud_itab__81 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1708,
+        internal static readonly ushort[] ud_itab__68 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1658,
         };
         
-        internal static readonly ushort[] ud_itab__82 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1681,
+        internal static readonly ushort[] ud_itab__69 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1657,
         };
         
-        internal static readonly ushort[] ud_itab__83 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1683,
+        internal static readonly ushort[] ud_itab__70 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1712,
         };
         
-        internal static readonly ushort[] ud_itab__84 = {
+        internal static readonly ushort[] ud_itab__71 = {
+          /* 00 */        1574,     INVALID,     INVALID,        1575,
+        };
+        
+        internal static readonly ushort[] ud_itab__72 = {
+          /* 00 */        1577,     INVALID,     INVALID,        1578,
+        };
+        
+        internal static readonly ushort[] ud_itab__73 = {
+          /* 00 */        1580,     INVALID,     INVALID,        1581,
+        };
+        
+        internal static readonly ushort[] ud_itab__74 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1686,
+        };
+        
+        internal static readonly ushort[] ud_itab__75 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1688,
+        };
+        
+        internal static readonly ushort[] ud_itab__76 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1690,
+        };
+        
+        internal static readonly ushort[] ud_itab__77 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1692,
+        };
+        
+        internal static readonly ushort[] ud_itab__78 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1694,
+        };
+        
+        internal static readonly ushort[] ud_itab__79 = {
           /* 00 */     INVALID,     INVALID,     INVALID,        1696,
         };
         
+        internal static readonly ushort[] ud_itab__80 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1623,
+        };
+        
+        internal static readonly ushort[] ud_itab__81 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1709,
+        };
+        
+        internal static readonly ushort[] ud_itab__82 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1682,
+        };
+        
+        internal static readonly ushort[] ud_itab__83 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1684,
+        };
+        
+        internal static readonly ushort[] ud_itab__84 = {
+          /* 00 */     INVALID,     INVALID,     INVALID,        1697,
+        };
+        
         internal static readonly ushort[] ud_itab__85 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1698,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1699,
         };
         
         internal static readonly ushort[] ud_itab__86 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1700,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1701,
         };
         
         internal static readonly ushort[] ud_itab__87 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1702,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1703,
         };
         
         internal static readonly ushort[] ud_itab__88 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1704,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1705,
         };
         
         internal static readonly ushort[] ud_itab__89 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1706,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1707,
         };
         
         internal static readonly ushort[] ud_itab__90 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1717,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1718,
         };
         
         internal static readonly ushort[] ud_itab__91 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1624,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1625,
         };
         
         internal static readonly ushort[] ud_itab__92 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1626,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1627,
         };
         
         internal static readonly ushort[] ud_itab__93 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1628,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1629,
         };
         
         internal static readonly ushort[] ud_itab__94 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1630,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1631,
         };
         
         internal static readonly ushort[] ud_itab__95 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1632,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1633,
         };
         
         internal static readonly ushort[] ud_itab__96 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1634,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1635,
         };
         
         internal static readonly ushort[] ud_itab__97 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1638,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1639,
         };
         
         internal static readonly ushort[] ud_itab__98 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1636,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1637,
         };
         
         internal static readonly ushort[] ud_itab__99 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1640,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1641,
         };
         
         internal static readonly ushort[] ud_itab__100 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1642,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1643,
         };
         
         internal static readonly ushort[] ud_itab__101 = {
@@ -767,11 +767,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__114 = {
-          /* 00 */        1723,        1725,     INVALID,     INVALID,
+          /* 00 */        1724,        1726,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__115 = {
-          /* 00 */        1724,        1726,     INVALID,     INVALID,
+          /* 00 */        1725,        1727,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__116 = {
@@ -842,35 +842,35 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__117 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1644,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1645,
         };
         
         internal static readonly ushort[] ud_itab__118 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1646,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1647,
         };
         
         internal static readonly ushort[] ud_itab__119 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1648,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1649,
         };
         
         internal static readonly ushort[] ud_itab__120 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1650,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1651,
         };
         
         internal static readonly ushort[] ud_itab__121 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1654,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1655,
         };
         
         internal static readonly ushort[] ud_itab__122 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1652,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1653,
         };
         
         internal static readonly ushort[] ud_itab__123 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1677,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1678,
         };
         
         internal static readonly ushort[] ud_itab__124 = {
-          /* 00 */        1618,     INVALID,     INVALID,        1619,
+          /* 00 */        1619,     INVALID,     INVALID,        1620,
         };
         
         internal static readonly ushort[] ud_itab__125 = {
@@ -898,7 +898,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__131 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1557,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1558,
         };
         
         internal static readonly ushort[] ud_itab__132 = {
@@ -918,27 +918,27 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__136 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1679,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1680,
         };
         
         internal static readonly ushort[] ud_itab__137 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1512,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1513,
         };
         
         internal static readonly ushort[] ud_itab__138 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1715,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1716,
         };
         
         internal static readonly ushort[] ud_itab__139 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1713,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1714,
         };
         
         internal static readonly ushort[] ud_itab__140 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1721,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1722,
         };
         
         internal static readonly ushort[] ud_itab__141 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1719,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1720,
         };
         
         internal static readonly ushort[] ud_itab__142 = {
@@ -950,15 +950,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__144 = {
-          /* 00 */        1387,        1391,        1393,        1389,
+          /* 00 */        1388,        1392,        1394,        1390,
         };
         
         internal static readonly ushort[] ud_itab__145 = {
-          /* 00 */        1306,     INVALID,        1308,     INVALID,
+          /* 00 */        1307,     INVALID,        1309,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__146 = {
-          /* 00 */        1291,     INVALID,        1293,     INVALID,
+          /* 00 */        1292,     INVALID,        1294,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__147 = {
@@ -974,7 +974,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__150 = {
-          /* 00 */        1499,     INVALID,     INVALID,        1497,
+          /* 00 */        1500,     INVALID,     INVALID,        1498,
         };
         
         internal static readonly ushort[] ud_itab__151 = {
@@ -994,7 +994,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__155 = {
-          /* 00 */        1419,        1421,        1423,        1417,
+          /* 00 */        1420,        1422,        1424,        1418,
         };
         
         internal static readonly ushort[] ud_itab__156 = {
@@ -1010,15 +1010,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__159 = {
-          /* 00 */        1209,     INVALID,     INVALID,        1207,
+          /* 00 */        1210,     INVALID,     INVALID,        1208,
         };
         
         internal static readonly ushort[] ud_itab__160 = {
-          /* 00 */        1212,     INVALID,     INVALID,        1210,
+          /* 00 */        1213,     INVALID,     INVALID,        1211,
         };
         
         internal static readonly ushort[] ud_itab__161 = {
-          /* 00 */        1215,     INVALID,     INVALID,        1213,
+          /* 00 */        1216,     INVALID,     INVALID,        1214,
         };
         
         internal static readonly ushort[] ud_itab__162 = {
@@ -1042,15 +1042,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__167 = {
-          /* 00 */        1200,     INVALID,     INVALID,        1198,
+          /* 00 */        1201,     INVALID,     INVALID,        1199,
         };
         
         internal static readonly ushort[] ud_itab__168 = {
-          /* 00 */        1203,     INVALID,     INVALID,        1201,
+          /* 00 */        1204,     INVALID,     INVALID,        1202,
         };
         
         internal static readonly ushort[] ud_itab__169 = {
-          /* 00 */        1206,     INVALID,     INVALID,        1204,
+          /* 00 */        1207,     INVALID,     INVALID,        1205,
         };
         
         internal static readonly ushort[] ud_itab__170 = {
@@ -1058,11 +1058,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__171 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1547,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1548,
         };
         
         internal static readonly ushort[] ud_itab__172 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1545,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1546,
         };
         
         internal static readonly ushort[] ud_itab__173 = {
@@ -1078,11 +1078,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__176 = {
-          /* 00 */         920,     INVALID,        1522,        1517,
+          /* 00 */         920,     INVALID,        1523,        1518,
         };
         
         internal static readonly ushort[] ud_itab__177 = {
-          /* 00 */        1134,        1537,        1535,        1539,
+          /* 00 */        1135,        1538,        1536,        1540,
         };
         
         internal static readonly ushort[] ud_itab__178 = {
@@ -1091,15 +1091,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__179 = {
-          /* 00 */        1159,     INVALID,     INVALID,        1163,
+          /* 00 */        1160,     INVALID,     INVALID,        1164,
         };
         
         internal static readonly ushort[] ud_itab__180 = {
-          /* 00 */        1152,     INVALID,     INVALID,        1150,
+          /* 00 */        1153,     INVALID,     INVALID,        1151,
         };
         
         internal static readonly ushort[] ud_itab__181 = {
-          /* 00 */        1138,     INVALID,     INVALID,        1137,
+          /* 00 */        1139,     INVALID,     INVALID,        1138,
         };
         
         internal static readonly ushort[] ud_itab__182 = {
@@ -1108,15 +1108,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__183 = {
-          /* 00 */        1165,     INVALID,     INVALID,        1169,
+          /* 00 */        1166,     INVALID,     INVALID,        1170,
         };
         
         internal static readonly ushort[] ud_itab__184 = {
-          /* 00 */        1153,     INVALID,     INVALID,        1157,
+          /* 00 */        1154,     INVALID,     INVALID,        1158,
         };
         
         internal static readonly ushort[] ud_itab__185 = {
-          /* 00 */        1142,     INVALID,     INVALID,        1141,
+          /* 00 */        1143,     INVALID,     INVALID,        1142,
         };
         
         internal static readonly ushort[] ud_itab__186 = {
@@ -1125,19 +1125,19 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__187 = {
-          /* 00 */        1171,     INVALID,     INVALID,        1175,
+          /* 00 */        1172,     INVALID,     INVALID,        1176,
         };
         
         internal static readonly ushort[] ud_itab__188 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1543,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1544,
         };
         
         internal static readonly ushort[] ud_itab__189 = {
-          /* 00 */        1146,     INVALID,     INVALID,        1145,
+          /* 00 */        1147,     INVALID,     INVALID,        1146,
         };
         
         internal static readonly ushort[] ud_itab__190 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1541,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1542,
         };
         
         internal static readonly ushort[] ud_itab__191 = {
@@ -1153,19 +1153,19 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__194 = {
-          /* 00 */     INVALID,        1464,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__195 = {
           /* 00 */     INVALID,        1465,     INVALID,
         };
         
+        internal static readonly ushort[] ud_itab__195 = {
+          /* 00 */     INVALID,        1466,     INVALID,
+        };
+        
         internal static readonly ushort[] ud_itab__196 = {
-          /* 00 */     INVALID,        1551,     INVALID,        1549,
+          /* 00 */     INVALID,        1552,     INVALID,        1550,
         };
         
         internal static readonly ushort[] ud_itab__197 = {
-          /* 00 */     INVALID,        1555,     INVALID,        1553,
+          /* 00 */     INVALID,        1556,     INVALID,        1554,
         };
         
         internal static readonly ushort[] ud_itab__198 = {
@@ -1181,7 +1181,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__201 = {
-          /* 00 */         921,     INVALID,        1524,        1515,
+          /* 00 */         921,     INVALID,        1525,        1516,
         };
         
         internal static readonly ushort[] ud_itab__202 = {
@@ -1199,12 +1199,12 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__205 = {
-          /* 00 */        1509,     INVALID,     INVALID,     INVALID,
+          /* 00 */        1510,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__206 = {
-          /* 00 */        1510,     INVALID,     INVALID,     INVALID,
+          /* 00 */        1511,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
@@ -1218,32 +1218,32 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__209 = {
-          /* 00 */        1511,     INVALID,     INVALID,     INVALID,
+          /* 00 */        1512,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__210 = {
-          /* 00 */        1501,     INVALID,     INVALID,     INVALID,
-          /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__211 = {
           /* 00 */        1502,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__212 = {
+        internal static readonly ushort[] ud_itab__211 = {
           /* 00 */        1503,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__213 = {
+        internal static readonly ushort[] ud_itab__212 = {
           /* 00 */        1504,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__214 = {
+        internal static readonly ushort[] ud_itab__213 = {
           /* 00 */        1505,     INVALID,     INVALID,     INVALID,
+          /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
+        };
+        
+        internal static readonly ushort[] ud_itab__214 = {
+          /* 00 */        1506,     INVALID,     INVALID,     INVALID,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
@@ -1252,8 +1252,8 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__216 = {
-          /* 00 */         683,         682,         768,        1400,
-          /* 04 */        1507,        1506,     INVALID,          79,
+          /* 00 */         683,         682,         768,        1401,
+          /* 04 */        1508,        1507,     INVALID,          79,
         };
         
         internal static readonly ushort[] ud_itab__217 = {
@@ -1272,17 +1272,17 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__220 = {
-          /* 00 */        1366,        1367,        1368,        1369,
-          /* 04 */        1370,        1371,        1372,        1373,
+          /* 00 */        1367,        1368,        1369,        1370,
+          /* 04 */        1371,        1372,        1373,        1374,
         };
         
         internal static readonly ushort[] ud_itab__221 = {
-          /* 00 */     INVALID,     INVALID,        1710,     INVALID,
+          /* 00 */     INVALID,     INVALID,        1711,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__222 = {
           /* 00 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 04 */        1669,        1676,        1674,        1672,
+          /* 04 */        1670,        1677,        1675,        1673,
         };
         
         internal static readonly ushort[] ud_itab__223 = {
@@ -1298,7 +1298,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__226 = {
-          /* 00 */        1381,     INVALID,     INVALID,        1379,
+          /* 00 */        1382,     INVALID,     INVALID,        1380,
         };
         
         internal static readonly ushort[] ud_itab__227 = {
@@ -1319,24 +1319,24 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__231 = {
-          /* 00 */     INVALID,        1459,     INVALID,
+          /* 00 */     INVALID,        1460,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__232 = {
-          /* 00 */     INVALID,        1458,     INVALID,
+          /* 00 */     INVALID,        1459,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__233 = {
-          /* 00 */     INVALID,        1457,     INVALID,
+          /* 00 */     INVALID,        1458,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__234 = {
-          /* 00 */     INVALID,        1460,     INVALID,
+          /* 00 */     INVALID,        1461,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__235 = {
           /* 00 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 04 */     INVALID,     INVALID,        1456,     INVALID,
+          /* 04 */     INVALID,     INVALID,        1457,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__236 = {
@@ -1344,19 +1344,19 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__237 = {
-          /* 00 */        1160,     INVALID,     INVALID,        1161,
+          /* 00 */        1161,     INVALID,     INVALID,        1162,
         };
         
         internal static readonly ushort[] ud_itab__238 = {
-          /* 00 */        1166,     INVALID,     INVALID,        1167,
+          /* 00 */        1167,     INVALID,     INVALID,        1168,
         };
         
         internal static readonly ushort[] ud_itab__239 = {
-          /* 00 */        1172,     INVALID,     INVALID,        1173,
+          /* 00 */        1173,     INVALID,     INVALID,        1174,
         };
         
         internal static readonly ushort[] ud_itab__240 = {
-          /* 00 */        1527,     INVALID,     INVALID,        1528,
+          /* 00 */        1528,     INVALID,     INVALID,        1529,
         };
         
         internal static readonly ushort[] ud_itab__241 = {
@@ -1364,7 +1364,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__242 = {
-          /* 00 */     INVALID,        1521,        1526,         918,
+          /* 00 */     INVALID,        1522,        1527,         918,
         };
         
         internal static readonly ushort[] ud_itab__243 = {
@@ -1372,11 +1372,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__244 = {
-          /* 00 */        1192,     INVALID,     INVALID,        1193,
+          /* 00 */        1193,     INVALID,     INVALID,        1194,
         };
         
         internal static readonly ushort[] ud_itab__245 = {
-          /* 00 */        1195,     INVALID,     INVALID,        1196,
+          /* 00 */        1196,     INVALID,     INVALID,        1197,
         };
         
         internal static readonly ushort[] ud_itab__246 = {
@@ -1408,11 +1408,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__253 = {
-          /* 00 */        1147,     INVALID,     INVALID,        1148,
+          /* 00 */        1148,     INVALID,     INVALID,        1149,
         };
         
         internal static readonly ushort[] ud_itab__254 = {
-          /* 00 */        1156,     INVALID,     INVALID,        1154,
+          /* 00 */        1157,     INVALID,     INVALID,        1155,
         };
         
         internal static readonly ushort[] ud_itab__255 = {
@@ -1436,11 +1436,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__260 = {
-          /* 00 */        1186,     INVALID,     INVALID,        1187,
+          /* 00 */        1187,     INVALID,     INVALID,        1188,
         };
         
         internal static readonly ushort[] ud_itab__261 = {
-          /* 00 */        1189,     INVALID,     INVALID,        1190,
+          /* 00 */        1190,     INVALID,     INVALID,        1191,
         };
         
         internal static readonly ushort[] ud_itab__262 = {
@@ -1448,7 +1448,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__263 = {
-          /* 00 */        1118,     INVALID,     INVALID,        1116,
+          /* 00 */        1119,     INVALID,     INVALID,        1117,
         };
         
         internal static readonly ushort[] ud_itab__264 = {
@@ -1464,27 +1464,27 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__267 = {
-          /* 00 */        1266,     INVALID,     INVALID,        1264,
+          /* 00 */        1267,     INVALID,     INVALID,        1265,
         };
         
         internal static readonly ushort[] ud_itab__268 = {
-          /* 00 */     INVALID,        1559,     INVALID,     INVALID,
+          /* 00 */     INVALID,        1560,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__269 = {
-          /* 00 */        1136,     INVALID,     INVALID,        1135,
+          /* 00 */        1137,     INVALID,     INVALID,        1136,
         };
         
         internal static readonly ushort[] ud_itab__270 = {
-          /* 00 */        1140,     INVALID,     INVALID,        1139,
+          /* 00 */        1141,     INVALID,     INVALID,        1140,
         };
         
         internal static readonly ushort[] ud_itab__271 = {
-          /* 00 */        1144,     INVALID,     INVALID,        1143,
+          /* 00 */        1145,     INVALID,     INVALID,        1144,
         };
         
         internal static readonly ushort[] ud_itab__272 = {
-          /* 00 */        1533,     INVALID,     INVALID,        1534,
+          /* 00 */        1534,     INVALID,     INVALID,        1535,
         };
         
         internal static readonly ushort[] ud_itab__273 = {
@@ -1492,7 +1492,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__274 = {
-          /* 00 */        1133,     INVALID,     INVALID,        1131,
+          /* 00 */        1134,     INVALID,     INVALID,        1132,
         };
         
         internal static readonly ushort[] ud_itab__275 = {
@@ -1500,23 +1500,23 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__276 = {
-          /* 00 */         799,     INVALID,     INVALID,        1519,
+          /* 00 */         799,     INVALID,     INVALID,        1520,
         };
         
         internal static readonly ushort[] ud_itab__277 = {
-          /* 00 */        1179,     INVALID,     INVALID,        1177,
+          /* 00 */        1180,     INVALID,     INVALID,        1178,
         };
         
         internal static readonly ushort[] ud_itab__278 = {
-          /* 00 */        1182,     INVALID,     INVALID,        1180,
+          /* 00 */        1183,     INVALID,     INVALID,        1181,
         };
         
         internal static readonly ushort[] ud_itab__279 = {
-          /* 00 */        1183,     INVALID,     INVALID,        1184,
+          /* 00 */        1184,     INVALID,     INVALID,        1185,
         };
         
         internal static readonly ushort[] ud_itab__280 = {
-          /* 00 */        1532,     INVALID,     INVALID,        1530,
+          /* 00 */        1533,     INVALID,     INVALID,        1531,
         };
         
         internal static readonly ushort[] ud_itab__281 = {
@@ -1532,7 +1532,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__284 = {
-          /* 00 */        1242,     INVALID,
+          /* 00 */        1243,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__285 = {
@@ -1540,7 +1540,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__286 = {
-          /* 00 */        1243,     INVALID,
+          /* 00 */        1244,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__287 = {
@@ -1568,11 +1568,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__293 = {
-          /* 00 */        1257,     INVALID,
+          /* 00 */        1258,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__294 = {
-          /* 00 */        1258,     INVALID,
+          /* 00 */        1259,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__295 = {
@@ -1588,7 +1588,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__298 = {
-          /* 00 */        1658,     INVALID,
+          /* 00 */        1659,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__299 = {
@@ -1604,13 +1604,13 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__302 = {
-          /* 00 */          21,         970,          11,        1342,
-          /* 04 */          55,        1413,        1493,         106,
+          /* 00 */          21,         970,          11,        1343,
+          /* 04 */          55,        1414,        1494,         106,
         };
         
         internal static readonly ushort[] ud_itab__303 = {
-          /* 00 */          23,         971,          13,        1343,
-          /* 04 */          57,        1414,        1494,         108,
+          /* 00 */          23,         971,          13,        1344,
+          /* 04 */          57,        1415,        1495,         108,
         };
         
         internal static readonly ushort[] ud_itab__304 = {
@@ -1631,7 +1631,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__308 = {
-          /* 00 */        1344,     INVALID,
+          /* 00 */        1345,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__309 = {
@@ -1639,11 +1639,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__310 = {
-          /* 00 */        1415,     INVALID,
+          /* 00 */        1416,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__311 = {
-          /* 00 */        1495,     INVALID,
+          /* 00 */        1496,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__312 = {
@@ -1651,8 +1651,8 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__313 = {
-          /* 00 */          24,         973,          14,        1345,
-          /* 04 */          58,        1416,        1496,         109,
+          /* 00 */          24,         973,          14,        1346,
+          /* 04 */          58,        1417,        1497,         109,
         };
         
         internal static readonly ushort[] ud_itab__314 = {
@@ -1677,15 +1677,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__319 = {
-          /* 00 */        1259,        1260,
+          /* 00 */        1260,        1261,
         };
         
         internal static readonly ushort[] ud_itab__320 = {
-          /* 00 */        1261,        1262,
+          /* 00 */        1262,        1263,
         };
         
         internal static readonly ushort[] ud_itab__321 = {
-          /* 00 */     INVALID,        1263,
+          /* 00 */     INVALID,        1264,
         };
         
         internal static readonly ushort[] ud_itab__322 = {
@@ -1693,15 +1693,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__323 = {
-          /* 00 */        1112,     INVALID,
+          /* 00 */        1112,        1113,
         };
         
         internal static readonly ushort[] ud_itab__324 = {
-          /* 00 */        1113,        1114,
+          /* 00 */        1114,        1115,
         };
         
         internal static readonly ushort[] ud_itab__325 = {
-          /* 00 */     INVALID,        1115,
+          /* 00 */     INVALID,        1116,
         };
         
         internal static readonly ushort[] ud_itab__326 = {
@@ -1713,7 +1713,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__328 = {
-          /* 00 */        1403,        1404,        1405,
+          /* 00 */        1404,        1405,        1406,
         };
         
         internal static readonly ushort[] ud_itab__329 = {
@@ -1721,17 +1721,17 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__330 = {
-          /* 00 */        1347,        1348,        1349,
+          /* 00 */        1348,        1349,        1350,
         };
         
         internal static readonly ushort[] ud_itab__331 = {
-          /* 00 */        1279,        1286,        1267,        1275,
-          /* 04 */        1327,        1334,        1318,        1313,
+          /* 00 */        1280,        1287,        1268,        1276,
+          /* 04 */        1328,        1335,        1319,        1314,
         };
         
         internal static readonly ushort[] ud_itab__332 = {
-          /* 00 */        1284,        1287,        1268,        1274,
-          /* 04 */        1323,        1330,        1319,        1315,
+          /* 00 */        1285,        1288,        1269,        1275,
+          /* 04 */        1324,        1331,        1320,        1316,
         };
         
         internal static readonly ushort[] ud_itab__333 = {
@@ -1751,13 +1751,13 @@ namespace SharpDisasm.Udis86
           /* 08 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 0c */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 10 */         937,         939,  0x8000|336,         895,
-          /* 14 */        1450,        1448,  0x8000|337,         885,
+          /* 14 */        1451,        1449,  0x8000|337,         885,
           /* 18 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 1c */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 20 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 24 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 28 */         863,         865,     INVALID,         908,
-          /* 2c */     INVALID,     INVALID,        1443,         130,
+          /* 2c */     INVALID,     INVALID,        1444,         130,
           /* 30 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 34 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 38 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -1766,10 +1766,10 @@ namespace SharpDisasm.Udis86
           /* 44 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 48 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 4c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 50 */         901,        1388,        1307,        1292,
-          /* 54 */          62,          66,         977,        1500,
+          /* 50 */         901,        1389,        1308,        1293,
+          /* 54 */          62,          66,         977,        1501,
           /* 58 */          28,         947,         146,         135,
-          /* 5c */        1420,         819,         190,         803,
+          /* 5c */        1421,         819,         190,         803,
           /* 60 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 64 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 68 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -1795,7 +1795,7 @@ namespace SharpDisasm.Udis86
           /* b8 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* bc */     INVALID,     INVALID,     INVALID,     INVALID,
           /* c0 */     INVALID,     INVALID,         113,     INVALID,
-          /* c4 */     INVALID,     INVALID,        1382,     INVALID,
+          /* c4 */     INVALID,     INVALID,        1383,     INVALID,
           /* c8 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* cc */     INVALID,     INVALID,     INVALID,     INVALID,
           /* d0 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -1821,7 +1821,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__338 = {
-          /* 00 */        1742,        1743,
+          /* 00 */        1743,        1744,
         };
         
         internal static readonly ushort[] ud_itab__339 = {
@@ -1829,7 +1829,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__340 = {
-          /* 00 */     INVALID,     INVALID,     INVALID,        1401,
+          /* 00 */     INVALID,     INVALID,     INVALID,        1402,
           /* 04 */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
@@ -1839,13 +1839,13 @@ namespace SharpDisasm.Udis86
           /* 08 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 0c */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 10 */         933,         935,  0x8000|342,         891,
-          /* 14 */        1452,        1446,  0x8000|343,         881,
+          /* 14 */        1453,        1447,  0x8000|343,         881,
           /* 18 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 1c */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 20 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 24 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 28 */         859,         861,     INVALID,         906,
-          /* 2c */     INVALID,     INVALID,        1441,         128,
+          /* 2c */     INVALID,     INVALID,        1442,         128,
           /* 30 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 34 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 38 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -1854,18 +1854,18 @@ namespace SharpDisasm.Udis86
           /* 44 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 48 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 4c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 50 */         899,        1390,     INVALID,     INVALID,
-          /* 54 */          60,          64,         975,        1498,
+          /* 50 */         899,        1391,     INVALID,     INVALID,
+          /* 54 */          60,          64,         975,        1499,
           /* 58 */          26,         945,         140,         144,
-          /* 5c */        1418,         817,         188,         801,
-          /* 60 */        1208,        1211,        1214,         986,
+          /* 5c */        1419,         817,         188,         801,
+          /* 60 */        1209,        1212,        1215,         986,
           /* 64 */        1037,        1040,        1043,         992,
-          /* 68 */        1199,        1202,        1205,         989,
-          /* 6c */        1548,        1546,  0x8000|344,        1518,
-          /* 70 */        1540,  0x8000|345,  0x8000|347,  0x8000|349,
+          /* 68 */        1200,        1203,        1206,         989,
+          /* 6c */        1549,        1547,  0x8000|344,        1519,
+          /* 70 */        1541,  0x8000|345,  0x8000|347,  0x8000|349,
           /* 74 */        1029,        1032,        1035,     INVALID,
           /* 78 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 7c */        1550,        1554,  0x8000|351,        1516,
+          /* 7c */        1551,        1555,  0x8000|351,        1517,
           /* 80 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 84 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 88 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -1883,20 +1883,20 @@ namespace SharpDisasm.Udis86
           /* b8 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* bc */     INVALID,     INVALID,     INVALID,     INVALID,
           /* c0 */     INVALID,     INVALID,         111,     INVALID,
-          /* c4 */        1061,        1054,        1380,     INVALID,
+          /* c4 */        1061,        1054,        1381,     INVALID,
           /* c8 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* cc */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* d0 */          34,        1162,        1168,        1174,
-          /* d4 */        1529,        1095,         919,  0x8000|352,
-          /* d8 */        1194,        1197,        1082,        1016,
+          /* d0 */          34,        1163,        1169,        1175,
+          /* d4 */        1530,        1095,         919,  0x8000|352,
+          /* d8 */        1195,        1198,        1082,        1016,
           /* dc */        1011,        1014,        1077,        1019,
-          /* e0 */        1022,        1149,        1155,        1025,
+          /* e0 */        1022,        1150,        1156,        1025,
           /* e4 */        1089,        1091,         161,         903,
-          /* e8 */        1188,        1191,        1079,        1117,
-          /* ec */        1005,        1008,        1073,        1265,
+          /* e8 */        1189,        1192,        1079,        1118,
+          /* ec */        1005,        1008,        1073,        1266,
           /* f0 */     INVALID,  0x8000|353,  0x8000|354,  0x8000|355,
-          /* f4 */     INVALID,        1071,        1132,  0x8000|356,
-          /* f8 */        1178,        1181,        1185,        1531,
+          /* f4 */     INVALID,        1071,        1133,  0x8000|356,
+          /* f8 */        1179,        1182,        1186,        1532,
           /* fc */         995,         999,        1002,     INVALID,
         };
         
@@ -1913,30 +1913,30 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__345 = {
-          /* 00 */     INVALID,     INVALID,        1164,     INVALID,
-          /* 04 */        1151,     INVALID,  0x8000|346,     INVALID,
+          /* 00 */     INVALID,     INVALID,        1165,     INVALID,
+          /* 04 */        1152,     INVALID,  0x8000|346,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__346 = {
-          /* 00 */        1756,     INVALID,
+          /* 00 */        1757,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__347 = {
-          /* 00 */     INVALID,     INVALID,        1170,     INVALID,
-          /* 04 */        1158,     INVALID,  0x8000|348,     INVALID,
+          /* 00 */     INVALID,     INVALID,        1171,     INVALID,
+          /* 04 */        1159,     INVALID,  0x8000|348,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__348 = {
-          /* 00 */        1758,     INVALID,
+          /* 00 */        1759,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__349 = {
-          /* 00 */     INVALID,     INVALID,        1176,        1544,
-          /* 04 */     INVALID,     INVALID,  0x8000|350,        1542,
+          /* 00 */     INVALID,     INVALID,        1177,        1545,
+          /* 04 */     INVALID,     INVALID,  0x8000|350,        1543,
         };
         
         internal static readonly ushort[] ud_itab__350 = {
-          /* 00 */        1760,     INVALID,
+          /* 00 */        1761,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__351 = {
@@ -1948,39 +1948,39 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__353 = {
-          /* 00 */        1755,     INVALID,
+          /* 00 */        1756,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__354 = {
-          /* 00 */        1757,     INVALID,
+          /* 00 */        1758,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__355 = {
-          /* 00 */        1759,     INVALID,
+          /* 00 */        1760,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__356 = {
-          /* 00 */     INVALID,        1520,
+          /* 00 */     INVALID,        1521,
         };
         
         internal static readonly ushort[] ud_itab__357 = {
-          /* 00 */        1584,        1587,        1590,        1593,
-          /* 04 */        1596,        1599,        1602,        1605,
-          /* 08 */        1608,        1614,        1611,        1617,
+          /* 00 */        1585,        1588,        1591,        1594,
+          /* 04 */        1597,        1600,        1603,        1606,
+          /* 08 */        1609,        1615,        1612,        1618,
           /* 0c */  0x8000|358,  0x8000|359,  0x8000|360,  0x8000|361,
           /* 10 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 14 */     INVALID,     INVALID,     INVALID,        1712,
+          /* 14 */     INVALID,     INVALID,     INVALID,        1713,
           /* 18 */  0x8000|362,  0x8000|363,     INVALID,     INVALID,
-          /* 1c */        1575,        1578,        1581,     INVALID,
-          /* 20 */        1686,        1688,        1690,        1692,
-          /* 24 */        1694,     INVALID,     INVALID,     INVALID,
-          /* 28 */        1623,        1709,        1682,        1684,
+          /* 1c */        1576,        1579,        1582,     INVALID,
+          /* 20 */        1687,        1689,        1691,        1693,
+          /* 24 */        1695,     INVALID,     INVALID,     INVALID,
+          /* 28 */        1624,        1710,        1683,        1685,
           /* 2c */  0x8000|365,  0x8000|366,  0x8000|367,  0x8000|368,
-          /* 30 */        1697,        1699,        1701,        1703,
-          /* 34 */        1705,        1707,     INVALID,        1718,
-          /* 38 */        1625,        1627,        1629,        1631,
-          /* 3c */        1633,        1635,        1639,        1637,
-          /* 40 */        1641,        1643,     INVALID,     INVALID,
+          /* 30 */        1698,        1700,        1702,        1704,
+          /* 34 */        1706,        1708,     INVALID,        1719,
+          /* 38 */        1626,        1628,        1630,        1632,
+          /* 3c */        1634,        1636,        1640,        1638,
+          /* 40 */        1642,        1644,     INVALID,     INVALID,
           /* 44 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 48 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 4c */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -2031,23 +2031,23 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__358 = {
-          /* 00 */        1737,     INVALID,
+          /* 00 */        1738,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__359 = {
-          /* 00 */        1735,     INVALID,
+          /* 00 */        1736,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__360 = {
-          /* 00 */        1740,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__361 = {
           /* 00 */        1741,     INVALID,
         };
         
+        internal static readonly ushort[] ud_itab__361 = {
+          /* 00 */        1742,     INVALID,
+        };
+        
         internal static readonly ushort[] ud_itab__362 = {
-          /* 00 */        1727,     INVALID,
+          /* 00 */        1728,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__363 = {
@@ -2055,35 +2055,35 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__364 = {
-          /* 00 */     INVALID,        1728,
+          /* 00 */     INVALID,        1729,
         };
         
         internal static readonly ushort[] ud_itab__365 = {
-          /* 00 */        1731,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__366 = {
-          /* 00 */        1733,     INVALID,
-        };
-        
-        internal static readonly ushort[] ud_itab__367 = {
           /* 00 */        1732,     INVALID,
         };
         
-        internal static readonly ushort[] ud_itab__368 = {
+        internal static readonly ushort[] ud_itab__366 = {
           /* 00 */        1734,     INVALID,
+        };
+        
+        internal static readonly ushort[] ud_itab__367 = {
+          /* 00 */        1733,     INVALID,
+        };
+        
+        internal static readonly ushort[] ud_itab__368 = {
+          /* 00 */        1735,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__369 = {
           /* 00 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 04 */  0x8000|370,  0x8000|371,  0x8000|372,     INVALID,
-          /* 08 */        1645,        1647,        1649,        1651,
-          /* 0c */        1655,        1653,        1678,        1620,
+          /* 08 */        1646,        1648,        1650,        1652,
+          /* 0c */        1656,        1654,        1679,        1621,
           /* 10 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 14 */  0x8000|374,        1057,  0x8000|375,         202,
           /* 18 */  0x8000|379,  0x8000|381,     INVALID,     INVALID,
           /* 1c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 20 */  0x8000|383,        1558,  0x8000|385,     INVALID,
+          /* 20 */  0x8000|383,        1559,  0x8000|385,     INVALID,
           /* 24 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 28 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 2c */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -2091,15 +2091,15 @@ namespace SharpDisasm.Udis86
           /* 34 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 38 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 3c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 40 */         198,         196,        1680,     INVALID,
-          /* 44 */        1513,     INVALID,     INVALID,     INVALID,
+          /* 40 */         198,         196,        1681,     INVALID,
+          /* 44 */        1514,     INVALID,     INVALID,     INVALID,
           /* 48 */     INVALID,     INVALID,  0x8000|391,  0x8000|392,
           /* 4c */  0x8000|393,     INVALID,     INVALID,     INVALID,
           /* 50 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 54 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 58 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 5c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 60 */        1716,        1714,        1722,        1720,
+          /* 60 */        1717,        1715,        1723,        1721,
           /* 64 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 68 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 6c */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -2142,11 +2142,11 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__370 = {
-          /* 00 */        1738,     INVALID,
+          /* 00 */        1739,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__371 = {
-          /* 00 */        1736,     INVALID,
+          /* 00 */        1737,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__372 = {
@@ -2154,7 +2154,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__373 = {
-          /* 00 */     INVALID,        1739,
+          /* 00 */     INVALID,        1740,
         };
         
         internal static readonly ushort[] ud_itab__374 = {
@@ -2182,7 +2182,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__380 = {
-          /* 00 */     INVALID,        1730,
+          /* 00 */     INVALID,        1731,
         };
         
         internal static readonly ushort[] ud_itab__381 = {
@@ -2190,7 +2190,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__382 = {
-          /* 00 */     INVALID,        1729,
+          /* 00 */     INVALID,        1730,
         };
         
         internal static readonly ushort[] ud_itab__383 = {
@@ -2226,15 +2226,15 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__391 = {
-          /* 00 */        1745,     INVALID,
+          /* 00 */        1746,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__392 = {
-          /* 00 */        1744,     INVALID,
+          /* 00 */        1745,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__393 = {
-          /* 00 */        1754,     INVALID,
+          /* 00 */        1755,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__394 = {
@@ -2258,18 +2258,18 @@ namespace SharpDisasm.Udis86
           /* 44 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 48 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 4c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 50 */     INVALID,        1394,        1309,        1294,
+          /* 50 */     INVALID,        1395,        1310,        1295,
           /* 54 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 58 */          32,         951,         157,         164,
-          /* 5c */        1424,         823,         194,         807,
+          /* 5c */        1425,         823,         194,         807,
           /* 60 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 64 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 68 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 6c */     INVALID,     INVALID,     INVALID,        1523,
-          /* 70 */        1536,     INVALID,     INVALID,     INVALID,
+          /* 6c */     INVALID,     INVALID,     INVALID,        1524,
+          /* 70 */        1537,     INVALID,     INVALID,     INVALID,
           /* 74 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 78 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 7c */     INVALID,     INVALID,         917,        1525,
+          /* 7c */     INVALID,     INVALID,         917,        1526,
           /* 80 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 84 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 88 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -2305,19 +2305,19 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__395 = {
-          /* 00 */        1751,        1750,
+          /* 00 */        1752,        1751,
         };
         
         internal static readonly ushort[] ud_itab__396 = {
-          /* 00 */        1753,        1752,
+          /* 00 */        1754,        1753,
         };
         
         internal static readonly ushort[] ud_itab__397 = {
-          /* 00 */        1572,        1570,
+          /* 00 */        1573,        1571,
         };
         
         internal static readonly ushort[] ud_itab__398 = {
-          /* 00 */        1568,        1566,
+          /* 00 */        1569,        1567,
         };
         
         internal static readonly ushort[] ud_itab__399 = {
@@ -2341,18 +2341,18 @@ namespace SharpDisasm.Udis86
           /* 44 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 48 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 4c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 50 */     INVALID,        1392,     INVALID,     INVALID,
+          /* 50 */     INVALID,        1393,     INVALID,     INVALID,
           /* 54 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 58 */          30,         949,         151,     INVALID,
-          /* 5c */        1422,         821,         192,         805,
+          /* 5c */        1423,         821,         192,         805,
           /* 60 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 64 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 68 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 6c */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 70 */        1538,     INVALID,     INVALID,     INVALID,
+          /* 70 */        1539,     INVALID,     INVALID,     INVALID,
           /* 74 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 78 */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* 7c */        1552,        1556,     INVALID,     INVALID,
+          /* 7c */        1553,        1557,     INVALID,     INVALID,
           /* 80 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 84 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* 88 */     INVALID,     INVALID,     INVALID,     INVALID,
@@ -2381,22 +2381,22 @@ namespace SharpDisasm.Udis86
           /* e4 */     INVALID,     INVALID,         137,     INVALID,
           /* e8 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* ec */     INVALID,     INVALID,     INVALID,     INVALID,
-          /* f0 */        1560,     INVALID,     INVALID,     INVALID,
+          /* f0 */        1561,     INVALID,     INVALID,     INVALID,
           /* f4 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* f8 */     INVALID,     INVALID,     INVALID,     INVALID,
           /* fc */     INVALID,     INVALID,     INVALID,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__400 = {
-          /* 00 */        1747,        1746,
+          /* 00 */        1748,        1747,
         };
         
         internal static readonly ushort[] ud_itab__401 = {
-          /* 00 */        1749,        1748,
+          /* 00 */        1750,        1749,
         };
         
         internal static readonly ushort[] ud_itab__402 = {
-          /* 00 */        1564,        1562,
+          /* 00 */        1565,        1563,
         };
         
         internal static readonly ushort[] ud_itab__403 = {
@@ -2429,23 +2429,23 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__409 = {
-          /* 00 */        1280,        1285,        1269,        1273,
-          /* 04 */        1326,        1333,        1320,        1314,
+          /* 00 */        1281,        1286,        1270,        1274,
+          /* 04 */        1327,        1334,        1321,        1315,
         };
         
         internal static readonly ushort[] ud_itab__410 = {
-          /* 00 */        1281,        1288,        1272,        1276,
-          /* 04 */        1325,        1332,        1329,        1312,
+          /* 00 */        1282,        1289,        1273,        1277,
+          /* 04 */        1326,        1333,        1330,        1313,
         };
         
         internal static readonly ushort[] ud_itab__411 = {
-          /* 00 */        1282,        1289,        1270,        1277,
-          /* 04 */        1324,        1331,        1321,        1316,
+          /* 00 */        1283,        1290,        1271,        1278,
+          /* 04 */        1325,        1332,        1322,        1317,
         };
         
         internal static readonly ushort[] ud_itab__412 = {
-          /* 00 */        1283,        1290,        1271,        1278,
-          /* 04 */        1328,        1335,        1322,        1317,
+          /* 00 */        1284,        1291,        1272,        1279,
+          /* 04 */        1329,        1336,        1323,        1318,
         };
         
         internal static readonly ushort[] ud_itab__413 = {
@@ -2457,7 +2457,7 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__415 = {
-          /* 00 */        1311,     INVALID,
+          /* 00 */        1312,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__416 = {
@@ -2693,12 +2693,12 @@ namespace SharpDisasm.Udis86
         };
         
         internal static readonly ushort[] ud_itab__442 = {
-          /* 00 */        1432,        1437,         962,         953,
+          /* 00 */        1433,        1438,         962,         953,
           /* 04 */         942,         695,         186,         689,
         };
         
         internal static readonly ushort[] ud_itab__443 = {
-          /* 00 */        1438,        1439,         963,         954,
+          /* 00 */        1439,        1440,         963,         954,
           /* 04 */         943,         696,         185,         688,
         };
         
@@ -2709,7 +2709,7 @@ namespace SharpDisasm.Udis86
         
         internal static readonly ushort[] ud_itab__445 = {
           /* 00 */         707,         184,  0x8000|446,          71,
-          /* 04 */         761,         762,        1255,     INVALID,
+          /* 04 */         761,         762,        1256,     INVALID,
         };
         
         internal static readonly ushort[] ud_itab__446 = {
@@ -4052,41 +4052,41 @@ namespace SharpDisasm.Udis86
             /* 0723 */ new ud_itab_entry( ud_mnemonic_code.UD_Iiretw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
             /* 0724 */ new ud_itab_entry( ud_mnemonic_code.UD_Iiretd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
             /* 0725 */ new ud_itab_entry( ud_mnemonic_code.UD_Iiretq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
-            /* 0726 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijo, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0726 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijo, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0727 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijo, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0728 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijno, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0728 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijno, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0729 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijno, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0730 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijb, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0730 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijb, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0731 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijb, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0732 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijae, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0732 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijae, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0733 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijae, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0734 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0734 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0735 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijz, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0736 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijnz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0736 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijnz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0737 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijnz, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0738 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijbe, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0738 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijbe, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0739 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijbe, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0740 */ new ud_itab_entry( ud_mnemonic_code.UD_Ija, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0740 */ new ud_itab_entry( ud_mnemonic_code.UD_Ija, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0741 */ new ud_itab_entry( ud_mnemonic_code.UD_Ija, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0742 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijs, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0742 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijs, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0743 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijs, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0744 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijns, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0744 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijns, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0745 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijns, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0746 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijp, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0746 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijp, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0747 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijp, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0748 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijnp, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0748 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijnp, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0749 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijnp, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0750 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijl, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0750 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijl, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0751 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijl, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0752 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijge, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0752 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijge, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0753 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijge, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0754 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijle, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0754 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijle, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0755 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijle, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0756 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijg, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 0756 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijg, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_def64 ),
             /* 0757 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijg, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 0758 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijcxz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso ),
-            /* 0759 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijecxz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso ),
-            /* 0760 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijrcxz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso ),
+            /* 0758 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijcxz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_def64 ),
+            /* 0759 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijecxz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_def64 ),
+            /* 0760 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijrcxz, OpDefs.O_Jb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_def64 ),
             /* 0761 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijmp, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
             /* 0762 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijmp, OpDefs.O_Fv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 0763 */ new ud_itab_entry( ud_mnemonic_code.UD_Ijmp, OpDefs.O_Jz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
@@ -4439,13 +4439,13 @@ namespace SharpDisasm.Udis86
             /* 1110 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopa, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_inv64 ),
             /* 1111 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopad, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_inv64 ),
             /* 1112 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
-            /* 1113 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
-            /* 1114 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
+            /* 1113 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_def64 ),
+            /* 1114 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
             /* 1115 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 1116 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipor, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1117 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpor, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1118 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipor, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1119 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1116 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopfq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
+            /* 1117 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipor, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1118 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpor, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1119 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipor, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1120 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1121 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1122 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
@@ -4453,246 +4453,246 @@ namespace SharpDisasm.Udis86
             /* 1124 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1125 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1126 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1127 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetchnta, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1128 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetcht0, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1129 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetcht1, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1130 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetcht2, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1131 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsadbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1132 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsadbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1133 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsadbw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1134 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1135 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1136 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1137 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1138 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1139 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1140 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1141 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1142 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1143 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1144 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1145 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1146 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1147 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1148 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1149 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsraw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1150 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1151 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsraw, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1152 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1153 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1154 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1155 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrad, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1156 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1157 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1158 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrad, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1159 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1160 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1161 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1162 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1163 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1164 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlw, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1165 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1166 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1167 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1168 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrld, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1169 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1170 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrld, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1171 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1172 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1173 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1174 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1175 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1176 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlq, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1177 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1178 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1179 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1180 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1181 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1182 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1183 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1184 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1185 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1186 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1187 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1188 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubsb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1189 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1190 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1191 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1192 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1193 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1194 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubusb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1195 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1196 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1197 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubusw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1198 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1199 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1200 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhbw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1201 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhwd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1202 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhwd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1203 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhwd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1204 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1205 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1206 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhdq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1207 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1208 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpcklbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1209 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklbw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1210 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklwd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1211 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpcklwd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1212 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklwd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1213 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckldq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1214 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckldq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1215 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckldq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1216 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipi2fw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1217 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipi2fd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1218 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipf2iw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1219 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipf2id, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1220 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfnacc, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1221 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfpnacc, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1222 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfcmpge, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1223 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfmin, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1224 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrcp, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1225 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrsqrt, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1226 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfsub, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1227 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfadd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1228 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfcmpgt, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1229 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfmax, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1230 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrcpit1, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1231 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrsqit1, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1232 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfsubr, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1233 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfacc, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1234 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfcmpeq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1235 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfmul, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1236 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrcpit2, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1237 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulhrw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1238 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipswapd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1239 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipavgusb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1240 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_ES, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
-            /* 1241 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_CS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
-            /* 1242 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_SS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
-            /* 1243 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_DS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
-            /* 1244 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_GS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1245 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_FS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1246 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R0v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1247 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R1v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1248 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R2v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1249 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R3v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1250 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R4v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1251 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R5v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1252 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R6v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1253 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R7v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1254 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 1255 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1256 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
-            /* 1257 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipusha, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_inv64 ),
-            /* 1258 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushad, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_inv64 ),
-            /* 1259 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
-            /* 1260 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_def64 ),
-            /* 1261 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
-            /* 1262 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_def64 ),
+            /* 1127 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetch, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1128 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetchnta, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1129 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetcht0, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1130 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetcht1, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1131 */ new ud_itab_entry( ud_mnemonic_code.UD_Iprefetcht2, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1132 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsadbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1133 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsadbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1134 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsadbw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1135 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1136 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1137 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1138 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1139 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllw, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1140 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1141 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1142 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1143 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslld, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1144 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1145 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1146 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1147 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsllq, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1148 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1149 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1150 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsraw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1151 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1152 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsraw, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1153 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsraw, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1154 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1155 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1156 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrad, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1157 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1158 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrad, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1159 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrad, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1160 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1161 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1162 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1163 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1164 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlw, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1165 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlw, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1166 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1167 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1168 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1169 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrld, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1170 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrld, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1171 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrld, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1172 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_N, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1173 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1174 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1175 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1176 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrlq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1177 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrlq, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1178 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1179 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1180 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1181 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1182 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1183 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1184 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1185 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1186 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1187 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1188 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1189 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubsb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1190 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1191 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1192 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1193 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1194 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1195 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubusb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1196 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1197 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubusw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1198 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubusw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1199 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1200 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1201 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhbw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1202 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhwd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1203 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhwd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1204 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhwd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1205 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1206 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1207 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhdq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1208 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1209 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpcklbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1210 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklbw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1211 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklwd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1212 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpcklwd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1213 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklwd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1214 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckldq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1215 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckldq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1216 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckldq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1217 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipi2fw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1218 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipi2fd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1219 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipf2iw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1220 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipf2id, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1221 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfnacc, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1222 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfpnacc, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1223 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfcmpge, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1224 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfmin, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1225 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrcp, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1226 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrsqrt, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1227 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfsub, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1228 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfadd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1229 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfcmpgt, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1230 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfmax, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1231 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrcpit1, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1232 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrsqit1, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1233 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfsubr, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1234 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfacc, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1235 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfcmpeq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1236 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfmul, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1237 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipfrcpit2, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1238 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulhrw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1239 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipswapd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1240 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipavgusb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1241 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_ES, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
+            /* 1242 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_CS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
+            /* 1243 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_SS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
+            /* 1244 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_DS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
+            /* 1245 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_GS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1246 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_FS, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1247 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R0v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1248 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R1v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1249 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R2v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1250 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R3v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1251 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R4v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1252 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R5v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1253 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R6v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1254 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_R7v, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1255 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
+            /* 1256 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1257 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipush, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_def64 ),
+            /* 1258 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipusha, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_inv64 ),
+            /* 1259 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushad, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_inv64 ),
+            /* 1260 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
+            /* 1261 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_def64 ),
+            /* 1262 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso ),
             /* 1263 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_def64 ),
-            /* 1264 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipxor, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1265 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpxor, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1266 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipxor, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1267 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1268 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1269 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1270 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1271 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1272 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1273 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1274 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1275 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1276 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1277 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1278 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1279 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1280 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1281 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1282 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1283 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1284 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1285 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1286 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1287 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1288 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1289 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1290 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1291 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircpps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1292 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrcpps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1293 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircpss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1294 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrcpss, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1295 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdmsr, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1296 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdpmc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1297 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdtsc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1298 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdtscp, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1299 */ new ud_itab_entry( ud_mnemonic_code.UD_Irepne, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1300 */ new ud_itab_entry( ud_mnemonic_code.UD_Irep, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1301 */ new ud_itab_entry( ud_mnemonic_code.UD_Iret, OpDefs.O_Iw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1302 */ new ud_itab_entry( ud_mnemonic_code.UD_Iret, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1303 */ new ud_itab_entry( ud_mnemonic_code.UD_Iretf, OpDefs.O_Iw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1304 */ new ud_itab_entry( ud_mnemonic_code.UD_Iretf, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1305 */ new ud_itab_entry( ud_mnemonic_code.UD_Irsm, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1306 */ new ud_itab_entry( ud_mnemonic_code.UD_Irsqrtps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1307 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrsqrtps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1308 */ new ud_itab_entry( ud_mnemonic_code.UD_Irsqrtss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1309 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrsqrtss, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1310 */ new ud_itab_entry( ud_mnemonic_code.UD_Isahf, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1311 */ new ud_itab_entry( ud_mnemonic_code.UD_Isalc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
-            /* 1312 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1313 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1314 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1315 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1316 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1317 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1318 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1319 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1320 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1321 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1322 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1323 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1324 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1325 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1326 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1327 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1328 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1329 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1330 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1331 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1332 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1333 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1334 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1335 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1336 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1337 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1338 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Gb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1339 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1340 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1341 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
-            /* 1342 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1343 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1344 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_inv64 ),
-            /* 1345 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Ev, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1346 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz ),
-            /* 1347 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz|BitOps.P_oso|BitOps.P_rexw ),
-            /* 1348 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz|BitOps.P_oso|BitOps.P_rexw ),
-            /* 1349 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz|BitOps.P_oso|BitOps.P_rexw ),
-            /* 1350 */ new ud_itab_entry( ud_mnemonic_code.UD_Iseto, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1351 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetno, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1352 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1353 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetae, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1354 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetz, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1355 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetnz, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1356 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetbe, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1357 */ new ud_itab_entry( ud_mnemonic_code.UD_Iseta, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1358 */ new ud_itab_entry( ud_mnemonic_code.UD_Isets, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1359 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetns, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1360 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetp, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1361 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetnp, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1362 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetl, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1363 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetge, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1364 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetle, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1365 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetg, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1366 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1264 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipushfq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_def64 ),
+            /* 1265 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipxor, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1266 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpxor, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1267 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipxor, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1268 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1269 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1270 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1271 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1272 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1273 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircl, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1274 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1275 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1276 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1277 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1278 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1279 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircr, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1280 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1281 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1282 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1283 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1284 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1285 */ new ud_itab_entry( ud_mnemonic_code.UD_Irol, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1286 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1287 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1288 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1289 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1290 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1291 */ new ud_itab_entry( ud_mnemonic_code.UD_Iror, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1292 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircpps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1293 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrcpps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1294 */ new ud_itab_entry( ud_mnemonic_code.UD_Ircpss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1295 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrcpss, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1296 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdmsr, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1297 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdpmc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1298 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdtsc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1299 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdtscp, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1300 */ new ud_itab_entry( ud_mnemonic_code.UD_Irepne, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1301 */ new ud_itab_entry( ud_mnemonic_code.UD_Irep, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1302 */ new ud_itab_entry( ud_mnemonic_code.UD_Iret, OpDefs.O_Iw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1303 */ new ud_itab_entry( ud_mnemonic_code.UD_Iret, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1304 */ new ud_itab_entry( ud_mnemonic_code.UD_Iretf, OpDefs.O_Iw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1305 */ new ud_itab_entry( ud_mnemonic_code.UD_Iretf, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1306 */ new ud_itab_entry( ud_mnemonic_code.UD_Irsm, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1307 */ new ud_itab_entry( ud_mnemonic_code.UD_Irsqrtps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1308 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrsqrtps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1309 */ new ud_itab_entry( ud_mnemonic_code.UD_Irsqrtss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1310 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivrsqrtss, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1311 */ new ud_itab_entry( ud_mnemonic_code.UD_Isahf, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1312 */ new ud_itab_entry( ud_mnemonic_code.UD_Isalc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_inv64 ),
+            /* 1313 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1314 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1315 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1316 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1317 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1318 */ new ud_itab_entry( ud_mnemonic_code.UD_Isar, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1319 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1320 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1321 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1322 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1323 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1324 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1325 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1326 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1327 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1328 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1329 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1330 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishl, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1331 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1332 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Eb, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1333 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Ev, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1334 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Eb, OpDefs.O_I1, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1335 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1336 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishr, OpDefs.O_Ev, OpDefs.O_CL, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1337 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1338 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1339 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Gb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1340 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1341 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1342 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
+            /* 1343 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1344 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1345 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_inv64 ),
+            /* 1346 */ new ud_itab_entry( ud_mnemonic_code.UD_Isbb, OpDefs.O_Ev, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1347 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz ),
+            /* 1348 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz|BitOps.P_oso|BitOps.P_rexw ),
+            /* 1349 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz|BitOps.P_oso|BitOps.P_rexw ),
+            /* 1350 */ new ud_itab_entry( ud_mnemonic_code.UD_Iscasq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_strz|BitOps.P_oso|BitOps.P_rexw ),
+            /* 1351 */ new ud_itab_entry( ud_mnemonic_code.UD_Iseto, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1352 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetno, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1353 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1354 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetae, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1355 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetz, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1356 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetnz, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1357 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetbe, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1358 */ new ud_itab_entry( ud_mnemonic_code.UD_Iseta, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1359 */ new ud_itab_entry( ud_mnemonic_code.UD_Isets, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1360 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetns, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1361 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetp, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1362 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetnp, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1363 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetl, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1364 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetge, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1365 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetle, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1366 */ new ud_itab_entry( ud_mnemonic_code.UD_Isetg, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1367 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
             /* 1368 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
             /* 1369 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
@@ -4700,393 +4700,394 @@ namespace SharpDisasm.Udis86
             /* 1371 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
             /* 1372 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
             /* 1373 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1374 */ new ud_itab_entry( ud_mnemonic_code.UD_Isgdt, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1375 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishld, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1376 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishld, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_CL, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1377 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishrd, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1378 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishrd, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_CL, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1379 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishufpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1380 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivshufpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1381 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishufps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1382 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivshufps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1383 */ new ud_itab_entry( ud_mnemonic_code.UD_Isidt, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1384 */ new ud_itab_entry( ud_mnemonic_code.UD_Isldt, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1385 */ new ud_itab_entry( ud_mnemonic_code.UD_Ismsw, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1374 */ new ud_itab_entry( ud_mnemonic_code.UD_Isfence, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1375 */ new ud_itab_entry( ud_mnemonic_code.UD_Isgdt, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1376 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishld, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1377 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishld, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_CL, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1378 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishrd, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1379 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishrd, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_CL, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1380 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishufpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1381 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivshufpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1382 */ new ud_itab_entry( ud_mnemonic_code.UD_Ishufps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1383 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivshufps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1384 */ new ud_itab_entry( ud_mnemonic_code.UD_Isidt, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1385 */ new ud_itab_entry( ud_mnemonic_code.UD_Isldt, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
             /* 1386 */ new ud_itab_entry( ud_mnemonic_code.UD_Ismsw, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1387 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1388 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1389 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1390 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtpd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1391 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1392 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1393 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1394 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtss, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1395 */ new ud_itab_entry( ud_mnemonic_code.UD_Istc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1396 */ new ud_itab_entry( ud_mnemonic_code.UD_Istd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1397 */ new ud_itab_entry( ud_mnemonic_code.UD_Istgi, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1398 */ new ud_itab_entry( ud_mnemonic_code.UD_Isti, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1399 */ new ud_itab_entry( ud_mnemonic_code.UD_Iskinit, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1400 */ new ud_itab_entry( ud_mnemonic_code.UD_Istmxcsr, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1401 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivstmxcsr, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1402 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg ),
-            /* 1403 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg|BitOps.P_oso|BitOps.P_rexw ),
-            /* 1404 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg|BitOps.P_oso|BitOps.P_rexw ),
-            /* 1405 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg|BitOps.P_oso|BitOps.P_rexw ),
-            /* 1406 */ new ud_itab_entry( ud_mnemonic_code.UD_Istr, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1407 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1408 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1409 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Gb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1410 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1411 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1412 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
-            /* 1413 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1414 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1415 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_inv64 ),
-            /* 1416 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Ev, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1417 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1418 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1419 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1420 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1421 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1422 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1423 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1424 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubss, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1425 */ new ud_itab_entry( ud_mnemonic_code.UD_Iswapgs, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1426 */ new ud_itab_entry( ud_mnemonic_code.UD_Isyscall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1427 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysenter, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1387 */ new ud_itab_entry( ud_mnemonic_code.UD_Ismsw, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1388 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1389 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1390 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1391 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtpd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1392 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1393 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1394 */ new ud_itab_entry( ud_mnemonic_code.UD_Isqrtss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1395 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsqrtss, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1396 */ new ud_itab_entry( ud_mnemonic_code.UD_Istc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1397 */ new ud_itab_entry( ud_mnemonic_code.UD_Istd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1398 */ new ud_itab_entry( ud_mnemonic_code.UD_Istgi, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1399 */ new ud_itab_entry( ud_mnemonic_code.UD_Isti, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1400 */ new ud_itab_entry( ud_mnemonic_code.UD_Iskinit, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1401 */ new ud_itab_entry( ud_mnemonic_code.UD_Istmxcsr, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1402 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivstmxcsr, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1403 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg ),
+            /* 1404 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosw, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg|BitOps.P_oso|BitOps.P_rexw ),
+            /* 1405 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg|BitOps.P_oso|BitOps.P_rexw ),
+            /* 1406 */ new ud_itab_entry( ud_mnemonic_code.UD_Istosq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_str|BitOps.P_seg|BitOps.P_oso|BitOps.P_rexw ),
+            /* 1407 */ new ud_itab_entry( ud_mnemonic_code.UD_Istr, OpDefs.O_MwRv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1408 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1409 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1410 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Gb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1411 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1412 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1413 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
+            /* 1414 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1415 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1416 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_inv64 ),
+            /* 1417 */ new ud_itab_entry( ud_mnemonic_code.UD_Isub, OpDefs.O_Ev, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1418 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1419 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1420 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1421 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1422 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1423 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1424 */ new ud_itab_entry( ud_mnemonic_code.UD_Isubss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1425 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivsubss, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1426 */ new ud_itab_entry( ud_mnemonic_code.UD_Iswapgs, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1427 */ new ud_itab_entry( ud_mnemonic_code.UD_Isyscall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
             /* 1428 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysenter, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1429 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysexit, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1429 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysenter, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
             /* 1430 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysexit, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1431 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysret, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1432 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1433 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1434 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1435 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1436 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
-            /* 1437 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1438 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1439 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Ev, OpDefs.O_Iz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1440 */ new ud_itab_entry( ud_mnemonic_code.UD_Iucomisd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1441 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivucomisd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1442 */ new ud_itab_entry( ud_mnemonic_code.UD_Iucomiss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1443 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivucomiss, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1444 */ new ud_itab_entry( ud_mnemonic_code.UD_Iud2, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1445 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpckhpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1446 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpckhpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1447 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpckhps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1448 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpckhps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1449 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpcklps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1450 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpcklps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1451 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpcklpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1452 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpcklpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1453 */ new ud_itab_entry( ud_mnemonic_code.UD_Iverr, OpDefs.O_Ew, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1454 */ new ud_itab_entry( ud_mnemonic_code.UD_Iverw, OpDefs.O_Ew, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1455 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmcall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1456 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdrand, OpDefs.O_R, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1457 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmclear, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1458 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmxon, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1459 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmptrld, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1460 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmptrst, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1461 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmlaunch, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1462 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmresume, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1463 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmxoff, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1464 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmread, OpDefs.O_Ey, OpDefs.O_Gy, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1465 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmwrite, OpDefs.O_Gy, OpDefs.O_Ey, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
-            /* 1466 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmrun, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1467 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmmcall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1468 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmload, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1469 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmsave, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1470 */ new ud_itab_entry( ud_mnemonic_code.UD_Iwait, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1471 */ new ud_itab_entry( ud_mnemonic_code.UD_Iwbinvd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1472 */ new ud_itab_entry( ud_mnemonic_code.UD_Iwrmsr, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1473 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixadd, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1474 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixadd, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1475 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1476 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1477 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R0v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1478 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R1v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1479 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R2v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1480 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R3v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1481 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R4v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1482 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R5v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1483 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R6v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1484 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R7v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1485 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixgetbv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1486 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixlatb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexw|BitOps.P_seg ),
-            /* 1487 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1488 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1489 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Gb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1490 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1491 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1492 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
-            /* 1493 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1494 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1495 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_inv64 ),
-            /* 1496 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Ev, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1497 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixorpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1498 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivxorpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1499 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixorps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1500 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivxorps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1501 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptecb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1502 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptcbc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1503 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptctr, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1504 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptcfb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1505 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptofb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1506 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixrstor, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1507 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsave, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1508 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsetbv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1509 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsha1, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1510 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsha256, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1511 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixstore, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1512 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipclmulqdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1513 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpclmulqdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1514 */ new ud_itab_entry( ud_mnemonic_code.UD_Igetsec, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1515 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqa, OpDefs.O_W, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1516 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqa, OpDefs.O_Wx, OpDefs.O_Vx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1517 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqa, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1518 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqa, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1519 */ new ud_itab_entry( ud_mnemonic_code.UD_Imaskmovdqu, OpDefs.O_V, OpDefs.O_U, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1520 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovdqu, OpDefs.O_Vx, OpDefs.O_Ux, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1521 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdq2q, OpDefs.O_P, OpDefs.O_U, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexb ),
-            /* 1522 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqu, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1523 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqu, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1524 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqu, OpDefs.O_W, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1525 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqu, OpDefs.O_Wx, OpDefs.O_Vx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1526 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovq2dq, OpDefs.O_V, OpDefs.O_N, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr ),
-            /* 1527 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipaddq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1528 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipaddq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1529 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpaddq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1530 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1531 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1532 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1533 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmuludq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1534 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmuludq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1535 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufhw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1536 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshufhw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1537 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshuflw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1538 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshuflw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1539 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1540 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshufd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1541 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslldq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1542 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpslldq, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1543 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrldq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1544 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrldq, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
-            /* 1545 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhqdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1546 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhqdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1547 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklqdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1548 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpcklqdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1549 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihaddpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1550 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhaddpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1551 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihaddps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1552 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhaddps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1553 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihsubpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1554 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhsubpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1555 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihsubps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1556 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhsubps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1557 */ new ud_itab_entry( ud_mnemonic_code.UD_Iinsertps, OpDefs.O_V, OpDefs.O_Md, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1558 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivinsertps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Md, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1559 */ new ud_itab_entry( ud_mnemonic_code.UD_Ilddqu, OpDefs.O_V, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1560 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivlddqu, OpDefs.O_Vx, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1561 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovddup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1562 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovddup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1563 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovddup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1564 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovddup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1565 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovshdup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1566 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovshdup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1567 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovshdup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1568 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovshdup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1569 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovsldup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1570 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsldup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1571 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovsldup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1572 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsldup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1573 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1574 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1575 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpabsb, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1576 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1577 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1578 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpabsw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1579 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1580 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1581 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpabsd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1582 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1583 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1584 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshufb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1585 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1586 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1587 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphaddw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1588 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1589 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1590 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphaddd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1591 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1592 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1593 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphaddsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1594 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaddubsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1595 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaddubsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1596 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaddubsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1597 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1598 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1599 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphsubw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1600 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1601 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1602 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphsubd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1603 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1604 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1605 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphsubsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1606 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1607 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1608 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsignb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1609 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1610 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1611 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsignd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1612 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1613 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1614 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsignw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1615 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulhrsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1616 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulhrsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1617 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmulhrsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1618 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipalignr, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1619 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipalignr, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1620 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpalignr, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1621 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipblendvb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1622 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmuldq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1623 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmuldq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1624 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1625 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminsb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1626 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1627 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1628 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminuw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1629 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminuw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1630 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminud, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1631 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminud, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1632 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1633 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxsb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1634 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1635 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1636 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxud, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1637 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxud, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1638 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxuw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1639 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxuw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1640 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulld, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1641 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmulld, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1642 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphminposuw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1643 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphminposuw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1644 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1645 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1646 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1647 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundpd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1648 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1649 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundss, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1650 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1651 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1652 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1653 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1654 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1655 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1656 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendvpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1657 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendvps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1658 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibound, OpDefs.O_Gv, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso ),
-            /* 1659 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibsf, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1660 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibsr, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1661 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R0y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1662 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R1y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1663 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R2y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1664 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R3y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1665 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R4y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1666 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R5y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1667 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R6y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1668 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R7y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
-            /* 1669 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibt, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1670 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibt, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1671 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtc, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1672 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtc, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1673 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtr, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1674 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtr, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1675 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibts, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1676 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibts, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1677 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipblendw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1678 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpblendw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1679 */ new ud_itab_entry( ud_mnemonic_code.UD_Impsadbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1680 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmpsadbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1681 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovntdqa, OpDefs.O_V, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1682 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovntdqa, OpDefs.O_Vx, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1683 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipackusdw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1684 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpackusdw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1685 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxbw, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1686 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxbw, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1687 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxbd, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1688 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxbd, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1689 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxbq, OpDefs.O_V, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1690 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxbq, OpDefs.O_Vx, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1691 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxwd, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1692 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxwd, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1693 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxwq, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1694 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxwq, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1695 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxdq, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1696 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxbw, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1697 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxbw, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1698 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxbd, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1699 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxbd, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1700 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxbq, OpDefs.O_V, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1701 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxbq, OpDefs.O_Vx, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1702 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxwd, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1703 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxwd, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1704 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxwq, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1705 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxwq, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1706 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxdq, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1707 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxdq, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1708 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpeqq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1709 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpeqq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1710 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopcnt, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1711 */ new ud_itab_entry( ud_mnemonic_code.UD_Iptest, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1712 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivptest, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1713 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpestri, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1714 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpestri, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1715 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpestrm, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1716 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpestrm, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1717 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpgtq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1718 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpgtq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1719 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpistri, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1720 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpistri, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1721 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpistrm, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1722 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpistrm, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1723 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovbe, OpDefs.O_Gv, OpDefs.O_Mv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1724 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovbe, OpDefs.O_Mv, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1725 */ new ud_itab_entry( ud_mnemonic_code.UD_Icrc32, OpDefs.O_Gy, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1726 */ new ud_itab_entry( ud_mnemonic_code.UD_Icrc32, OpDefs.O_Gy, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1727 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivbroadcastss, OpDefs.O_V, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1728 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivbroadcastsd, OpDefs.O_Vqq, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1729 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivextractf128, OpDefs.O_Wdq, OpDefs.O_Vqq, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1730 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivinsertf128, OpDefs.O_Vqq, OpDefs.O_Hqq, OpDefs.O_Wdq, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1731 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovps, OpDefs.O_V, OpDefs.O_H, OpDefs.O_M, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1732 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovps, OpDefs.O_M, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1733 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovpd, OpDefs.O_V, OpDefs.O_H, OpDefs.O_M, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1734 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovpd, OpDefs.O_M, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1735 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1736 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1737 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1738 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1739 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivperm2f128, OpDefs.O_Vqq, OpDefs.O_Hqq, OpDefs.O_Wqq, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1740 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivtestps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1741 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivtestpd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1742 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivzeroupper, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1743 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivzeroall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
-            /* 1744 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendvpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Lx, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1745 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendvps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Lx, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
-            /* 1746 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_V, OpDefs.O_H, OpDefs.O_U, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1747 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_V, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1748 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_U, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1749 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_Mq, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1750 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_V, OpDefs.O_H, OpDefs.O_U, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1751 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_V, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1752 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_U, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1753 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_Md, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1754 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpblendvb, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_L, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1755 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllw, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1756 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllw, OpDefs.O_H, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1757 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpslld, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1758 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpslld, OpDefs.O_H, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1759 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllq, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
-            /* 1760 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllq, OpDefs.O_H, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1431 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysexit, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1432 */ new ud_itab_entry( ud_mnemonic_code.UD_Isysret, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1433 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1434 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1435 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1436 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1437 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
+            /* 1438 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1439 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1440 */ new ud_itab_entry( ud_mnemonic_code.UD_Itest, OpDefs.O_Ev, OpDefs.O_Iz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1441 */ new ud_itab_entry( ud_mnemonic_code.UD_Iucomisd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1442 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivucomisd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1443 */ new ud_itab_entry( ud_mnemonic_code.UD_Iucomiss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1444 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivucomiss, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1445 */ new ud_itab_entry( ud_mnemonic_code.UD_Iud2, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1446 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpckhpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1447 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpckhpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1448 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpckhps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1449 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpckhps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1450 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpcklps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1451 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpcklps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1452 */ new ud_itab_entry( ud_mnemonic_code.UD_Iunpcklpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1453 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivunpcklpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1454 */ new ud_itab_entry( ud_mnemonic_code.UD_Iverr, OpDefs.O_Ew, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1455 */ new ud_itab_entry( ud_mnemonic_code.UD_Iverw, OpDefs.O_Ew, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1456 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmcall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1457 */ new ud_itab_entry( ud_mnemonic_code.UD_Irdrand, OpDefs.O_R, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1458 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmclear, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1459 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmxon, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1460 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmptrld, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1461 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmptrst, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1462 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmlaunch, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1463 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmresume, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1464 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmxoff, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1465 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmread, OpDefs.O_Ey, OpDefs.O_Gy, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1466 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmwrite, OpDefs.O_Gy, OpDefs.O_Ey, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_def64 ),
+            /* 1467 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmrun, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1468 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmmcall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1469 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmload, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1470 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmsave, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1471 */ new ud_itab_entry( ud_mnemonic_code.UD_Iwait, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1472 */ new ud_itab_entry( ud_mnemonic_code.UD_Iwbinvd, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1473 */ new ud_itab_entry( ud_mnemonic_code.UD_Iwrmsr, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1474 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixadd, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1475 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixadd, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1476 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1477 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1478 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R0v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1479 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R1v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1480 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R2v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1481 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R3v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1482 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R4v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1483 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R5v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1484 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R6v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1485 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixchg, OpDefs.O_R7v, OpDefs.O_rAX, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1486 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixgetbv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1487 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixlatb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexw|BitOps.P_seg ),
+            /* 1488 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Eb, OpDefs.O_Gb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1489 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1490 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Gb, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1491 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1492 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_AL, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1493 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_rAX, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw ),
+            /* 1494 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1495 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Ev, OpDefs.O_sIz, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1496 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Eb, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_inv64 ),
+            /* 1497 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixor, OpDefs.O_Ev, OpDefs.O_sIb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1498 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixorpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1499 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivxorpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1500 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixorps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1501 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivxorps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1502 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptecb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1503 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptcbc, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1504 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptctr, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1505 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptcfb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1506 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixcryptofb, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1507 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixrstor, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1508 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsave, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1509 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsetbv, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1510 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsha1, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1511 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixsha256, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1512 */ new ud_itab_entry( ud_mnemonic_code.UD_Ixstore, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1513 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipclmulqdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1514 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpclmulqdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1515 */ new ud_itab_entry( ud_mnemonic_code.UD_Igetsec, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1516 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqa, OpDefs.O_W, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1517 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqa, OpDefs.O_Wx, OpDefs.O_Vx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1518 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqa, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1519 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqa, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1520 */ new ud_itab_entry( ud_mnemonic_code.UD_Imaskmovdqu, OpDefs.O_V, OpDefs.O_U, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1521 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovdqu, OpDefs.O_Vx, OpDefs.O_Ux, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1522 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdq2q, OpDefs.O_P, OpDefs.O_U, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexb ),
+            /* 1523 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqu, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1524 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqu, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1525 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovdqu, OpDefs.O_W, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1526 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovdqu, OpDefs.O_Wx, OpDefs.O_Vx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1527 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovq2dq, OpDefs.O_V, OpDefs.O_N, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr ),
+            /* 1528 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipaddq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1529 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipaddq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1530 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpaddq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1531 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1532 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsubq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1533 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsubq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1534 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmuludq, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1535 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmuludq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1536 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufhw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1537 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshufhw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1538 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshuflw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1539 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshuflw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1540 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1541 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshufd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1542 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipslldq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1543 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpslldq, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1544 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsrldq, OpDefs.O_U, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1545 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsrldq, OpDefs.O_Hx, OpDefs.O_Ux, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_rexb ),
+            /* 1546 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpckhqdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1547 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpckhqdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1548 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipunpcklqdq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1549 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpunpcklqdq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1550 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihaddpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1551 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhaddpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1552 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihaddps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1553 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhaddps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1554 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihsubpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1555 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhsubpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1556 */ new ud_itab_entry( ud_mnemonic_code.UD_Ihsubps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1557 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivhsubps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1558 */ new ud_itab_entry( ud_mnemonic_code.UD_Iinsertps, OpDefs.O_V, OpDefs.O_Md, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1559 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivinsertps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Md, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1560 */ new ud_itab_entry( ud_mnemonic_code.UD_Ilddqu, OpDefs.O_V, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1561 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivlddqu, OpDefs.O_Vx, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1562 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovddup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1563 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovddup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1564 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovddup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1565 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovddup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1566 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovshdup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1567 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovshdup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1568 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovshdup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1569 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovshdup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1570 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovsldup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1571 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsldup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1572 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovsldup, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1573 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsldup, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1574 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1575 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1576 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpabsb, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1577 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1578 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1579 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpabsw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1580 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1581 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipabsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1582 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpabsd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1583 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1584 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipshufb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1585 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpshufb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1586 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1587 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1588 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphaddw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1589 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1590 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1591 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphaddd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1592 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1593 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphaddsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1594 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphaddsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1595 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaddubsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1596 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaddubsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1597 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaddubsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1598 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1599 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1600 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphsubw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1601 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1602 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1603 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphsubd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1604 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1605 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphsubsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1606 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphsubsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1607 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignb, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1608 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1609 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsignb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1610 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignd, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1611 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1612 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsignd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1613 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1614 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipsignw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1615 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsignw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1616 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulhrsw, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1617 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulhrsw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1618 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmulhrsw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1619 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipalignr, OpDefs.O_P, OpDefs.O_Q, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1620 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipalignr, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1621 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpalignr, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1622 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipblendvb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1623 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmuldq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1624 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmuldq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1625 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1626 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminsb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1627 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1628 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1629 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminuw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1630 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminuw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1631 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipminud, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1632 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpminud, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1633 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxsb, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1634 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxsb, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1635 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1636 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1637 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxud, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1638 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxud, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1639 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmaxuw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1640 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmaxuw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1641 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmulld, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1642 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmulld, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1643 */ new ud_itab_entry( ud_mnemonic_code.UD_Iphminposuw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1644 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivphminposuw, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1645 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1646 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1647 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1648 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundpd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1649 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundss, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1650 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundss, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1651 */ new ud_itab_entry( ud_mnemonic_code.UD_Iroundsd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1652 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivroundsd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1653 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1654 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1655 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1656 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1657 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendvpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1658 */ new ud_itab_entry( ud_mnemonic_code.UD_Iblendvps, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1659 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibound, OpDefs.O_Gv, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso ),
+            /* 1660 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibsf, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1661 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibsr, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1662 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R0y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1663 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R1y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1664 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R2y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1665 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R3y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1666 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R4y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1667 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R5y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1668 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R6y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1669 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibswap, OpDefs.O_R7y, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexb ),
+            /* 1670 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibt, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1671 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibt, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1672 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtc, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1673 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtc, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1674 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtr, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1675 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibtr, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1676 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibts, OpDefs.O_Ev, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1677 */ new ud_itab_entry( ud_mnemonic_code.UD_Ibts, OpDefs.O_Ev, OpDefs.O_Ib, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexw|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1678 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipblendw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1679 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpblendw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1680 */ new ud_itab_entry( ud_mnemonic_code.UD_Impsadbw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1681 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmpsadbw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1682 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovntdqa, OpDefs.O_V, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1683 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovntdqa, OpDefs.O_Vx, OpDefs.O_M, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1684 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipackusdw, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1685 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpackusdw, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1686 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxbw, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1687 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxbw, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1688 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxbd, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1689 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxbd, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1690 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxbq, OpDefs.O_V, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1691 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxbq, OpDefs.O_Vx, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1692 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxwd, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1693 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxwd, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1694 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxwq, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1695 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovsxwq, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1696 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovsxdq, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1697 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxbw, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1698 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxbw, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1699 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxbd, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1700 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxbd, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1701 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxbq, OpDefs.O_V, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1702 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxbq, OpDefs.O_Vx, OpDefs.O_MwU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1703 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxwd, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1704 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxwd, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1705 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxwq, OpDefs.O_V, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1706 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxwq, OpDefs.O_Vx, OpDefs.O_MdU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1707 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipmovzxdq, OpDefs.O_V, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1708 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpmovzxdq, OpDefs.O_Vx, OpDefs.O_MqU, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1709 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpeqq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1710 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpeqq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1711 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipopcnt, OpDefs.O_Gv, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1712 */ new ud_itab_entry( ud_mnemonic_code.UD_Iptest, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1713 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivptest, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1714 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpestri, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1715 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpestri, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1716 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpestrm, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1717 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpestrm, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1718 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpgtq, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1719 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpgtq, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1720 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpistri, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1721 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpistri, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1722 */ new ud_itab_entry( ud_mnemonic_code.UD_Ipcmpistrm, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1723 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpcmpistrm, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1724 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovbe, OpDefs.O_Gv, OpDefs.O_Mv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1725 */ new ud_itab_entry( ud_mnemonic_code.UD_Imovbe, OpDefs.O_Mv, OpDefs.O_Gv, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1726 */ new ud_itab_entry( ud_mnemonic_code.UD_Icrc32, OpDefs.O_Gy, OpDefs.O_Eb, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1727 */ new ud_itab_entry( ud_mnemonic_code.UD_Icrc32, OpDefs.O_Gy, OpDefs.O_Ev, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_oso|BitOps.P_rexr|BitOps.P_rexw|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1728 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivbroadcastss, OpDefs.O_V, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1729 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivbroadcastsd, OpDefs.O_Vqq, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1730 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivextractf128, OpDefs.O_Wdq, OpDefs.O_Vqq, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1731 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivinsertf128, OpDefs.O_Vqq, OpDefs.O_Hqq, OpDefs.O_Wdq, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1732 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovps, OpDefs.O_V, OpDefs.O_H, OpDefs.O_M, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1733 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovps, OpDefs.O_M, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1734 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovpd, OpDefs.O_V, OpDefs.O_H, OpDefs.O_M, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1735 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmaskmovpd, OpDefs.O_M, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1736 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1737 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilpd, OpDefs.O_V, OpDefs.O_W, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1738 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1739 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpermilps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_Ib, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1740 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivperm2f128, OpDefs.O_Vqq, OpDefs.O_Hqq, OpDefs.O_Wqq, OpDefs.O_Ib, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1741 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivtestps, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1742 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivtestpd, OpDefs.O_Vx, OpDefs.O_Wx, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1743 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivzeroupper, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1744 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivzeroall, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_none ),
+            /* 1745 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendvpd, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Lx, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1746 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivblendvps, OpDefs.O_Vx, OpDefs.O_Hx, OpDefs.O_Wx, OpDefs.O_Lx, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb|BitOps.P_vexl ),
+            /* 1747 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_V, OpDefs.O_H, OpDefs.O_U, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1748 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_V, OpDefs.O_Mq, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1749 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_U, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1750 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovsd, OpDefs.O_Mq, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1751 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_V, OpDefs.O_H, OpDefs.O_U, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1752 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_V, OpDefs.O_Md, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1753 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_U, OpDefs.O_H, OpDefs.O_V, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1754 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivmovss, OpDefs.O_Md, OpDefs.O_V, OpDefs.O_NONE, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1755 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpblendvb, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_L, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1756 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllw, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1757 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllw, OpDefs.O_H, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1758 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpslld, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1759 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpslld, OpDefs.O_H, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1760 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllq, OpDefs.O_V, OpDefs.O_H, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
+            /* 1761 */ new ud_itab_entry( ud_mnemonic_code.UD_Ivpsllq, OpDefs.O_H, OpDefs.O_V, OpDefs.O_W, OpDefs.O_NONE, BitOps.P_aso|BitOps.P_rexr|BitOps.P_rexx|BitOps.P_rexb ),
         };
         
         
