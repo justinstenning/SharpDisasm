@@ -31,9 +31,8 @@ namespace SharpDisasm.Tests
 //0000000000000018 4c03849800000080 add r8, [rax+rbx*4-0x80000000]
 //0000000000000020 48a1000000000080 mov rax, [0x800000000000]
 
-            Instruction insn = null;
 
-            insn = disasm.NextInstruction();
+            var insn = disasm.NextInstruction();
             Assert.AreEqual("mov ax, [eax-0x10]", insn.ToString());
 
             insn = disasm.NextInstruction();
@@ -61,9 +60,8 @@ namespace SharpDisasm.Tests
                 0xFF, 0x15, 0xF7, 0xFF, 0xFF, 0xFF,       // call qword [rip-0x9]
             }, ArchitectureMode.x86_64);
 
-            Instruction insn = null;
 
-            insn = disasm.NextInstruction();
+            var insn = disasm.NextInstruction();
             Assert.AreEqual("mov rax, [rip-0x9]", insn.ToString());
 
             insn = disasm.NextInstruction();
