@@ -40,6 +40,7 @@ using System.Linq;
 using System.Text;
 
 using SharpDisasm.Helpers;
+using SharpDisasm.Factory;
 
 namespace SharpDisasm
 {
@@ -86,6 +87,8 @@ namespace SharpDisasm
         /// </summary>
         private Udis86.ud _u = new Udis86.ud();
 
+        private readonly IInstructionFactory _instructionFactory;
+
         #endregion
 
         /// <summary>
@@ -98,8 +101,8 @@ namespace SharpDisasm
         /// </summary>
         public int BytesDecoded { get; private set; }
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Disassembler" /> class.
+        
+        /// <summary>Initializes a new instance of the <see cref="Disassembler" /> class.
         /// </summary>
         /// <param name="code">The code.</param>
         /// <param name="architecture">The architecture.</param>
@@ -107,7 +110,12 @@ namespace SharpDisasm
         /// <param name="address">The address.</param>
         /// <param name="copyBinaryToInstruction">if set to <c>true</c> [copy binary to instruction].</param>
         /// <param name="vendor">The vendor.</param>
-        public Disassembler(IAssemblyCode code, ArchitectureMode architecture, ulong offset = 0x0, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
+        /// <param name="instructionFactory">instruction factory, when null 
+        /// <see cref="Instruction"/> class is created</param>
+        public Disassembler(IAssemblyCode code, ArchitectureMode architecture,
+            ulong offset = 0x0, ulong address = 0x0, 
+            bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any,
+            IInstructionFactory instructionFactory = null)
         {
             this.Code = code;
 
@@ -115,13 +123,23 @@ namespace SharpDisasm
             this.Address = address;
             this.CopyBinaryToInstruction = copyBinaryToInstruction;
             this.Vendor = vendor;
-            this.Offset = offset;
+            if (instructionFactory == null)
+            {
+                _instructionFactory = new InstructionFactory();
+            }
+            else
+            {
+                _instructionFactory = instructionFactory;
+            }
 
             InitUdis86();
         }
 
         /// <summary>
-        /// Prepares a new disassembler instance for the code provided. The instructions can then be disassembled with a call to <see cref="Disassemble" />. The base address used to resolve relative addresses should be provided in <paramref name="address" />.
+        /// Prepares a new disassembler instance for the code provided.The instructions 
+        /// can then be disassembled with a call to <see cref="Disassemble" />. 
+        /// The base address used to resolve relative addresses should be provided 
+        /// in <paramref name="address" />.
         /// </summary>
         /// <param name="code">The code to be disassembled</param>
         /// <param name="architecture">The target x86 instruction set architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
@@ -129,8 +147,15 @@ namespace SharpDisasm
         /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary" /> option.</param>
         /// <param name="vendor">What vendor instructions to support during disassembly, default is Any. Other options are AMD or Intel.</param>
         /// <param name="offset">The offset.</param>
-        public Disassembler(byte[] code, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any, ulong offset = 0)
-            : this(new AssemblyCodeArray(code), architecture, offset, address, copyBinaryToInstruction, vendor)
+        /// <param name="instructionFactory">instruction factory, when null 
+        /// <see cref="Instruction"/> class is created</param>
+        public Disassembler(byte[] code, ArchitectureMode architecture,
+            ulong address = 0x0, bool copyBinaryToInstruction = false,
+            Vendor vendor = Vendor.Any, ulong offset = 0,
+            IInstructionFactory instructionFactory = null)
+            : this(new AssemblyCodeArray(code),architecture, offset, 
+                  address, copyBinaryToInstruction,
+                  vendor,instructionFactory)
         {
         }
 
@@ -139,12 +164,24 @@ namespace SharpDisasm
         /// </summary>
         /// <param name="codePtr">A pointer to memory to be disassembled.</param>
         /// <param name="codeLength">The maximum length to be disassembled.</param>
-        /// <param name="architecture">The architecture of the code (e.g. 64-bit, 32-bit or 16-bit).</param>
-        /// <param name="address">The address of the first byte of code. This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
-        /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the instruction. This will increase the memory usage for each instruction. This is necessary if planning on using the <see cref="Translators.Translator.IncludeBinary"/> option.</param>
-        /// <param name="vendor">What vendors to support for disassembly, default is Any. Other options are AMD or Intel.</param>
-        public Disassembler(IntPtr codePtr, int codeLength, ArchitectureMode architecture, ulong address = 0x0, bool copyBinaryToInstruction = false, Vendor vendor = Vendor.Any)
-            : this(new AssemblyCodeMemory(codePtr, codeLength), architecture, 0, address, copyBinaryToInstruction, vendor)
+        /// <param name="architecture">The architecture of the code 
+        /// 
+        /// (e.g. 64-bit, 32-bit or 16-bit).</param>
+        /// <param name="address">The address of the first byte of code.
+        /// This value is used to resolve relative addresses into absolute addresses while disassembling.</param>
+        /// <param name="copyBinaryToInstruction">Keeps a copy of the binary code for the
+        /// instruction. This will increase the memory usage for each instruction. 
+        /// This is necessary if planning on using the
+        /// <see cref="Translators.Translator.IncludeBinary"/> option.</param>
+        /// <param name="vendor">What vendors to support for disassembly, default is Any. 
+        /// Other options are AMD or Intel.</param>
+        /// <param name="instructionFactory">instruction factory, when null 
+        /// <see cref="Instruction"/> class is created</param>
+        public Disassembler(IntPtr codePtr, int codeLength, ArchitectureMode architecture,
+                            ulong address = 0x0, bool copyBinaryToInstruction = false, 
+                            Vendor vendor = Vendor.Any,IInstructionFactory instructionFactory = null)
+            : this(new AssemblyCodeMemory(codePtr, codeLength), architecture,
+                  0, address, copyBinaryToInstruction, vendor,instructionFactory)
         {
             if (codePtr == IntPtr.Zero)
                 throw new ArgumentOutOfRangeException("codePtr");
@@ -175,10 +212,10 @@ namespace SharpDisasm
         /// Disassemble instructions and yield the result. Breaking out of the enumerator will prevent further instructions being disassembled.
         /// </summary>
         /// <returns>An IEnumerable collection of disassembled instructions</returns>
-        public IEnumerable<Instruction> Disassemble()
+        public IEnumerable<IInstruction> Disassemble()
         {
             Reset();
-            Instruction instruction = null;
+            IInstruction instruction = null;
             while ((instruction = NextInstruction()) != null)
             {
                 yield return instruction;
@@ -199,12 +236,12 @@ namespace SharpDisasm
         /// Decodes a single instruction and increments buffer position.
         /// </summary>
         /// <returns></returns>
-        public Instruction NextInstruction()
+        public IInstruction NextInstruction()
         {
             int length = 0;
             if ((length = Udis86.udis86.ud_disassemble(ref _u)) > 0)
             {
-                var instruction = new Instruction(ref _u, CopyBinaryToInstruction);
+                var instruction = _instructionFactory.Create(ref _u, CopyBinaryToInstruction);
                 if (!instruction.Error)
                 {
                     BytesDecoded += length;

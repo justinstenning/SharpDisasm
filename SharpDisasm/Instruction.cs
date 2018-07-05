@@ -47,47 +47,47 @@ namespace SharpDisasm
     /// <summary>
     /// Represents a decoded instruction.
     /// </summary>
-    public class Instruction
+    public class Instruction : IInstruction
     {
         /// <summary>
         /// Instruction Offset
         /// </summary>
-        public ulong Offset { get; private set; }
+        public ulong Offset { get; protected set; }
 
         /// <summary>
         /// Program counter
         /// </summary>
-        public ulong PC { get; private set; }
+        public ulong PC { get; protected set; }
 
         /// <summary>
         /// Will contain a copy of the original binary instruction if <see cref="Disassembler.CopyBinaryToInstruction"/> is true.
         /// </summary>
-        public byte[] Bytes { get; private set; }
+        public byte[] Bytes { get; protected set; }
 
         /// <summary>
         /// Mnemonic
         /// </summary>
-        public SharpDisasm.Udis86.ud_mnemonic_code Mnemonic { get; private set; }
+        public SharpDisasm.Udis86.ud_mnemonic_code Mnemonic { get; protected set; }
 
         /// <summary>
         /// The instruction operands (maximum 3)
         /// </summary>
-        public Operand[] Operands { get; private set; }
+        public Operand[] Operands { get; protected set; }
 
         /// <summary>
         /// The length of the instruction in bytes
         /// </summary>
-        public int Length { get; private set; }
+        public int Length { get; protected set; }
 
         /// <summary>
         /// Indicates whether the instruction was successfully decoded.
         /// </summary>
-        public bool Error { get; private set; }
+        public bool Error { get; protected set; }
 
         /// <summary>
         /// The reason an instruction was not successfully decoded.
         /// </summary>
-        public string ErrorMessage { get; private set; }
+        public string ErrorMessage { get; protected set; }
 
         #region Low-level instruction information
 
