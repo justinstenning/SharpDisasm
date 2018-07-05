@@ -20,7 +20,7 @@ namespace SharpDisasm.Tests
                 0x00, 0x67, // invalid
             }, ArchitectureMode.x86_32, 0, false);
 
-            foreach (SharpDisasm.Instruction instruction in disasm.Disassemble())
+            foreach (SharpDisasm.IInstruction instruction in disasm.Disassemble())
             {
                 Assert.IsTrue(instruction.Length > 0);
             }
@@ -55,7 +55,7 @@ namespace SharpDisasm.Tests
                                                           select insn).First().ToString());
 
 
-            foreach (SharpDisasm.Instruction instruction in results)
+            foreach (SharpDisasm.IInstruction instruction in results)
             {
                 Assert.IsFalse(instruction.Error);
                 Assert.IsTrue(instruction.Length > 0);
