@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45;net4;net35</TargetFrameworks>
@@ -10,6 +10,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company />
     <Authors>Justin Stenning</Authors>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SharpDisasm.snk</AssemblyOriginatorKeyFile>
     <Copyright>Copyright (c) 2018 Justin Stenning</Copyright>
     <PackageLicenseUrl>https://github.com/spazzarama/SharpDisasm/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/spazzarama/SharpDisasm</PackageProjectUrl>
